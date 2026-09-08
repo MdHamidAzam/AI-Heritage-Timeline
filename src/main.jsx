@@ -16,9 +16,53 @@ const unavailable = 'Not available';
 const experienceModes = ['timeline', 'damage', 'compare', 'rebuild', 'viewer', '3d'];
 
 async function api(path) {
-  const response = await fetch(`/api${path}`);
-  if (!response.ok) throw new Error('Data could not be loaded.');
-  return response.json();
+  // Local Vite dev server API
+  try {
+    const response = await fetch(`/api${path}`);
+    if (response.ok) return response.json();
+  } catch {
+    // Fall through to static production data
+  }
+
+  // Vercel/static production fallback
+  if (path === '/monuments') {
+    const response = await fetch('/api/monuments.json');
+    if (!response.ok) throw new Error('Data could not be loaded.');
+    return response.json();
+  }
+
+  const monumentMatch = path.match(/^\/monuments\/([^/]+)$/);
+
+  if (monumentMatch) {
+    const monumentId = monumentMatch[1];
+    const response = await fetch('/api/monument-detail.json');
+
+    if (!response.ok) throw new Error('Data could not be loaded.');
+
+    const details = await response.json();
+
+    if (Array.isArray(details)) {
+      const detail = details.find(
+        (item) => item.monument_id === monumentId
+      );
+
+      if (!detail) throw new Error('Monument data could not be found.');
+
+      return detail;
+    }
+
+    if (details.monument_id === monumentId) {
+      return details;
+    }
+
+    if (details[monumentId]) {
+      return details[monumentId];
+    }
+
+    throw new Error('Monument data could not be found.');
+  }
+
+  throw new Error('Data could not be loaded.');
 }
 
 function readMode() {
