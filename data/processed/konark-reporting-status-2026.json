@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "1.0.0",
+  "monumentId": "konark-sun-temple",
+
+  "unescoReporting": {
+    "latestCompletedPeriodicCycle": {
+      "cycle": 3,
+      "reportingYear": 2023,
+      "document": "Periodic Reporting Cycle 3, Section II",
+      "url": "https://whc.unesco.org/document/216402",
+      "verification": "verified"
+    },
+
+    "currentCycle": {
+      "cycle": 4,
+      "launchYear": 2026,
+      "status": "launched",
+      "launchMonth": "July 2026",
+      "verification": "verified",
+      "source": {
+        "organization": "UNESCO World Heritage Centre",
+        "title": "Periodic Reporting Cycles",
+        "url": "https://whc.unesco.org/en/periodicreporting"
+      }
+    },
+
+    "regionalSchedule": {
+      "region": "Asia and Pacific",
+      "reportingPeriod": "2027-2028",
+      "regionalReportExaminationYear": 2029,
+      "verification": "verified"
+    }
+  },
+
+  "konark2026Status": {
+    "newFourthCycleKonarkReportAvailable": false,
+    "new2026UNESCOConditionAssessment": false,
+    "new2026UNESCOStateOfConservationClaim": false,
+    "reason": "The Fourth Cycle has launched, but Asia and Pacific reporting is scheduled for 2027-2028.",
+    "verification": "verified"
+  },
+
+  "dataInterpretation": {
+    "latestDetailedUNESCOPeriodicRecord": 2023,
+    "2026IsReportingTransitionYear": true,
+    "2026MustNotBePresentedAsNewUNESCOConditionReport": true,
+    "2026CurrentGovernmentReferencesRemainSeparate": true
+  },
+
+  "timelineEntry": {
+    "date": "2026",
+    "eventType": "UNESCO Reporting Framework",
+    "title": "Fourth Periodic Reporting Cycle Launched",
+    "description": "UNESCO launched the Fourth Cycle of Periodic Reporting in July 2026. India falls within the Asia and Pacific region, whose reporting period is scheduled for 2027-2028.",
+    "historicalEvent": false,
+    "heritageManagementEvent": true,
+    "verification": "verified"
+  }
+}

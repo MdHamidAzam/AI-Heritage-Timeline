@@ -1,0 +1,233 @@
+[
+  {
+    "id": "src-konark-unesco-main",
+    "year": 1984,
+    "sourceType": "UNESCO World Heritage Record",
+    "title": "Sun Temple, Konârak",
+    "organization": "UNESCO World Heritage Centre",
+    "url": "https://whc.unesco.org/en/list/246",
+    "useFor": [
+      "Monument metadata",
+      "Architecture",
+      "UNESCO inscription",
+      "Threats",
+      "Protection",
+      "Coordinates"
+    ],
+    "verification": "verified"
+  },
+  {
+    "id": "src-konark-unesco-evaluation",
+    "year": 1984,
+    "sourceType": "ICOMOS Advisory Body Evaluation",
+    "title": "Advisory Body Evaluation",
+    "organization": "ICOMOS / UNESCO",
+    "url": "https://whc.unesco.org/en/documents/153031",
+    "useFor": [
+      "Outstanding Universal Value",
+      "Historical significance",
+      "Architectural significance"
+    ],
+    "verification": "verified"
+  },
+  {
+    "id": "src-konark-site-plan",
+    "year": 1984,
+    "sourceType": "Official Site Plan",
+    "title": "Detailed Site Plan",
+    "organization": "UNESCO World Heritage Centre",
+    "url": "https://whc.unesco.org/en/documents/103350",
+    "useFor": [
+      "Spatial reference",
+      "Site layout",
+      "Component mapping"
+    ],
+    "verification": "verified"
+  },
+  {
+    "id": "src-konark-soc-1997",
+    "year": 1997,
+    "sourceType": "State of Conservation",
+    "title": "State of Conservation 1997",
+    "organization": "UNESCO World Heritage Centre",
+    "url": "https://whc.unesco.org/en/soc/2143",
+    "useFor": [
+      "Foundation subsidence",
+      "Sand-fill settlement",
+      "Loose stones",
+      "Wall cracking",
+      "Iron clamp corrosion",
+      "Stone fragment loss"
+    ],
+    "verification": "verified"
+  },
+  {
+    "id": "src-konark-soc-1998",
+    "year": 1998,
+    "sourceType": "State of Conservation",
+    "title": "State of Conservation 1998",
+    "organization": "UNESCO World Heritage Centre",
+    "url": "https://whc.unesco.org/en/list/246/documents",
+    "useFor": [
+      "Follow-up structural monitoring"
+    ],
+    "verification": "archive_verified",
+    "note": "Exact claim-level extraction requires the individual report text."
+  },
+  {
+    "id": "src-konark-decision-1999",
+    "year": 1999,
+    "sourceType": "UNESCO World Heritage Committee Decision",
+    "title": "Decision 23 BUR IV.B.62",
+    "organization": "UNESCO World Heritage Centre",
+    "url": "https://whc.unesco.org/en/decisions/5737",
+    "useFor": [
+      "Continued deterioration",
+      "19 September 1998 stone fall",
+      "Approximate 2-ton stone",
+      "Jagamohan porch"
+    ],
+    "verification": "verified"
+  },
+  {
+    "id": "src-konark-decision-2000",
+    "year": 2000,
+    "sourceType": "UNESCO World Heritage Committee Decision",
+    "title": "Decision 24 BUR IV.B.65",
+    "organization": "UNESCO World Heritage Centre",
+    "url": "https://whc.unesco.org/en/decisions/5825",
+    "useFor": [
+      "ICOMOS monitoring",
+      "Structural stability",
+      "Stone loosening",
+      "Water penetration",
+      "Cyclone damage",
+      "Monitoring recommendations"
+    ],
+    "verification": "verified"
+  },
+  {
+    "id": "src-konark-periodic-2003",
+    "year": 2003,
+    "sourceType": "Periodic Report",
+    "title": "Periodic Reporting Cycle 1, Section II",
+    "organization": "UNESCO World Heritage Centre",
+    "url": "https://whc.unesco.org/document/162851",
+    "useFor": [
+      "Jagamohana conservation",
+      "Restoration",
+      "Property stabilization",
+      "Conservation programme"
+    ],
+    "verification": "verified"
+  },
+  {
+    "id": "src-konark-periodic-2012",
+    "year": 2012,
+    "sourceType": "Periodic Report",
+    "title": "Periodic Reporting Cycle 2, Section II",
+    "organization": "UNESCO World Heritage Centre",
+    "url": "https://whc.unesco.org/document/164621",
+    "useFor": [
+      "Condition monitoring",
+      "Water concerns",
+      "Flooding",
+      "Wind erosion",
+      "Management"
+    ],
+    "verification": "verified"
+  },
+  {
+    "id": "src-konark-pib-2012",
+    "year": 2012,
+    "sourceType": "Government Record",
+    "title": "Conservation Measures for Sun Temple at Konark",
+    "organization": "Ministry of Culture, Government of India",
+    "url": "https://www.pib.gov.in/newsite/PrintRelease.aspx?lang=2&reg=48&relid=86496",
+    "useFor": [
+      "CBRI investigation",
+      "Drainage",
+      "Soak pits",
+      "Water logging control",
+      "Saline action management"
+    ],
+    "verification": "verified"
+  },
+  {
+    "id": "src-konark-pib-2021",
+    "year": 2021,
+    "sourceType": "Government Record",
+    "title": "Conservation of the Sun Temple at Konark",
+    "organization": "Ministry of Culture, Government of India",
+    "url": "https://www.pib.gov.in/pressreleaseshare.aspx?lang=2&prid=1703558&reg=48",
+    "useFor": [
+      "Saline action",
+      "Water logging",
+      "Erosion",
+      "Vegetative intrusion",
+      "Stone consolidation",
+      "Stone strengthening",
+      "Pumping",
+      "Biocidal treatment"
+    ],
+    "verification": "verified"
+  },
+  {
+    "id": "src-konark-periodic-2023",
+    "year": 2023,
+    "sourceType": "Periodic Report",
+    "title": "Periodic Reporting Cycle 3, Section II",
+    "organization": "UNESCO World Heritage Centre",
+    "url": "https://whc.unesco.org/document/216402",
+    "useFor": [
+      "Latest UNESCO periodic reporting",
+      "Condition",
+      "Management",
+      "Conservation context"
+    ],
+    "verification": "verified"
+  },
+  {
+    "id": "src-konark-pib-2024",
+    "year": 2024,
+    "sourceType": "Government Record",
+    "title": "Development Status of Puri and Konark by ASI",
+    "organization": "Ministry of Culture, Government of India",
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2086010&lang=2&reg=48",
+    "useFor": [
+      "ASI conservation responsibility",
+      "Conservation and restoration",
+      "Maintenance and development context"
+    ],
+    "verification": "verified"
+  },
+  {
+    "id": "src-konark-cbri",
+    "year": null,
+    "sourceType": "Technical Documentation",
+    "title": "CSIR-CBRI Heritage Contributions",
+    "organization": "CSIR-Central Building Research Institute",
+    "url": "https://cbri.res.in/wp-content/uploads/2021/09/CSIR-CBRI-75-yrs.pdf",
+    "useFor": [
+      "GPR investigation",
+      "Laser scanning",
+      "3D model documentation",
+      "Damage mapping"
+    ],
+    "verification": "verified"
+  },
+  {
+    "id": "src-konark-ministry-2026",
+    "year": 2026,
+    "sourceType": "Official Government Website",
+    "title": "Sun Temple, Konârak",
+    "organization": "Ministry of Culture, Government of India",
+    "url": "https://culture.gov.in/sun-temple-konarak",
+    "useFor": [
+      "Current official reference"
+    ],
+    "verification": "verified",
+    "isHistoricalEvidence": false,
+    "lastUpdated": "2026-09-03"
+  }
+]

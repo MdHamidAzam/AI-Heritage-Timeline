@@ -1,0 +1,219 @@
+{
+  "schemaVersion": "1.0.0",
+  "datasetId": "konark-ai-training-dataset",
+  "monumentId": "konark-sun-temple",
+  "createdDate": "2026-09-08",
+
+  "trainingPolicy": {
+    "historicalFactsCanTrainRetrieval": true,
+    "documentaryEvidenceCanTrainRetrieval": true,
+    "imageDamageDetectionReady": false,
+    "3dReconstructionTrainingReady": false,
+    "endToEndTrainingReady": false,
+    "humanReviewRequired": true
+  },
+
+  "datasetGroups": [
+    {
+      "id": "group-historical-facts",
+      "name": "Historical Facts",
+      "purpose": "Retrieval and evidence-grounded historical explanation",
+      "sourceFiles": [
+        "data/konark/monument.json",
+        "data/konark/timeline.json",
+        "data/processed/konark-claim-ledger.json"
+      ],
+      "status": "ready_for_retrieval"
+    },
+
+    {
+      "id": "group-damage-history",
+      "name": "Historical Damage Records",
+      "purpose": "Retrieve documented damage events and their provenance",
+      "sourceFiles": [
+        "data/konark/damage-events.json",
+        "data/konark/monitoring-records.json",
+        "data/processed/konark-risk-register.json"
+      ],
+      "status": "ready_for_retrieval"
+    },
+
+    {
+      "id": "group-condition",
+      "name": "Condition and Environmental Factors",
+      "purpose": "Condition and risk intelligence",
+      "sourceFiles": [
+        "data/konark/condition.json",
+        "data/processed/konark-risk-register.json",
+        "data/processed/konark-current-condition-2026.json"
+      ],
+      "status": "ready_for_retrieval_and_rule_based_analysis"
+    },
+
+    {
+      "id": "group-conservation",
+      "name": "Conservation History",
+      "purpose": "Retrieve documented interventions and conservation history",
+      "sourceFiles": [
+        "data/konark/conservation-projects.json",
+        "data/processed/konark-conservation-actions.json",
+        "data/processed/konark-research-records.json"
+      ],
+      "status": "ready_for_retrieval"
+    },
+
+    {
+      "id": "group-visual-damage",
+      "name": "Visual Damage Detection",
+      "purpose": "Train computer-vision models for visible deterioration",
+      "sourceFiles": [
+        "data/raw/konark/image-acquisition-manifest.json",
+        "data/annotated/konark-annotation-index.json",
+        "data/annotated/konark-annotation-guidelines.json"
+      ],
+      "requiredFormats": [
+        "COCO",
+        "YOLO"
+      ],
+      "status": "not_ready",
+      "blockingReasons": [
+        "Physical image files not yet collected into dataset",
+        "Human-reviewed annotations not yet created",
+        "Training export has not been generated"
+      ]
+    },
+
+    {
+      "id": "group-3d",
+      "name": "3D Digital Twin",
+      "purpose": "3D component identification, spatial linking and reconstruction",
+      "sourceFiles": [
+        "data/konark/3d-assets.json",
+        "data/processed/konark-3d-component-map.json",
+        "data/processed/konark-3d-asset-assessment.json"
+      ],
+      "status": "not_ready",
+      "blockingReasons": [
+        "Authoritative measured 3D geometry not yet established",
+        "Component-to-model object IDs not yet assigned"
+      ]
+    },
+
+    {
+      "id": "group-reconstruction",
+      "name": "AI Reconstruction",
+      "purpose": "Evidence-conditioned reconstruction hypothesis generation",
+      "sourceFiles": [
+        "data/konark/reconstruction.json",
+        "data/processed/konark-confidence-framework.json",
+        "data/processed/konark-evidence-graph.json",
+        "data/processed/konark-claim-ledger.json"
+      ],
+      "status": "framework_ready",
+      "modelTrainingReady": false,
+      "humanVerificationRequired": true
+    }
+  ],
+
+  "approvedTrainingSources": {
+    "primarySources": [
+      "UNESCO World Heritage Centre",
+      "ICOMOS",
+      "Ministry of Culture, Government of India",
+      "Archaeological Survey of India",
+      "CSIR-CBRI"
+    ],
+    "openLicenseVisualSources": [
+      "Wikimedia Commons with verified license"
+    ],
+    "unverifiedSources": "excluded"
+  },
+
+  "trainingExclusions": [
+    {
+      "id": "exclude-unverified-3d",
+      "item": "Unverified 3D model",
+      "reason": "Cannot be treated as historical ground truth."
+    },
+    {
+      "id": "exclude-ai-generated-geometry",
+      "item": "AI-generated geometry",
+      "reason": "AI-generated geometry is interpretive, not measured historical evidence."
+    },
+    {
+      "id": "exclude-unreviewed-annotations",
+      "item": "Unreviewed image annotations",
+      "reason": "Labels must be human reviewed before training export."
+    },
+    {
+      "id": "exclude-invented-severity",
+      "item": "Invented damage severity",
+      "reason": "No unsupported severity labels allowed."
+    },
+    {
+      "id": "exclude-modern-to-historical",
+      "item": "Modern photograph automatically linked to historical event",
+      "reason": "A photograph alone does not establish when observed damage occurred."
+    }
+  ],
+
+  "trainingReadiness": {
+    "retrievalSystem": {
+      "ready": true
+    },
+    "ruleBasedDamageIntelligence": {
+      "ready": true
+    },
+    "computerVisionDamageDetection": {
+      "ready": false
+    },
+    "3dDigitalTwin": {
+      "ready": false
+    },
+    "aiHistoricalReconstruction": {
+      "ready": false
+    }
+  },
+
+  "minimumRequirementsBeforeModelTraining": {
+    "visualDetection": [
+      "Collect licensed image binaries",
+      "Create component annotations",
+      "Create damage annotations",
+      "Second-person review",
+      "Export COCO/YOLO dataset",
+      "Train/validation/test split"
+    ],
+    "3d": [
+      "Obtain authoritative or documented survey geometry",
+      "Verify rights",
+      "Assign model object IDs",
+      "Map components",
+      "Register coordinate system"
+    ],
+    "reconstruction": [
+      "Collect reconstruction evidence",
+      "Separate direct evidence from inference",
+      "Define evaluation criteria",
+      "Human review of generated outputs"
+    ]
+  },
+
+  "recommendedSplits": {
+    "training": 0.7,
+    "validation": 0.15,
+    "test": 0.15,
+    "applyOnlyWhenSufficientAnnotatedDataExists": true
+  },
+
+  "qualityRequirements": {
+    "sourceProvenanceRequired": true,
+    "licenseMetadataRequired": true,
+    "annotationReviewRequired": true,
+    "duplicateDetectionRequired": true,
+    "dataLeakageCheckRequired": true,
+    "historicalFactInferenceSeparationRequired": true
+  },
+
+  "finalRule": "No model may learn unsupported historical facts, invented damage coordinates, invented severity values, or AI-generated geometry as ground truth."
+}

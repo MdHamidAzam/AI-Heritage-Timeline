@@ -1,0 +1,185 @@
+{
+  "schemaVersion": "1.0.0",
+  "monumentId": "konark-sun-temple",
+
+  "purpose": "Standardize visual annotation of Konark photographs and future 3D survey data.",
+
+  "corePrinciples": {
+    "observeBeforeLabel": true,
+    "sourceBeforeHistoricalClaim": true,
+    "doNotGuessHiddenDamage": true,
+    "doNotGuessExactCoordinates": true,
+    "doNotConvertAIInferenceIntoFact": true,
+    "humanReviewRequired": true
+  },
+
+  "annotationTypes": {
+    "component": {
+      "description": "Visually identifiable architectural component.",
+      "allowedLabels": [
+        "vimana",
+        "jagamohana",
+        "natmandir",
+        "carved_wheel",
+        "stone_horse",
+        "plinth_relief",
+        "subsidiary_structure",
+        "gate_or_tower"
+      ],
+      "geometry": [
+        "polygon",
+        "bounding_box",
+        "point"
+      ]
+    },
+
+    "damage": {
+      "description": "Visually observable deterioration or damage.",
+      "allowedLabels": [
+        "cracking",
+        "fragment_loss",
+        "stone_displacement",
+        "stone_loosening",
+        "stone_fall_evidence",
+        "surface_erosion",
+        "water_related_damage",
+        "vegetative_intrusion",
+        "microbiological_growth",
+        "material_corrosion"
+      ],
+      "geometry": [
+        "polygon",
+        "bounding_box",
+        "point"
+      ],
+      "evidenceRequired": true
+    },
+
+    "environment": {
+      "description": "Visible environmental condition relevant to conservation.",
+      "allowedLabels": [
+        "standing_water",
+        "vegetation",
+        "sand_accumulation",
+        "surface_moisture"
+      ],
+      "geometry": [
+        "polygon",
+        "bounding_box"
+      ]
+    },
+
+    "conservation": {
+      "description": "Visually identifiable conservation intervention.",
+      "allowedLabels": [
+        "stone_consolidation",
+        "replacement_stone",
+        "cleaned_surface",
+        "drainage_measure",
+        "vegetation_control",
+        "other_documented_intervention"
+      ],
+      "geometry": [
+        "polygon",
+        "bounding_box",
+        "point"
+      ],
+      "evidenceRequired": true
+    },
+
+    "evidence_region": {
+      "description": "Image region directly supporting a documented observation.",
+      "allowedLabels": [
+        "structural_feature",
+        "damage_feature",
+        "conservation_feature",
+        "architectural_feature"
+      ],
+      "geometry": [
+        "polygon",
+        "bounding_box",
+        "point"
+      ]
+    }
+  },
+
+  "annotationRecord": {
+    "requiredFields": [
+      "id",
+      "assetId",
+      "annotationType",
+      "label",
+      "geometryType",
+      "geometry",
+      "reviewStatus"
+    ],
+
+    "optionalEvidenceFields": [
+      "evidenceSourceId",
+      "damageEventId",
+      "componentId",
+      "conditionId",
+      "notes"
+    ]
+  },
+
+  "historicalRules": [
+    {
+      "rule": "Current image does not automatically prove historical damage.",
+      "action": "Require documentary evidence before linking an observation to a historical event."
+    },
+    {
+      "rule": "Textual report does not automatically provide image coordinates.",
+      "action": "Keep geometry null until the location is visually/spatially established."
+    },
+    {
+      "rule": "Visible feature may be uncertain.",
+      "action": "Use reviewStatus 'needs_revision' rather than guessing."
+    },
+    {
+      "rule": "Historical reconstruction is interpretive.",
+      "action": "Never annotate AI-generated reconstruction as original heritage fabric."
+    }
+  ],
+
+  "confidenceRules": {
+    "visualAnnotationConfidence": {
+      "high": "Feature is clearly visible and class is unambiguous.",
+      "medium": "Feature is visible but partially obscured or ambiguous.",
+      "low": "Feature is uncertain and requires reviewer confirmation."
+    },
+    "historicalLinkConfidence": {
+      "direct": "Document explicitly connects the visual feature to the historical event.",
+      "contextual": "Document provides contextual support but not direct visual linkage.",
+      "none": "No documentary linkage; keep historical event link null."
+    }
+  },
+
+  "reviewWorkflow": [
+    "annotate",
+    "self_check",
+    "second_reviewer",
+    "accept_or_revise",
+    "export_for_training"
+  ],
+
+  "rejectionRules": [
+    "Reject invented polygons.",
+    "Reject guessed damage locations.",
+    "Reject unsupported historical links.",
+    "Reject duplicated annotations.",
+    "Reject annotations without source image identification.",
+    "Reject annotations where license provenance is missing."
+  ],
+
+  "trainingReadiness": {
+    "minimumAcceptedAnnotations": 1,
+    "recommendedHumanReview": true,
+    "exportFormats": [
+      "COCO",
+      "YOLO",
+      "GeoJSON"
+    ],
+    "exportOnlyAcceptedAnnotations": true
+  }
+}

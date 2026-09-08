@@ -1,0 +1,108 @@
+{
+  "id": "konark-sun-temple",
+  "name": "Sun Temple, Konârak",
+  "alternateNames": [
+    "Sun Temple, Konark",
+    "Konark Sun Temple"
+  ],
+  "location": {
+    "district": "Puri",
+    "state": "Odisha",
+    "country": "India",
+    "region": "Eastern India",
+    "coast": "Bay of Bengal"
+  },
+  "historicalPeriod": {
+    "century": "13th century",
+    "ruler": "Narasimha Deva I",
+    "dynasty": "Ganga dynasty",
+    "kingdom": "Kingdom of Orissa"
+  },
+  "architecturalConcept": {
+    "representation": "Monumental representation of the chariot of the Sun God Surya",
+    "wheels": 24,
+    "wheelDiameterApproxMeters": 3,
+    "horses": 6
+  },
+  "architecturalUnits": [
+    "Vimana",
+    "Jagamohana",
+    "Natmandir",
+    "Subsidiary structures",
+    "Gates and towers"
+  ],
+  "historicalChanges": [
+    {
+      "period": "19th century",
+      "change": "The high tower and shikhara of the Vimana were razed.",
+      "verification": "verified"
+    }
+  ],
+  "unesco": {
+    "inscriptionYear": 1984,
+    "criteria": [
+      "i",
+      "iii",
+      "vi"
+    ],
+    "propertyAreaHa": 10.62,
+    "dossierNumber": 246,
+    "coordinates": {
+      "latitude": 19.8875,
+      "longitude": 86.09472
+    },
+    "status": "World Heritage Site"
+  },
+  "protection": {
+    "nationalLaw": "Ancient Monuments and Archaeological Sites and Remains (AMASR) Act, 1958",
+    "rules": "AMASR Rules, 1959",
+    "prohibitedZoneMeters": 100,
+    "regulatedZoneMeters": 200,
+    "additionalLegislation": [
+      "Forest Act",
+      "Konârak Development Act",
+      "Notified Council Area Act"
+    ]
+  },
+  "conservationAuthority": {
+    "organization": "Archaeological Survey of India",
+    "role": "Conservation and management of the monument"
+  },
+  "documentedThreatCategories": [
+    "Development pressure",
+    "Environmental pressure",
+    "Tourism pressure",
+    "Floods",
+    "Cyclones",
+    "Saline breeze",
+    "Sand blasting",
+    "Vehicular movements",
+    "Microbiological growth",
+    "Local population growth",
+    "Soil erosion",
+    "Erosion of metal cramps due to salt air"
+  ],
+  "currentDataStatus": {
+    "latestOfficialGovernmentPage": "2026-08-20",
+    "latestOfficialUNESCOPropertyRecord": "verified",
+    "dataCutoff": "2026-09-08",
+    "inventedValues": false,
+    "unverified3DGeometry": true,
+    "aiReconstructionIsHistoricalFact": false
+  },
+  "sources": [
+    {
+      "organization": "UNESCO World Heritage Centre",
+      "title": "Sun Temple, Konârak",
+      "url": "https://whc.unesco.org/en/list/246",
+      "verification": "verified"
+    },
+    {
+      "organization": "Ministry of Culture, Government of India",
+      "title": "Sun Temple, Konârak",
+      "url": "https://culture.gov.in/sun-temple-kon%C3%A2rak",
+      "lastUpdated": "2026-08-20",
+      "verification": "verified"
+    }
+  ]
+}

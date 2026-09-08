@@ -1,0 +1,489 @@
+{
+  "schemaVersion": "1.0.0",
+  "monumentId": "konark-sun-temple",
+
+  "searchIndex": [
+    {
+      "id": "search-konark-overview",
+      "title": "Sun Temple, Konark",
+      "keywords": [
+        "Konark",
+        "Konârak",
+        "Sun Temple",
+        "Odisha",
+        "Puri",
+        "UNESCO"
+      ],
+      "recordType": "monument",
+      "sourceFile": "data/konark/monument.json",
+      "importance": 1.0
+    },
+
+    {
+      "id": "search-konark-construction",
+      "title": "13th Century Construction",
+      "keywords": [
+        "13th century",
+        "construction",
+        "Narasimha Deva I",
+        "Ganga dynasty",
+        "Surya",
+        "chariot"
+      ],
+      "recordType": "historical",
+      "sourceFile": "data/konark/timeline.json",
+      "importance": 1.0
+    },
+
+    {
+      "id": "search-konark-vimana-loss",
+      "title": "Loss of Vimana Shikhara",
+      "keywords": [
+        "Vimana",
+        "shikhara",
+        "tower",
+        "19th century",
+        "lost tower"
+      ],
+      "recordType": "historical_change",
+      "sourceFile": "data/konark/timeline.json",
+      "importance": 1.0
+    },
+
+    {
+      "id": "search-konark-unesco",
+      "title": "UNESCO World Heritage Inscription",
+      "keywords": [
+        "UNESCO",
+        "1984",
+        "World Heritage",
+        "criteria i",
+        "criteria iii",
+        "criteria vi"
+      ],
+      "recordType": "heritage",
+      "sourceFile": "data/konark/timeline.json",
+      "importance": 1.0
+    },
+
+    {
+      "id": "search-konark-1997-subsidence",
+      "title": "1996-1997 Foundation Subsidence",
+      "keywords": [
+        "1996",
+        "1997",
+        "foundation",
+        "subsidence",
+        "sand-fill",
+        "monsoon",
+        "rain",
+        "structural damage"
+      ],
+      "recordType": "damage",
+      "sourceFile": "data/konark/damage-events.json",
+      "linkedEvidence": [
+        "src-konark-soc-1997"
+      ],
+      "importance": 1.0
+    },
+
+    {
+      "id": "search-konark-1997-cracks",
+      "title": "Stone Wall Cracking",
+      "keywords": [
+        "1997",
+        "cracks",
+        "stone wall",
+        "iron clamps",
+        "rust",
+        "sea breeze",
+        "fragment loss"
+      ],
+      "recordType": "damage",
+      "sourceFile": "data/konark/damage-events.json",
+      "linkedEvidence": [
+        "src-konark-soc-1997"
+      ],
+      "importance": 1.0
+    },
+
+    {
+      "id": "search-konark-1998-stone-fall",
+      "title": "Approx. 2-Ton Stone Fall",
+      "keywords": [
+        "1998",
+        "19 September 1998",
+        "2 ton",
+        "stone fall",
+        "Jagamohan",
+        "Jagamohana",
+        "north-east porch",
+        "Pidha ledge"
+      ],
+      "recordType": "damage",
+      "sourceFile": "data/konark/damage-events.json",
+      "linkedEvidence": [
+        "src-konark-decision-1999"
+      ],
+      "importance": 1.0
+    },
+
+    {
+      "id": "search-konark-2000-monitoring",
+      "title": "2000 ICOMOS Monitoring",
+      "keywords": [
+        "2000",
+        "ICOMOS",
+        "monitoring",
+        "structural stability",
+        "stone loosening",
+        "water penetration",
+        "cyclone"
+      ],
+      "recordType": "monitoring",
+      "sourceFile": "data/konark/monitoring-records.json",
+      "linkedEvidence": [
+        "src-konark-decision-2000"
+      ],
+      "importance": 1.0
+    },
+
+    {
+      "id": "search-konark-2003-conservation",
+      "title": "Jagamohana Stabilisation",
+      "keywords": [
+        "2003",
+        "Jagamohana",
+        "conservation",
+        "restoration",
+        "stabilisation",
+        "platform"
+      ],
+      "recordType": "conservation",
+      "sourceFile": "data/processed/konark-conservation-actions.json",
+      "linkedEvidence": [
+        "src-konark-periodic-2003"
+      ],
+      "importance": 1.0
+    },
+
+    {
+      "id": "search-konark-2012-water",
+      "title": "2012 Water Management",
+      "keywords": [
+        "2012",
+        "water logging",
+        "drainage",
+        "soak pits",
+        "CBRI",
+        "saline action"
+      ],
+      "recordType": "conservation",
+      "sourceFile": "data/processed/konark-conservation-actions.json",
+      "linkedEvidence": [
+        "src-konark-pib-2012"
+      ],
+      "importance": 0.9
+    },
+
+    {
+      "id": "search-konark-2015-investigation",
+      "title": "CBRI 2015 Investigation",
+      "keywords": [
+        "2015",
+        "CBRI",
+        "investigation",
+        "technical survey",
+        "Konark"
+      ],
+      "recordType": "technical_research",
+      "sourceFile": "data/processed/konark-research-records.json",
+      "importance": 0.9
+    },
+
+    {
+      "id": "search-konark-2018-phase2",
+      "title": "CBRI Phase-II Investigation",
+      "keywords": [
+        "2018",
+        "Phase-II",
+        "CBRI",
+        "technical investigation",
+        "Konark"
+      ],
+      "recordType": "technical_research",
+      "sourceFile": "data/processed/konark-research-records.json",
+      "importance": 0.9
+    },
+
+    {
+      "id": "search-konark-gpr",
+      "title": "GPR Investigation",
+      "keywords": [
+        "GPR",
+        "Ground Penetrating Radar",
+        "subsurface",
+        "technical investigation"
+      ],
+      "recordType": "technical_research",
+      "sourceFile": "data/processed/konark-technical-surveys.json",
+      "importance": 0.9
+    },
+
+    {
+      "id": "search-konark-laser",
+      "title": "3D Laser Scanning",
+      "keywords": [
+        "laser scanning",
+        "3D",
+        "3D model",
+        "digital twin",
+        "survey"
+      ],
+      "recordType": "3d_documentation",
+      "sourceFile": "data/processed/konark-technical-surveys.json",
+      "importance": 0.9
+    },
+
+    {
+      "id": "search-konark-damage-mapping",
+      "title": "CBRI Damage Mapping",
+      "keywords": [
+        "damage mapping",
+        "CBRI",
+        "top of temple",
+        "survey",
+        "mapping"
+      ],
+      "recordType": "technical_research",
+      "sourceFile": "data/processed/konark-technical-surveys.json",
+      "importance": 1.0
+    },
+
+    {
+      "id": "search-konark-2021-asi",
+      "title": "2021 ASI Conservation",
+      "keywords": [
+        "2021",
+        "ASI",
+        "cleaning",
+        "stone consolidation",
+        "stone strengthening",
+        "pumping",
+        "biocidal",
+        "vegetation"
+      ],
+      "recordType": "conservation",
+      "sourceFile": "data/processed/konark-conservation-actions.json",
+      "linkedEvidence": [
+        "src-konark-pib-2021"
+      ],
+      "importance": 1.0
+    },
+
+    {
+      "id": "search-konark-2023",
+      "title": "2023 UNESCO Periodic Report",
+      "keywords": [
+        "2023",
+        "UNESCO",
+        "periodic reporting",
+        "wind",
+        "humidity",
+        "water",
+        "storms",
+        "flooding",
+        "management"
+      ],
+      "recordType": "monitoring",
+      "sourceFile": "data/processed/konark-2023-state-record.json",
+      "linkedEvidence": [
+        "src-konark-periodic-2023"
+      ],
+      "importance": 0.95
+    },
+
+    {
+      "id": "search-konark-tourism",
+      "title": "Tourism Pressure",
+      "keywords": [
+        "tourism",
+        "visitors",
+        "813700",
+        "3571289",
+        "visitor pressure",
+        "tourist"
+      ],
+      "recordType": "visitor_pressure",
+      "sourceFile": "data/processed/konark-visitor-history.json",
+      "importance": 0.85
+    },
+
+    {
+      "id": "search-konark-saline",
+      "title": "Saline Action",
+      "keywords": [
+        "saline",
+        "salt",
+        "sea breeze",
+        "salt air",
+        "corrosion",
+        "metal cramps"
+      ],
+      "recordType": "condition",
+      "sourceFile": "data/konark/condition.json",
+      "importance": 1.0
+    },
+
+    {
+      "id": "search-konark-water",
+      "title": "Water-Related Deterioration",
+      "keywords": [
+        "water",
+        "water penetration",
+        "water logging",
+        "flooding",
+        "monsoon",
+        "drainage"
+      ],
+      "recordType": "condition",
+      "sourceFile": "data/konark/condition.json",
+      "importance": 1.0
+    },
+
+    {
+      "id": "search-konark-wind",
+      "title": "Wind and Sand Exposure",
+      "keywords": [
+        "wind",
+        "sand blasting",
+        "wind erosion",
+        "sand dust",
+        "coastal exposure"
+      ],
+      "recordType": "condition",
+      "sourceFile": "data/konark/condition.json",
+      "importance": 0.9
+    },
+
+    {
+      "id": "search-konark-restricted",
+      "title": "Protected and Regulated Zones",
+      "keywords": [
+        "100 m",
+        "200 m",
+        "prohibited zone",
+        "regulated zone",
+        "AMASR",
+        "protection"
+      ],
+      "recordType": "protection",
+      "sourceFile": "data/konark/restricted-zones.json",
+      "importance": 1.0
+    },
+
+    {
+      "id": "search-konark-3d",
+      "title": "3D Digital Twin",
+      "keywords": [
+        "3D",
+        "digital twin",
+        "GLB",
+        "GLTF",
+        "laser scan",
+        "point cloud",
+        "geometry"
+      ],
+      "recordType": "3d",
+      "sourceFile": "data/processed/konark-3d-asset-assessment.json",
+      "importance": 1.0
+    },
+
+    {
+      "id": "search-konark-reconstruction",
+      "title": "AI Reconstruction",
+      "keywords": [
+        "AI reconstruction",
+        "reconstruction",
+        "Vimana",
+        "shikhara",
+        "hypothesis",
+        "historical reconstruction"
+      ],
+      "recordType": "ai_reconstruction",
+      "sourceFile": "data/konark/reconstruction.json",
+      "importance": 1.0
+    },
+
+    {
+      "id": "search-konark-evidence",
+      "title": "Evidence and Provenance",
+      "keywords": [
+        "evidence",
+        "source",
+        "UNESCO",
+        "ICOMOS",
+        "ASI",
+        "CBRI",
+        "Government of India",
+        "verification"
+      ],
+      "recordType": "evidence",
+      "sourceFile": "data/konark/evidence.json",
+      "importance": 1.0
+    }
+  ],
+
+  "ranking": {
+    "exactKeywordMatch": 1.0,
+    "titleMatch": 0.9,
+    "keywordMatch": 0.8,
+    "recordTypeMatch": 0.7,
+    "sourceMatch": 0.6,
+    "importanceWeight": 1.0
+  },
+
+  "searchRules": {
+    "preferVerifiedRecords": true,
+    "preferPrimarySources": true,
+    "preserveHistoricalDate": true,
+    "doNotReturnAiInferenceAsHistoricalFact": true,
+    "showSourceWithResult": true,
+    "showVerificationStatus": true,
+    "showUncertaintyWhenApplicable": true
+  },
+
+  "exampleQueries": [
+    {
+      "query": "1998 stone fall",
+      "expectedTopResults": [
+        "search-konark-1998-stone-fall"
+      ]
+    },
+    {
+      "query": "Jagamohana conservation",
+      "expectedTopResults": [
+        "search-konark-2003-conservation"
+      ]
+    },
+    {
+      "query": "salt damage",
+      "expectedTopResults": [
+        "search-konark-saline"
+      ]
+    },
+    {
+      "query": "3D laser",
+      "expectedTopResults": [
+        "search-konark-laser",
+        "search-konark-3d"
+      ]
+    },
+    {
+      "query": "2021 conservation",
+      "expectedTopResults": [
+        "search-konark-2021-asi"
+      ]
+    }
+  ]
+}

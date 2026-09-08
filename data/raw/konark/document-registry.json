@@ -1,0 +1,297 @@
+{
+  "schemaVersion": "1.0.0",
+  "monumentId": "konark-sun-temple",
+  "registryDate": "2026-09-08",
+
+  "documents": [
+    {
+      "id": "doc-1984-iCOMOS-evaluation",
+      "year": 1984,
+      "type": "advisory_body_evaluation",
+      "title": "Advisory Body Evaluation (ICOMOS)",
+      "organization": "ICOMOS / UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/documents/153031",
+      "verification": "verified"
+    },
+    {
+      "id": "doc-1984-site-plan",
+      "year": 1984,
+      "type": "site_plan",
+      "title": "Detailed site plan of Sun Temple at Konarak",
+      "organization": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/documents/103350",
+      "verification": "verified"
+    },
+    {
+      "id": "doc-1997-soc",
+      "year": 1997,
+      "type": "state_of_conservation",
+      "title": "Sun Temple, Konârak — State of Conservation 1997",
+      "organization": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/soc/2143",
+      "verification": "verified",
+      "supports": [
+        "foundation subsidence",
+        "sand-fill settlement",
+        "loose stones",
+        "wall cracking",
+        "iron clamp corrosion",
+        "stone fragment loss"
+      ]
+    },
+    {
+      "id": "doc-1998-soc",
+      "year": 1998,
+      "type": "state_of_conservation",
+      "title": "Sun Temple, Konârak — State of Conservation 1998",
+      "organization": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/soc/3031",
+      "verification": "verified",
+      "supports": [
+        "monsoon rain",
+        "gradual deterioration",
+        "structural instability"
+      ]
+    },
+    {
+      "id": "doc-1998-decision",
+      "year": 1998,
+      "type": "bureau_decision",
+      "title": "22 BUR V.B.45",
+      "organization": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/decisions/5655",
+      "verification": "verified",
+      "supports": [
+        "structural stability study follow-up"
+      ]
+    },
+    {
+      "id": "doc-1999-soc",
+      "year": 1999,
+      "type": "state_of_conservation",
+      "title": "Sun Temple, Konârak — State of Conservation 1999",
+      "organization": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/246/documents",
+      "verification": "archive_verified",
+      "note": "Use the specific 1999 report text for claim-level extraction."
+    },
+    {
+      "id": "doc-1999-bureau-decision",
+      "year": 1999,
+      "type": "bureau_decision",
+      "title": "23 BUR IV.B.62",
+      "organization": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/decisions/5737",
+      "verification": "verified",
+      "supports": [
+        "continued deterioration",
+        "approximately 2-ton stone fall",
+        "Jagamohan porch",
+        "19 September 1998 event"
+      ]
+    },
+    {
+      "id": "doc-1999-committee-decision",
+      "year": 1999,
+      "type": "committee_decision",
+      "title": "23 COM X.B.38",
+      "organization": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/decisions/2683",
+      "verification": "verified",
+      "supports": [
+        "state of conservation concern",
+        "structural study",
+        "reactive monitoring"
+      ]
+    },
+    {
+      "id": "doc-2000-soc",
+      "year": 2000,
+      "type": "state_of_conservation",
+      "title": "Sun Temple, Konârak — State of Conservation 2000",
+      "organization": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/soc/2434",
+      "verification": "verified",
+      "supports": [
+        "monsoon rain",
+        "gradual deterioration",
+        "structural instability",
+        "ICOMOS mission"
+      ]
+    },
+    {
+      "id": "doc-2000-mission",
+      "year": 2000,
+      "type": "mission_report",
+      "title": "Report on the ICOMOS Reactive Monitoring Mission to the Sun Temple, Konârak; February 2000",
+      "organization": "ICOMOS / UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/246/documents",
+      "verification": "archive_verified",
+      "note": "Archive confirms the mission report. Detailed claims should be taken from the report itself or corresponding UNESCO decision."
+    },
+    {
+      "id": "doc-2000-decision",
+      "year": 2000,
+      "type": "bureau_decision",
+      "title": "24 BUR IV.B.65",
+      "organization": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/decisions/5825",
+      "verification": "verified",
+      "supports": [
+        "no immediate structural threat",
+        "stone loosening",
+        "water penetration",
+        "cyclone damage to green belt",
+        "regular maintenance",
+        "periodic monitoring"
+      ]
+    },
+    {
+      "id": "doc-2002-bureau-decision",
+      "year": 2002,
+      "type": "bureau_decision",
+      "title": "26 BUR XII.87",
+      "organization": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/decisions/5930",
+      "verification": "verified",
+      "supports": [
+        "management planning",
+        "conservation and development measures",
+        "surrounding-site threats"
+      ]
+    },
+    {
+      "id": "doc-2002-committee-decision",
+      "year": 2002,
+      "type": "committee_decision",
+      "title": "26 COM 21B.51",
+      "organization": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/decisions/893",
+      "verification": "verified"
+    },
+    {
+      "id": "doc-2003-periodic",
+      "year": 2003,
+      "type": "periodic_report",
+      "title": "Periodic Reporting Cycle 1, Section II",
+      "organization": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/documents/162852",
+      "verification": "verified",
+      "supports": [
+        "Jagamohana conservation",
+        "environmental pressures",
+        "visitor pressure",
+        "monitoring methods",
+        "conservation measures"
+      ]
+    },
+    {
+      "id": "doc-2003-periodic-summary",
+      "year": 2003,
+      "type": "periodic_report_summary",
+      "title": "Periodic Reporting Cycle 1, Section II (Summary)",
+      "organization": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/documents/162851",
+      "verification": "verified"
+    },
+    {
+      "id": "doc-2012-periodic",
+      "year": 2012,
+      "type": "periodic_report",
+      "title": "Periodic Reporting Cycle 2, Section II",
+      "organization": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/document/164621",
+      "verification": "verified",
+      "supports": [
+        "condition monitoring",
+        "wind effects",
+        "water effects",
+        "flooding",
+        "management"
+      ]
+    },
+    {
+      "id": "doc-2012-government",
+      "year": 2012,
+      "type": "government_record",
+      "title": "Conservation Measures for Sun Temple at Konark",
+      "organization": "Ministry of Culture, Government of India",
+      "url": "https://www.pib.gov.in/newsite/PrintRelease.aspx?lang=2&reg=48&relid=86496",
+      "verification": "verified",
+      "supports": [
+        "CBRI investigations",
+        "drainage",
+        "soak pits",
+        "water logging mitigation",
+        "saline action management"
+      ]
+    },
+    {
+      "id": "doc-2021-government",
+      "year": 2021,
+      "type": "government_record",
+      "title": "Conservation of the Sun Temple at Konark",
+      "organization": "Ministry of Culture, Government of India",
+      "url": "https://www.pib.gov.in/pressreleaseshare.aspx?lang=2&prid=1703558&reg=48",
+      "verification": "verified",
+      "supports": [
+        "surface cleaning",
+        "stone consolidation",
+        "stone strengthening",
+        "water pumping",
+        "biocidal treatment",
+        "vegetation management"
+      ]
+    },
+    {
+      "id": "doc-2023-periodic",
+      "year": 2023,
+      "type": "periodic_report",
+      "title": "Periodic Reporting Cycle 3, Section II",
+      "organization": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/document/216402",
+      "verification": "verified",
+      "supports": [
+        "management",
+        "conservation",
+        "monitoring",
+        "environmental factors"
+      ]
+    },
+    {
+      "id": "doc-2024-government",
+      "year": 2024,
+      "type": "government_record",
+      "title": "Development Status of Puri and Konark by ASI",
+      "organization": "Ministry of Culture, Government of India",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2086010&lang=2&reg=48",
+      "verification": "verified"
+    },
+    {
+      "id": "doc-2026-current",
+      "year": 2026,
+      "type": "current_government_reference",
+      "title": "Sun Temple, Konârak",
+      "organization": "Ministry of Culture, Government of India",
+      "url": "https://culture.gov.in/sun-temple-konarak",
+      "verification": "verified",
+      "lastChecked": "2026-09-08",
+      "isHistoricalEvidence": false
+    }
+  ],
+
+  "downloadPolicy": {
+    "storeOriginalWhenRightsPermit": true,
+    "storeSourceUrlAlways": true,
+    "storeLicenseMetadata": true,
+    "storeChecksumAfterDownload": true,
+    "archiveListingCannotReplaceOriginalDocument": true
+  },
+
+  "verificationPolicy": {
+    "exactReportPreferred": true,
+    "decisionMaySupportDecisionClaims": true,
+    "archiveOnlySupportsExistence": true,
+    "claimLevelEvidenceRequiredForDamage": true
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "schemaVersion": "1.0.0",
+  "monumentId": "konark-sun-temple",
+
+  "decisions": [
+    {
+      "id": "decision-konark-1984-inscription",
+      "year": 1984,
+      "decisionCode": "08COM IXA",
+      "type": "World_Heritage_Inscription",
+      "title": "Inscription: The Sun Temple, Konarak",
+      "decision": "The Sun Temple of Konarak was inscribed on the World Heritage List.",
+      "criteria": [
+        "i",
+        "iii",
+        "vi"
+      ],
+      "verification": "verified",
+      "source": {
+        "organization": "UNESCO World Heritage Centre",
+        "url": "https://whc.unesco.org/en/decisions/3906"
+      }
+    },
+
+    {
+      "id": "decision-konark-1997-structural-study",
+      "year": 1997,
+      "decisionCode": "21 COM VII.C.50/51",
+      "type": "State_of_Conservation",
+      "title": "Structural study and emergency assistance follow-up",
+      "actions": [
+        "Government of India requested to report findings of structural studies",
+        "Secretariat to be kept informed",
+        "Additional international cooperation to be considered for corrective measures"
+      ],
+      "verification": "verified",
+      "source": {
+        "organization": "UNESCO World Heritage Centre",
+        "url": "https://whc.unesco.org/en/decisions/2829"
+      }
+    },
+
+    {
+      "id": "decision-konark-1998-structural-study",
+      "year": 1998,
+      "decisionCode": "22 BUR V.B.45",
+      "type": "State_of_Conservation",
+      "title": "Structural stability study",
+      "actions": [
+        "Assist the State Party where necessary",
+        "Ensure the structural stability study report is ready for examination"
+      ],
+      "verification": "verified",
+      "source": {
+        "organization": "UNESCO World Heritage Centre",
+        "url": "https://whc.unesco.org/en/decisions/5655"
+      }
+    },
+
+    {
+      "id": "decision-konark-1999-bureau",
+      "year": 1999,
+      "decisionCode": "23 BUR IV.B.62",
+      "type": "State_of_Conservation",
+      "title": "Continued deterioration and stone fall",
+      "documentedFindings": [
+        "Continued deterioration of stone structures",
+        "Approximately 2-ton stone fall reported on 19 September 1998",
+        "Stone fell from north-east side of Jagamohan porch onto Pidha ledge"
+      ],
+      "actions": [
+        "Urgent measures requested to halt deterioration"
+      ],
+      "verification": "verified",
+      "source": {
+        "organization": "UNESCO World Heritage Centre",
+        "url": "https://whc.unesco.org/en/decisions/5737"
+      }
+    },
+
+    {
+      "id": "decision-konark-1999-committee",
+      "year": 1999,
+      "decisionCode": "23 COM X.B.38",
+      "type": "World_Heritage_Committee",
+      "title": "Reactive monitoring arrangements",
+      "actions": [
+        "Structural study information requested",
+        "Urgent reactive monitoring mission arrangements requested",
+        "ICOMOS mission findings requested",
+        "Government of India reports requested"
+      ],
+      "verification": "verified",
+      "source": {
+        "organization": "UNESCO World Heritage Centre",
+        "url": "https://whc.unesco.org/en/decisions/2683"
+      }
+    },
+
+    {
+      "id": "decision-konark-2000-monitoring",
+      "year": 2000,
+      "decisionCode": "24 BUR IV.B.65",
+      "type": "Reactive_Monitoring",
+      "title": "ICOMOS monitoring mission findings",
+      "documentedFindings": [
+        "No immediate threat from structural instability",
+        "Long-term effects of loosening stone parts required examination",
+        "Water penetration required examination"
+      ],
+      "actions": [
+        "Continue regular maintenance",
+        "Continue periodic monitoring",
+        "Examine long-term structural and water-related effects"
+      ],
+      "verification": "verified",
+      "source": {
+        "organization": "UNESCO World Heritage Centre",
+        "url": "https://whc.unesco.org/en/decisions/5825"
+      }
+    },
+
+    {
+      "id": "decision-konark-2002-bureau",
+      "year": 2002,
+      "decisionCode": "26 BUR XII.87",
+      "type": "Management_and_Conservation",
+      "title": "Comprehensive management planning",
+      "actions": [
+        "Report progress on comprehensive management plan",
+        "Report measures for conservation and development",
+        "Consider international assistance for a plan addressing surrounding threats"
+      ],
+      "identifiedThreats": [
+        "Illegal encroachment",
+        "Ad-hoc construction"
+      ],
+      "verification": "verified",
+      "source": {
+        "organization": "UNESCO World Heritage Centre",
+        "url": "https://whc.unesco.org/en/decisions/5930"
+      }
+    },
+
+    {
+      "id": "decision-konark-2002-committee",
+      "year": 2002,
+      "decisionCode": "26 COM 21B.51",
+      "type": "World_Heritage_Committee",
+      "title": "State of conservation noted",
+      "documentedFinding": "The World Heritage Committee took note of the state of conservation report and additional information provided by the State Party.",
+      "verification": "verified",
+      "source": {
+        "organization": "UNESCO World Heritage Centre",
+        "url": "https://whc.unesco.org/en/decisions/893"
+      }
+    },
+
+    {
+      "id": "decision-konark-2012-boundary",
+      "year": 2012,
+      "decisionCode": "36 COM 8B.52",
+      "type": "Boundary_Modification",
+      "title": "Minor boundary modification",
+      "decision": "The proposed minor boundary modification was withdrawn at the request of the State Party.",
+      "verification": "verified",
+      "source": {
+        "organization": "UNESCO World Heritage Centre",
+        "url": "https://whc.unesco.org/en/decisions/4823"
+      }
+    },
+
+    {
+      "id": "decision-konark-2013-ouv",
+      "year": 2013,
+      "decisionCode": "37 COM 8E",
+      "type": "Outstanding_Universal_Value",
+      "title": "Adoption of retrospective Statement of Outstanding Universal Value",
+      "purpose": "Formalize the retrospective Statement of Outstanding Universal Value for the property.",
+      "verification": "verified",
+      "source": {
+        "organization": "UNESCO World Heritage Centre",
+        "url": "https://whc.unesco.org/en/decisions"
+      }
+    }
+  ],
+
+  "interpretationRules": {
+    "committeeDecisionIsNotPhysicalDamageByItself": true,
+    "requestedActionIsNotProofOfCompletion": true,
+    "monitoringFindingMustRetainItsOriginalYear": true,
+    "decisionLanguageMustNotBeStrengthened": true,
+    "historicalEventRequiresSupportingSource": true
+  }
+}

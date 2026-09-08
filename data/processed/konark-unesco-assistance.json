@@ -1,0 +1,64 @@
+{
+  "schemaVersion": "1.0.0",
+  "monumentId": "konark-sun-temple",
+
+  "assistanceRecords": [
+    {
+      "id": "unesco-assistance-1986",
+      "approvedDate": "1986-01-01",
+      "year": 1986,
+      "type": "conservation",
+      "category": "culture",
+      "title": "Consultants to advise the authorities on the preservation of the Sun Temple of Konarak and the Taj Mahal",
+      "approvedAmountUSD": 10500,
+      "decisionBy": "Chairperson",
+      "status": "terminated",
+      "verification": "verified",
+      "source": {
+        "organization": "UNESCO World Heritage Centre",
+        "title": "Sun Temple, Konârak - Assistance",
+        "url": "https://whc.unesco.org/en/list/246/assistance/"
+      }
+    },
+
+    {
+      "id": "unesco-assistance-1997-structural-study",
+      "approvedDate": "1997-10-01",
+      "year": 1997,
+      "type": "emergency",
+      "category": "culture",
+      "title": "Emergency assistance to urgently conduct a fundamental structural study to identify appropriate emergency conservation measures for the Sun Temple of Konarak",
+      "approvedAmountUSD": 39000,
+      "decisionBy": "Chairperson",
+      "status": "terminated",
+      "verification": "verified",
+      "source": {
+        "organization": "UNESCO World Heritage Centre",
+        "title": "Sun Temple, Konârak - Assistance",
+        "url": "https://whc.unesco.org/en/list/246/assistance/"
+      }
+    }
+  ],
+
+  "summary": {
+    "approvedRequests": 2,
+    "totalAmountApprovedUSD": 49500,
+    "verification": "verified"
+  },
+
+  "interpretationRules": {
+    "approvedAmountIsNotSameAsFinalExpenditure": true,
+    "assistanceIsNotSameAsDamageCost": true,
+    "1986AmountCoveredBothKonarkAndTajMahal": true,
+    "1997AmountWasForStructuralStudy": true,
+    "doNotAttribute1986EntireAmountToKonark": true
+  },
+
+  "systemIntegration": {
+    "timeline": true,
+    "conservationHistory": true,
+    "fundingHistory": true,
+    "evidence": true,
+    "riskContext": true
+  }
+}

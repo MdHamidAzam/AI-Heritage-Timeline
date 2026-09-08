@@ -1,0 +1,330 @@
+{
+  "schemaVersion": "1.0.0",
+  "monumentId": "konark-sun-temple",
+  "retrievalVersion": "1.0.0",
+
+  "documents": [
+    {
+      "id": "rag-1984-unesco-record",
+      "sourceId": "src-konark-unesco-main",
+      "documentType": "heritage_record",
+      "priority": 1,
+      "retrievalTopics": [
+        "identity",
+        "architecture",
+        "UNESCO",
+        "OUV",
+        "criteria",
+        "protection",
+        "threats",
+        "authenticity",
+        "integrity"
+      ],
+      "preferredFor": [
+        "historical_facts",
+        "architectural_facts",
+        "heritage_status"
+      ]
+    },
+
+    {
+      "id": "rag-1984-icomos",
+      "sourceId": "src-konark-unesco-evaluation",
+      "documentType": "advisory_evaluation",
+      "priority": 1,
+      "retrievalTopics": [
+        "OUV",
+        "architecture",
+        "history",
+        "cultural_significance",
+        "authenticity"
+      ],
+      "preferredFor": [
+        "historical_context",
+        "heritage_significance"
+      ]
+    },
+
+    {
+      "id": "rag-1984-site-plan",
+      "sourceId": "src-konark-site-plan",
+      "documentType": "site_plan",
+      "priority": 1,
+      "retrievalTopics": [
+        "spatial_layout",
+        "site",
+        "components",
+        "boundaries"
+      ],
+      "preferredFor": [
+        "spatial_reference"
+      ]
+    },
+
+    {
+      "id": "rag-1997-soc",
+      "sourceId": "src-konark-soc-1997",
+      "documentType": "state_of_conservation",
+      "priority": 1,
+      "retrievalTopics": [
+        "foundation",
+        "subsidence",
+        "sand_fill",
+        "loose_stones",
+        "cracking",
+        "iron_clamps",
+        "fragment_loss",
+        "monsoon",
+        "structural_damage"
+      ],
+      "preferredFor": [
+        "documented_damage",
+        "historical_condition"
+      ]
+    },
+
+    {
+      "id": "rag-1998-soc",
+      "sourceId": "src-konark-soc-1998",
+      "documentType": "state_of_conservation",
+      "priority": 1,
+      "retrievalTopics": [
+        "structural_stability",
+        "monitoring",
+        "monsoon",
+        "deterioration"
+      ],
+      "preferredFor": [
+        "monitoring_history"
+      ]
+    },
+
+    {
+      "id": "rag-1999-decision",
+      "sourceId": "src-konark-decision-1999",
+      "documentType": "unesco_decision",
+      "priority": 1,
+      "retrievalTopics": [
+        "stone_fall",
+        "Jagamohana",
+        "1998",
+        "deterioration",
+        "urgent_conservation"
+      ],
+      "preferredFor": [
+        "documented_damage",
+        "historical_event"
+      ]
+    },
+
+    {
+      "id": "rag-2000-decision",
+      "sourceId": "src-konark-decision-2000",
+      "documentType": "unesco_decision",
+      "priority": 1,
+      "retrievalTopics": [
+        "ICOMOS",
+        "structural_stability",
+        "stone_loosening",
+        "water_penetration",
+        "cyclone",
+        "monitoring",
+        "maintenance"
+      ],
+      "preferredFor": [
+        "monitoring",
+        "condition",
+        "conservation_management"
+      ]
+    },
+
+    {
+      "id": "rag-2003-periodic",
+      "sourceId": "src-konark-periodic-2003",
+      "documentType": "periodic_report",
+      "priority": 1,
+      "retrievalTopics": [
+        "Jagamohana",
+        "conservation",
+        "restoration",
+        "stabilisation",
+        "environment",
+        "tourism",
+        "monitoring"
+      ],
+      "preferredFor": [
+        "conservation_history",
+        "monitoring_methods",
+        "visitor_pressure"
+      ]
+    },
+
+    {
+      "id": "rag-2012-periodic",
+      "sourceId": "src-konark-periodic-2012",
+      "documentType": "periodic_report",
+      "priority": 1,
+      "retrievalTopics": [
+        "condition",
+        "wind",
+        "water",
+        "flooding",
+        "management",
+        "conservation"
+      ],
+      "preferredFor": [
+        "condition",
+        "management"
+      ]
+    },
+
+    {
+      "id": "rag-2012-government",
+      "sourceId": "src-konark-pib-2012",
+      "documentType": "government_record",
+      "priority": 1,
+      "retrievalTopics": [
+        "CBRI",
+        "drainage",
+        "soak_pits",
+        "water_logging",
+        "saline_action"
+      ],
+      "preferredFor": [
+        "conservation_action",
+        "government_activity"
+      ]
+    },
+
+    {
+      "id": "rag-2021-government",
+      "sourceId": "src-konark-pib-2021",
+      "documentType": "government_record",
+      "priority": 1,
+      "retrievalTopics": [
+        "ASI",
+        "cleaning",
+        "stone_consolidation",
+        "stone_strengthening",
+        "water_pumping",
+        "biocidal_treatment",
+        "vegetation"
+      ],
+      "preferredFor": [
+        "current_conservation",
+        "government_reported_condition"
+      ]
+    },
+
+    {
+      "id": "rag-2023-periodic",
+      "sourceId": "src-konark-periodic-2023",
+      "documentType": "periodic_report",
+      "priority": 1,
+      "retrievalTopics": [
+        "management",
+        "monitoring",
+        "wind",
+        "humidity",
+        "water",
+        "storms",
+        "flooding"
+      ],
+      "preferredFor": [
+        "latest_unesco_reporting"
+      ]
+    },
+
+    {
+      "id": "rag-cbri-technical",
+      "sourceId": "src-konark-cbri",
+      "documentType": "technical_documentation",
+      "priority": 1,
+      "retrievalTopics": [
+        "GPR",
+        "laser_scanning",
+        "3D",
+        "damage_mapping",
+        "technical_investigation"
+      ],
+      "preferredFor": [
+        "technical_research",
+        "digital_twin"
+      ]
+    },
+
+    {
+      "id": "rag-2026-government-reference",
+      "sourceId": "src-konark-ministry-2026",
+      "documentType": "current_reference",
+      "priority": 2,
+      "retrievalTopics": [
+        "current",
+        "official_reference",
+        "monument"
+      ],
+      "preferredFor": [
+        "current_reference_only"
+      ],
+      "historicalEvidence": false
+    }
+  ],
+
+  "retrievalRules": {
+    "primarySourcesFirst": true,
+    "sameTopicMultipleSourcesAllowed": true,
+    "latestSourcePreferredForCurrentClaims": true,
+    "historicalEventRequiresHistoricalSource": true,
+    "currentClaimRequiresDate": true,
+    "archiveListingCannotSupportDetailedClaim": true,
+    "aiInferenceCannotOverridePrimaryEvidence": true
+  },
+
+  "answerConstruction": {
+    "step1": "Identify user query type.",
+    "step2": "Retrieve highest-priority relevant primary sources.",
+    "step3": "Retrieve linked claim records.",
+    "step4": "Check verification status.",
+    "step5": "Separate fact from inference.",
+    "step6": "Return source reference with answer.",
+    "step7": "Expose uncertainty when evidence is incomplete."
+  },
+
+  "queryTypes": {
+    "historical": [
+      "When was Konark built?",
+      "What happened to the Vimana?"
+    ],
+    "damage": [
+      "What damage occurred in 1997?",
+      "What happened in 1998?"
+    ],
+    "condition": [
+      "What are the main threats?",
+      "What water-related problems exist?"
+    ],
+    "conservation": [
+      "What did ASI do?",
+      "What conservation happened after 2000?"
+    ],
+    "technical": [
+      "Was laser scanning done?",
+      "Was GPR used?"
+    ],
+    "reconstruction": [
+      "Can the lost Vimana be reconstructed?"
+    ],
+    "current": [
+      "What is the latest official status?"
+    ]
+  },
+
+  "answerSafety": {
+    "noUnsupportedHistoricalClaims": true,
+    "noInventedMeasurements": true,
+    "noInventedSeverity": true,
+    "noInvented3DCoordinates": true,
+    "noAIInferencePresentedAsFact": true,
+    "sourceRequiredForFactualAnswer": true
+  }
+}

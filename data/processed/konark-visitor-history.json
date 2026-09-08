@@ -1,0 +1,75 @@
+{
+  "schemaVersion": "1.0.0",
+  "monumentId": "konark-sun-temple",
+
+  "visitorRecords": [
+    {
+      "id": "visitor-konark-2001",
+      "period": "2001",
+      "visitorType": "all_reported_visitors",
+      "visitorCount": 813700,
+      "unit": "visits",
+      "source": {
+        "organization": "Archaeological Survey of India / UNESCO",
+        "document": "Periodic Report, 2003",
+        "url": "https://whc.unesco.org/document/162851"
+      },
+      "verification": "verified"
+    },
+
+    {
+      "id": "visitor-konark-2003-tourism-growth",
+      "period": "2003_reported_context",
+      "metric": "tourism_pressure_change",
+      "value": 40,
+      "unit": "percent",
+      "direction": "increase",
+      "description": "The 2003 UNESCO periodic report identified a 40% increase in the number of tourists as a tourism pressure factor.",
+      "source": {
+        "organization": "UNESCO World Heritage Centre",
+        "document": "Periodic Report, 2003",
+        "url": "https://whc.unesco.org/document/162851"
+      },
+      "verification": "verified"
+    },
+
+    {
+      "id": "visitor-konark-2024-25-domestic",
+      "period": "FY 2024-25",
+      "visitorType": "domestic",
+      "visitorCount": 3571289,
+      "unit": "visits",
+      "shareOfDomesticVisitsPercent": 6.59,
+      "rankAmongListedASI_MONUMENTS": 2,
+      "source": {
+        "organization": "Archaeological Survey of India / Government of India",
+        "document": "Tourism Compendium 2025",
+        "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/sep/doc2025927648801.pdf"
+      },
+      "verification": "verified"
+    }
+  ],
+
+  "interpretation": {
+    "visitorCountIsContextNotDamage": true,
+    "tourismPressureIsDocumentedByUNESCO": true,
+    "visitorVolumeDoesNotProveStructuralDamage": true,
+    "historicalCountsCannotBeDirectlyComparedWithoutMatchingDefinitions": true,
+    "domesticAndForeignVisitorsMustRemainSeparate": true
+  },
+
+  "dashboard": {
+    "showHistoricalVisitors": true,
+    "showTourismPressure": true,
+    "showSource": true,
+    "showComparisonWarning": true,
+    "warning": "Visitor figures from different reporting periods or visitor categories should not be treated as directly comparable without checking the source definitions."
+  },
+
+  "aiFeatures": {
+    "usableAsRiskContext": true,
+    "usableAsDirectDamageLabel": false,
+    "usableAsSeverityScore": false,
+    "usableForTrendAnalysis": true
+  }
+}

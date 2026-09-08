@@ -1,0 +1,87 @@
+{
+  "schemaVersion": "1.0.0",
+  "monumentId": "konark-sun-temple",
+
+  "officialMonitoringFramework": {
+    "agency": "Archaeological Survey of India",
+    "inspectionFrequency": "regular",
+    "inspectionPurpose": [
+      "Assess monument condition",
+      "Review conservation requirements",
+      "Review restoration requirements",
+      "Review maintenance requirements"
+    ],
+    "verification": "verified",
+    "sources": [
+      {
+        "date": "2026-03-12",
+        "organization": "Ministry of Culture, Government of India",
+        "title": "Conservation of Protected Monuments",
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2238875"
+      },
+      {
+        "date": "2026-08-11",
+        "organization": "Ministry of Culture, Government of India",
+        "title": "Conservation of National Culture Heritage under NCF and AMASR Act",
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2297463"
+      }
+    ]
+  },
+
+  "2026GovernmentStatus": {
+    "nationalAsiContext": {
+      "centrallyProtectedMonuments": 3686,
+      "statement": "Conservation and preservation work is a continuous process and is undertaken according to the need of the monument and availability of resources.",
+      "regularInspection": true,
+      "verification": "verified"
+    },
+
+    "konarkSpecificStatus": {
+      "specificNewPhysicalDamageReport": false,
+      "specificNewSeverityAssessment": false,
+      "specificNewConditionPercentage": false,
+      "reason": "The 2026 Government records reviewed establish the ASI monitoring/conservation framework and current programme activity, but do not provide a new Konark-specific damage percentage or component-level severity assessment.",
+      "verification": "verified"
+    }
+  },
+
+  "conservationFinanceContext": {
+    "periodCovered": "2023-24 to 2026-08-05",
+    "stateWiseAssessmentAvailable": true,
+    "konarkSpecificExpenditureIdentified": false,
+    "rule": "State-wide conservation expenditure must not be attributed to Konark unless a source explicitly identifies a Konark-specific amount.",
+    "verification": "verified"
+  },
+
+  "konarkSpecificNCFProject": {
+    "project": "Providing public amenities like smart toilet, childcare room and rest room for senior citizens at Sun Temple, Konarak, Dist.-Puri",
+    "partnerAgency": "Armoured Vehicles Nigam Limited",
+    "projectCostLakh": 50,
+    "latestListedExpenditureLakh": 39.86,
+    "status": "ongoing",
+    "projectType": "public_amenities",
+    "isStructuralConservation": false,
+    "verification": "verified",
+    "source": {
+      "organization": "Ministry of Culture, Government of India",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2297463"
+    }
+  },
+
+  "dataInterpretation": {
+    "nationalInspectionFrameworkIsNotKonarkInspectionResult": true,
+    "currentGovernmentActivityIsNotHistoricalDamage": true,
+    "publicAmenitiesProjectIsNotStructuralConservation": true,
+    "absenceOfNewDamageReportDoesNotProveZeroDamage": true,
+    "noCurrentSeverityScoreWithoutDocumentedAssessment": true
+  },
+
+  "frontendUse": {
+    "currentStatusCard": true,
+    "monitoringTimeline": true,
+    "conservationActivity": true,
+    "fundingContext": true,
+    "sourcePanel": true,
+    "showScopeLabels": true
+  }
+}

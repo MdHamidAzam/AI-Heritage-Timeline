@@ -1,0 +1,50 @@
+[
+  {
+    "id": "project-konark-iof-ncf",
+    "projectType": "Heritage support / amenities",
+    "year": 2006,
+    "title": "Sun Temple, Konark Conservation Project",
+    "organization": "National Culture Fund / Archaeological Survey of India / Indian Oil Foundation",
+    "reportedContributionCrore": 25,
+    "description": "Government records identify Sun Temple, Konark among monuments covered under an NCF partnership with Indian Oil Foundation for preservation and conservation.",
+    "verification": "verified",
+    "source": {
+      "organization": "Ministry of Culture, Government of India",
+      "url": "https://www.pib.gov.in/newsite/erelcontent.aspx?lang=2&reg=48&relid=29225"
+    }
+  },
+  {
+    "id": "project-konark-public-amenities-2024",
+    "projectType": "Public Amenities",
+    "year": 2024,
+    "title": "Public Amenities at Sun Temple, Konark",
+    "organization": "National Culture Fund",
+    "supportingOrganization": "Armoured Vehicles Nigam Limited",
+    "location": "Sun Temple, Konark, District Puri, Odisha",
+    "reportedAmountLakh": 14.95,
+    "description": "Government records list a National Culture Fund project for providing public amenities including a smart toilet, childcare room and rest room for senior citizens at Sun Temple, Konark.",
+    "verification": "verified",
+    "source": {
+      "organization": "Ministry of Culture, Government of India",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2037086&lang=2&reg=48"
+    }
+  },
+  {
+    "id": "project-konark-public-amenities-ongoing",
+    "projectType": "Public Amenities",
+    "year": 2026,
+    "title": "Public Amenities at Sun Temple, Konark",
+    "organization": "National Culture Fund",
+    "supportingOrganization": "Armoured Vehicles Nigam Limited",
+    "location": "Sun Temple, Konark, District Puri, Odisha",
+    "sanctionedAmountLakh": 39.86,
+    "expenditureReportedLakh": 39.86,
+    "status": "ongoing",
+    "description": "A Government of India National Culture Fund project for public amenities at Sun Temple, Konark is listed as ongoing.",
+    "verification": "verified",
+    "source": {
+      "organization": "Ministry of Culture, Government of India",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2236930&lang=2&reg=48"
+    }
+  }
+]

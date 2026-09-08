@@ -1,0 +1,161 @@
+{
+  "monumentId": "konark-sun-temple",
+  "registryVersion": "1.0.0",
+  "lastChecked": "2026-09-08",
+
+  "models": [
+    {
+      "monumentId": "konark-sun-temple",
+      "assetId": "konark-iitm-vr-model",
+      "id": "konark-iitm-vr-model",
+      "title": "Virtual Rebirth of Konark Sun Temple",
+      "sourcePlatform": "GitHub",
+      "repository": "shreenandansonu/Virtua-Rebirth-of-Konark-Sun-Temple",
+      "sourceUrl": "https://github.com/shreenandansonu/Virtua-Rebirth-of-Konark-Sun-Temple",
+      "assetFile": "konark model.skp",
+      "format": "SKP",
+      "license": "MIT",
+      "licenseUrl": "https://github.com/shreenandansonu/Virtua-Rebirth-of-Konark-Sun-Temple/blob/master/LICENSE",
+      "creator": "Shreenandan Sahu and Suraksha Jain",
+      "localPath": null,
+      "assetStatus": "metadata_only",
+      "authorityLevel": "reference_only",
+      "downloadStatus": "not_downloaded",
+      "attribution": "Shreenandan Sahu and Suraksha Jain; IIT Madras course project",
+      "sourceType": "academic_student_project",
+      "authoritativeSurvey": false,
+      "officialASIModel": false,
+      "officialUNESCOModel": false,
+      "historicalAccuracy": "not-established",
+      "usageStatus": "candidate_for_prototype",
+      "verification": "source_verified",
+      "note": "Public IIT Madras course project. Useful as a prototype/visualization candidate, but not authoritative measured heritage geometry."
+    },
+
+    {
+      "monumentId": "konark-sun-temple",
+      "assetId": "konark-sketchfab-ai-model-2025",
+      "id": "konark-sketchfab-ai-model-2025",
+      "title": "konark sun temple",
+      "sourcePlatform": "Sketchfab",
+      "sourceUrl": "https://sketchfab.com/3d-models/konark-sun-temple-f7b47d96fc144eef87fcc97988f477df",
+      "format": "3D model",
+      "license": "Free Standard",
+      "licenseUrl": "https://sketchfab.com/licenses",
+      "creator": "notyourtypicalshashank",
+      "localPath": null,
+      "assetStatus": "metadata_only",
+      "authorityLevel": "reference_only",
+      "downloadStatus": "not_downloaded",
+      "attribution": "notyourtypicalshashank via Sketchfab",
+      "sourceType": "AI_generated_model",
+      "generatedWith": "Meshy",
+      "authoritativeSurvey": false,
+      "officialASIModel": false,
+      "officialUNESCOModel": false,
+      "historicalAccuracy": "not-established",
+      "usageStatus": "do_not_use_as_historical_ground_truth",
+      "verification": "source_verified",
+      "note": "Explicitly identified by its creator as AI-generated."
+    },
+    {
+      "monumentId": "taj-mahal",
+      "assetId": "taj-mahal-sketchfab-reference-2026",
+      "id": "taj-mahal-sketchfab-reference-2026",
+      "title": "Taj Mahal 3D Model",
+      "sourcePlatform": "Sketchfab",
+      "sourceUrl": "https://sketchfab.com/3d-models/taj-mahal-3d-model-1eb09052f6cd421caeaa6cb3204cb15d",
+      "format": "GLB/GLTF download not locally obtained",
+      "license": "CC Attribution",
+      "licenseUrl": "https://sketchfab.com/licenses",
+      "creator": "Dinendra Neyo",
+      "localPath": null,
+      "assetStatus": "metadata_only",
+      "authorityLevel": "reference_only",
+      "downloadStatus": "not_downloaded",
+      "attribution": "Dinendra Neyo via Sketchfab",
+      "sourceType": "third_party_reference_model",
+      "authority": false,
+      "note": "Reference model metadata only; no local GLB/GLTF is present. Not authoritative survey geometry."
+    },
+    {
+      "monumentId": "sanchi-stupa",
+      "assetId": "sanchi-reference-model",
+      "id": "sanchi-reference-model",
+      "title": "Sanchi reference model",
+      "format": null,
+      "license": null,
+      "licenseUrl": null,
+      "creator": null,
+      "sourceUrl": "https://whc.unesco.org/en/list/524",
+      "localPath": null,
+      "assetStatus": "not_sourced",
+      "authorityLevel": "unavailable",
+      "downloadStatus": "not_sourced",
+      "attribution": null,
+      "sourceType": "not_sourced",
+      "authority": false,
+      "note": "Reference geometry has not been locally sourced."
+    },
+    {
+      "monumentId": "hampi-vijaya-vittala",
+      "assetId": "hampi-reference-model",
+      "id": "hampi-reference-model",
+      "title": "Hampi reference model",
+      "format": null,
+      "license": null,
+      "licenseUrl": null,
+      "creator": null,
+      "sourceUrl": null,
+      "localPath": null,
+      "assetStatus": "not_sourced",
+      "authorityLevel": "unavailable",
+      "downloadStatus": "not_sourced",
+      "attribution": null,
+      "sourceType": "not_sourced",
+      "authority": false,
+      "note": "Reference geometry has not been locally sourced."
+    }
+  ],
+
+  "authoritativeAsset": {
+    "status": "not-yet-established",
+    "preferredSources": [
+      "Archaeological Survey of India",
+      "UNESCO World Heritage Centre",
+      "CSIR-CBRI",
+      "Documented laser-scanning survey",
+      "Documented photogrammetry survey"
+    ],
+    "requiredEvidence": [
+      "Survey provenance",
+      "Acquisition method",
+      "Coordinate/reference system",
+      "Capture date",
+      "Processing metadata",
+      "Rights/licence"
+    ]
+  },
+
+  "projectUsagePolicy": {
+    "prototypeModelAllowed": true,
+    "historicalGroundTruthAllowed": false,
+    "aiReconstructionTrainingGroundTruth": false,
+    "mustDisplayProvenance": true,
+    "mustDisplayModelStatus": true,
+    "mustSeparateMeasuredGeometryFromInterpretiveGeometry": true
+  },
+
+  "futureCaptureMethods": {
+    "preferredMethods": [
+      "Laser scanning",
+      "Terrestrial photogrammetry",
+      "Aerial photogrammetry",
+      "360-degree photography"
+    ],
+    "source": {
+      "organization": "UNESCO",
+      "url": "https://whc.unesco.org/en/dive-into-heritage"
+    }
+  }
+}

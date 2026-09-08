@@ -1,0 +1,148 @@
+{
+  "monumentId": "konark-sun-temple",
+  "manifestVersion": "1.0.0",
+  "checkedDate": "2026-09-08",
+
+  "acquisitionPolicy": {
+    "onlyLicenseVerifiedAssets": true,
+    "downloadOriginalWhereAvailable": true,
+    "preserveOriginalMetadata": true,
+    "preserveAttribution": true,
+    "noUnlicensedRedistribution": true
+  },
+
+  "assets": [
+    {
+      "id": "konark-img-001",
+      "filename": "konark_front_2024_cc0.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Sun_Temple_Konark_Odisha.jpg",
+      "sourcePlatform": "Wikimedia Commons",
+      "author": "Maina Tudu",
+      "captureDate": "2024-10-27",
+      "license": "CC0 1.0",
+      "originalDimensions": {
+        "width": 3000,
+        "height": 3705
+      },
+      "sha256": null,
+      "downloadStatus": "pending",
+      "annotationStatus": "not-annotated",
+      "approvedForProjectUse": true,
+      "verification": "verified"
+    },
+    {
+      "id": "konark-img-002",
+      "filename": "konark_sun_temple_2024_cc0.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Konark_Sun_temple_by_temple.jpg",
+      "sourcePlatform": "Wikimedia Commons",
+      "author": "Anand kmath",
+      "captureDate": "2024-04-05",
+      "license": "CC0 1.0",
+      "originalDimensions": null,
+      "sha256": null,
+      "downloadStatus": "pending",
+      "annotationStatus": "not-annotated",
+      "approvedForProjectUse": true,
+      "verification": "verified"
+    },
+    {
+      "id": "konark-img-003",
+      "filename": "konark_sun_temple_2011_cc_by_sa.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Sun_Temple_of_Konark.jpg",
+      "sourcePlatform": "Wikimedia Commons",
+      "author": "Pkumark",
+      "captureDate": "2011-09-10",
+      "license": "CC BY-SA 3.0",
+      "originalDimensions": null,
+      "sha256": null,
+      "downloadStatus": "pending",
+      "annotationStatus": "not-annotated",
+      "approvedForProjectUse": true,
+      "attributionRequired": true,
+      "shareAlikeRequired": true,
+      "verification": "verified"
+    },
+    {
+      "id": "konark-img-004",
+      "filename": "konark_front_2016_cc_by_sa.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:KONARK_OR_SUN_TEMPLE.jpg",
+      "sourcePlatform": "Wikimedia Commons",
+      "author": "Kabita.singh",
+      "captureDate": "2016-09-09",
+      "license": "CC BY-SA 4.0",
+      "originalDimensions": null,
+      "sha256": null,
+      "downloadStatus": "pending",
+      "annotationStatus": "not-annotated",
+      "approvedForProjectUse": true,
+      "attributionRequired": true,
+      "shareAlikeRequired": true,
+      "verification": "verified"
+    },
+    {
+      "id": "konark-img-005",
+      "filename": "konark_front_2024_geotagged_cc0.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Konark_Sun_Temple_July2024.jpg",
+      "sourcePlatform": "Wikimedia Commons",
+      "author": "Mansimittal12",
+      "captureDate": "2024-07-21",
+      "license": "CC0 1.0",
+      "cameraLocation": {
+        "latitude": 19.887632,
+        "longitude": 86.095053
+      },
+      "originalDimensions": null,
+      "sha256": null,
+      "downloadStatus": "pending",
+      "annotationStatus": "not-annotated",
+      "approvedForProjectUse": true,
+      "attributionRequired": false,
+      "verification": "verified"
+    },
+    {
+      "id": "konark-img-006",
+      "filename": "konark_sun_temple_2017_cc_by_sa.jpg",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Sun_Temple_Konark_-_Odisha.jpg",
+      "sourcePlatform": "Wikimedia Commons",
+      "author": "Anupam Calcutta",
+      "captureDate": "2017-04-27",
+      "license": "CC BY-SA 4.0",
+      "originalDimensions": {
+        "width": 2500,
+        "height": 1329
+      },
+      "downloadStatus": "pending",
+      "annotationStatus": "not-annotated",
+      "approvedForProjectUse": true,
+      "attributionRequired": true,
+      "shareAlikeRequired": true,
+      "verification": "verified"
+    }
+  ],
+
+  "annotationPreparation": {
+    "requiredFields": [
+      "assetId",
+      "imageRegion",
+      "annotationType",
+      "componentId",
+      "damageEventId",
+      "evidenceSourceId",
+      "annotator",
+      "reviewStatus"
+    ],
+    "allowedAnnotationTypes": [
+      "component",
+      "damage",
+      "evidence_region"
+    ]
+  },
+
+  "qualityControl": {
+    "originalFileHashRequired": true,
+    "duplicateDetectionRequired": true,
+    "licenseVerificationRequired": true,
+    "humanAnnotationReviewRequired": true,
+    "damageAnnotationCannotBeCreatedFromTextOnly": true
+  }
+}

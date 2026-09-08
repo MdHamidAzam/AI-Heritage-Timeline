@@ -1,0 +1,47 @@
+{
+  "schemaVersion": "1.0.0",
+  "monumentId": "konark-sun-temple",
+
+  "partnerships": [
+    {
+      "id": "heritage-partnership-konark-2024-01",
+      "year": 2024,
+      "date": "2024-03-12",
+      "programme": "Adopt a Heritage 2.0",
+      "monument": "Sun Temple, Konark",
+      "state": "Odisha",
+      "partnerOrganization": "Ease My Trip Foundation",
+      "agreement": "Memorandum of Understanding",
+      "status": "officially_recorded",
+      "purpose": [
+        "Visitor experience",
+        "Heritage-friendly amenities",
+        "Accessibility",
+        "Safety",
+        "Hygiene",
+        "Knowledge and interpretation"
+      ],
+      "verification": "verified",
+      "source": {
+        "organization": "Archaeological Survey of India / Ministry of Culture, Government of India",
+        "title": "ASI to Unveil Revamped Website and Sign MoUs for Monuments Adoption under Adopt a Heritage 2.0",
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2013351"
+      }
+    }
+  ],
+
+  "programmeContext": {
+    "programme": "Adopt a Heritage 2.0",
+    "governmentBody": "Archaeological Survey of India",
+    "purpose": "Improve visitor-facing amenities and engagement at selected heritage sites.",
+    "konarkIncluded": true,
+    "verification": "verified"
+  },
+
+  "dataInterpretationRules": {
+    "partnershipIsNotConservationDamageEvidence": true,
+    "amenityProjectIsNotStructuralRestoration": true,
+    "partnerActivityMustNotBePresentedAsASIConservation": true,
+    "visitorExperienceDataMustRemainSeparateFromPhysicalDamageData": true
+  }
+}

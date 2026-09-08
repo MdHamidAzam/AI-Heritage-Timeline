@@ -1,0 +1,63 @@
+{
+  "monumentId": "konark-sun-temple",
+
+  "legalFramework": {
+    "primaryLaw": "Ancient Monuments and Archaeological Sites and Remains Act, 1958",
+    "rules": "Ancient Monuments and Archaeological Sites and Remains Rules, 1959",
+    "authority": "Archaeological Survey of India",
+    "verification": "verified"
+  },
+
+  "zones": [
+    {
+      "id": "konark-prohibited-zone",
+      "zoneType": "prohibited",
+      "distanceFromProtectedPropertyBoundaryMeters": 100,
+      "purpose": "Protection against development or similar activity having adverse effects on the Outstanding Universal Value of the property.",
+      "developmentStatus": "prohibited",
+      "geometry": null,
+      "geometryStatus": "requires_official_geospatial_boundary",
+      "verification": "verified",
+      "source": {
+        "organization": "UNESCO World Heritage Centre",
+        "title": "Sun Temple, Konârak",
+        "url": "https://whc.unesco.org/en/list/246"
+      }
+    },
+    {
+      "id": "konark-regulated-zone",
+      "zoneType": "regulated",
+      "distanceFromProtectedPropertyBoundaryMeters": 200,
+      "purpose": "Regulation of development or similar activity having potential adverse effects on the Outstanding Universal Value of the property.",
+      "developmentStatus": "regulated",
+      "geometry": null,
+      "geometryStatus": "requires_official_geospatial_boundary",
+      "verification": "verified",
+      "source": {
+        "organization": "UNESCO World Heritage Centre",
+        "title": "Sun Temple, Konârak",
+        "url": "https://whc.unesco.org/en/list/246"
+      }
+    }
+  ],
+
+  "siteProtection": {
+    "worldHeritagePropertyAreaHa": 10.62,
+    "officialPropertyCoordinates": {
+      "latitude": 19.8875,
+      "longitude": 86.09472
+    },
+    "propertyGeometryAvailable": false,
+    "note": "UNESCO states that georeferenced polygons for the property will be made available once GIS data are received by UNESCO.",
+    "verification": "verified"
+  },
+
+  "applicationRules": {
+    "showOnMap": true,
+    "allowUserToSeeZoneReason": true,
+    "showLegalBasis": true,
+    "inventBoundaryPolygon": false,
+    "inventAccessRestriction": false,
+    "treatZoneDistanceAsExactPolygon": false
+  }
+}

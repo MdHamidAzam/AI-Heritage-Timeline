@@ -1,0 +1,126 @@
+[
+  {
+    "id": "monitoring-konark-1998",
+    "year": 1998,
+    "recordType": "World Heritage Committee / Bureau Decision",
+    "title": "Decision 22 BUR V.B.45",
+    "subject": "Structural stability study",
+    "description": "The Bureau requested assistance to ensure that the report on the structural stability study of the Sun Temple of Konarak would be ready for examination.",
+    "issues": [
+      "Structural stability"
+    ],
+    "actions": [
+      "Preparation and submission of structural stability study"
+    ],
+    "verification": "verified",
+    "source": {
+      "organization": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/decisions/5655"
+    }
+  },
+  {
+    "id": "monitoring-konark-1999",
+    "year": 1999,
+    "recordType": "World Heritage Committee Decision",
+    "title": "Decision 23 COM X.B.38",
+    "subject": "State of conservation and reactive monitoring",
+    "description": "The Committee expressed concern over the state of conservation, reiterated requests for information concerning the structural study and requested continuation of arrangements for an urgent reactive monitoring mission.",
+    "issues": [
+      "State of conservation",
+      "Structural study",
+      "Structural deterioration"
+    ],
+    "actions": [
+      "Provide structural study information",
+      "Arrange reactive monitoring mission",
+      "Submit mission findings for examination"
+    ],
+    "verification": "verified",
+    "source": {
+      "organization": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/decisions/2683"
+    }
+  },
+  {
+    "id": "monitoring-konark-2000",
+    "year": 2000,
+    "recordType": "ICOMOS Reactive Monitoring Mission / Bureau Decision",
+    "title": "Decision 24 BUR IV.B.65",
+    "subject": "Structural condition and site management",
+    "description": "The Bureau examined the findings and recommendations of the ICOMOS monitoring mission undertaken in February 2000.",
+    "findings": [
+      "No immediate threat from structural instability",
+      "Long-term effects of loosening stone parts required examination",
+      "Water penetration required examination"
+    ],
+    "actions": [
+      "Continue regular maintenance",
+      "Submit periodic monitoring reports",
+      "Address surrounding development pressures",
+      "Prepare a Comprehensive Development Plan"
+    ],
+    "verification": "verified",
+    "source": {
+      "organization": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/decisions/5825"
+    }
+  },
+  {
+    "id": "monitoring-konark-2000-state-of-conservation",
+    "year": 2000,
+    "recordType": "State of Conservation Report",
+    "title": "Sun Temple, Konârak — State of Conservation 2000",
+    "subject": "Monsoon rain, gradual deterioration and structural instability",
+    "description": "UNESCO's State of Conservation record summarizes the February 2000 ICOMOS monitoring mission and associated conservation concerns.",
+    "issues": [
+      "Monsoon rain",
+      "Gradual deterioration",
+      "Structural instability",
+      "Illegal encroachment",
+      "Ad-hoc construction"
+    ],
+    "verification": "verified",
+    "source": {
+      "organization": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/soc/2434"
+    }
+  },
+  {
+    "id": "monitoring-konark-2002",
+    "year": 2002,
+    "recordType": "World Heritage Committee Decision",
+    "title": "Decision 26 BUR XII.87",
+    "subject": "Management plan and conservation",
+    "description": "The Bureau reiterated requests for progress on a comprehensive management plan and conservation and development measures for Konarak.",
+    "issues": [
+      "Management planning",
+      "Conservation",
+      "Development around the property",
+      "Illegal encroachment",
+      "Ad-hoc construction"
+    ],
+    "actions": [
+      "Report progress on comprehensive management plan",
+      "Report conservation and development measures",
+      "Develop plan to mitigate surrounding-site threats"
+    ],
+    "verification": "verified",
+    "source": {
+      "organization": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/decisions/5930"
+    }
+  },
+  {
+    "id": "monitoring-konark-2002-committee",
+    "year": 2002,
+    "recordType": "World Heritage Committee Decision",
+    "title": "Decision 26 COM 21B.51",
+    "subject": "State of conservation",
+    "description": "The World Heritage Committee took note of the state of conservation report and additional information supplied by the State Party.",
+    "verification": "verified",
+    "source": {
+      "organization": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/decisions/893"
+    }
+  }
+]

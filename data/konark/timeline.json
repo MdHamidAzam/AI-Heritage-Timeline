@@ -1,0 +1,246 @@
+[
+  {
+    "id": "konark-13th-century-construction",
+    "date": "13th century",
+    "dateType": "century",
+    "eventType": "Construction",
+    "title": "Construction of the Sun Temple",
+    "description": "The Sun Temple was built in the 13th century during the reign of Narasimha Deva I of the Ganga dynasty.",
+    "verification": "verified",
+    "source": {
+      "organization": "UNESCO World Heritage Centre",
+      "title": "Periodic Reporting Cycle 3, Section II",
+      "url": "https://whc.unesco.org/document/216402"
+    }
+  },
+  {
+    "id": "konark-19th-century-vimana-loss",
+    "date": "19th century",
+    "dateType": "century",
+    "eventType": "Historical Change",
+    "title": "Loss of the Vimana Shikhara",
+    "description": "The high tower and shikhara of the Vimana were razed in the 19th century.",
+    "verification": "verified",
+    "source": {
+      "organization": "UNESCO World Heritage Centre",
+      "title": "Periodic Reporting Cycle 3, Section II",
+      "url": "https://whc.unesco.org/document/216402"
+    }
+  },
+  {
+    "id": "konark-1984-world-heritage",
+    "date": "1984",
+    "dateType": "year",
+    "eventType": "Heritage Recognition",
+    "title": "UNESCO World Heritage Inscription",
+    "description": "Sun Temple, Konârak was inscribed on the UNESCO World Heritage List under criteria (i), (iii) and (vi).",
+    "verification": "verified",
+    "source": {
+      "organization": "UNESCO World Heritage Centre",
+      "title": "Sun Temple, Konârak",
+      "url": "https://whc.unesco.org/en/list/246"
+    }
+  },
+  {
+    "id": "konark-1996-1997-foundation-subsidence",
+    "date": "1996-1997",
+    "dateType": "period",
+    "eventType": "Damage",
+    "title": "Foundation Subsidence",
+    "description": "UNESCO recorded serious subsidence of the sand-fill and surrounding foundation supporting the large stone structure following heavy monsoon rains.",
+    "verification": "verified",
+    "source": {
+      "organization": "UNESCO World Heritage Centre",
+      "title": "State of Conservation 1997",
+      "url": "https://whc.unesco.org/en/soc/2143"
+    }
+  },
+  {
+    "id": "konark-1997-structural-concerns",
+    "date": "1997",
+    "dateType": "year",
+    "eventType": "Damage Assessment",
+    "title": "Structural Study and Emergency Assistance",
+    "description": "UNESCO requested structural studies concerning the conservation and structural condition of the monument with World Heritage Fund Emergency Assistance.",
+    "verification": "verified",
+    "source": {
+      "organization": "UNESCO World Heritage Centre",
+      "title": "State of Conservation records for Sun Temple, Konârak",
+      "url": "https://whc.unesco.org/en/list/246/documents"
+    }
+  },
+  {
+    "id": "konark-1998-stone-fall",
+    "date": "1998-09-19",
+    "dateType": "exact_date",
+    "eventType": "Damage",
+    "title": "Approx. 2-Ton Stone Fall",
+    "description": "A stone weighing approximately 2 tons reportedly fell from the north-east side of the Jagamohan porch onto the Pidha ledge.",
+    "component": "Jagamohan",
+    "location": "North-east side of Jagamohan porch",
+    "weightApproxTons": 2,
+    "verification": "verified",
+    "source": {
+      "organization": "UNESCO World Heritage Centre",
+      "title": "Decision 23 BUR IV.B.62",
+      "url": "https://whc.unesco.org/en/decisions/5737"
+    }
+  },
+  {
+    "id": "konark-1999-deterioration-concern",
+    "date": "1999",
+    "dateType": "year",
+    "eventType": "Damage Assessment",
+    "title": "Serious Concern Over Continued Deterioration",
+    "description": "UNESCO expressed serious concern over the state of conservation and requested urgent measures to halt deterioration of the stone structures.",
+    "verification": "verified",
+    "source": {
+      "organization": "UNESCO World Heritage Centre",
+      "title": "Decision 23 BUR IV.B.62",
+      "url": "https://whc.unesco.org/en/decisions/5737"
+    }
+  },
+  {
+    "id": "konark-2000-icomos-monitoring",
+    "date": "2000-02",
+    "dateType": "month",
+    "eventType": "Monitoring",
+    "title": "ICOMOS Reactive Monitoring Mission",
+    "description": "An ICOMOS expert undertook a reactive monitoring mission to examine the state of conservation and review work associated with the World Heritage Fund Emergency Assistance.",
+    "verification": "verified",
+    "source": {
+      "organization": "UNESCO World Heritage Centre",
+      "title": "Decision 24 BUR IV.B.65",
+      "url": "https://whc.unesco.org/en/decisions/5825"
+    }
+  },
+  {
+    "id": "konark-2000-structural-assessment",
+    "date": "2000",
+    "dateType": "year",
+    "eventType": "Conservation Assessment",
+    "title": "No Immediate Structural Threat Found",
+    "description": "The ICOMOS mission found no immediate threat to the monument from structural instability. Long-term effects of loosening stone parts and water penetration required further examination.",
+    "verification": "verified",
+    "source": {
+      "organization": "UNESCO World Heritage Centre",
+      "title": "Decision 24 BUR IV.B.65",
+      "url": "https://whc.unesco.org/en/decisions/5825"
+    }
+  },
+  {
+    "id": "konark-2000-cyclone-green-belt",
+    "date": "2000",
+    "dateType": "year",
+    "eventType": "Environmental Damage",
+    "title": "Cyclone Damage to Green Belt",
+    "description": "A recent cyclone had extensively damaged the site's green belt, which served as a buffer and screen against possible salt infiltration from the sea breeze.",
+    "verification": "verified",
+    "source": {
+      "organization": "UNESCO World Heritage Centre",
+      "title": "Decision 24 BUR IV.B.65",
+      "url": "https://whc.unesco.org/en/decisions/5825"
+    }
+  },
+  {
+    "id": "konark-2000-regular-monitoring",
+    "date": "2000",
+    "dateType": "year",
+    "eventType": "Conservation Management",
+    "title": "Regular Maintenance and Periodic Monitoring",
+    "description": "UNESCO encouraged continuation of the regular maintenance programme and periodic submission of monitoring reports on the state of conservation.",
+    "verification": "verified",
+    "source": {
+      "organization": "UNESCO World Heritage Centre",
+      "title": "Decision 24 BUR IV.B.65",
+      "url": "https://whc.unesco.org/en/decisions/5825"
+    }
+  },
+  {
+    "id": "konark-2003-conservation",
+    "date": "2003",
+    "dateType": "year",
+    "eventType": "Conservation",
+    "title": "Jagamohana Conservation and Stabilisation",
+    "description": "The 2003 UNESCO periodic report recorded major conservation and restoration works on the Jagamohana platform and reported the property as stabilised.",
+    "component": "Jagamohana",
+    "verification": "verified",
+    "source": {
+      "organization": "UNESCO World Heritage Centre",
+      "title": "Periodic Reporting Cycle 1, Section II (Summary)",
+      "url": "https://whc.unesco.org/document/162851"
+    }
+  },
+  {
+    "id": "konark-2012-periodic-reporting",
+    "date": "2012",
+    "dateType": "year",
+    "eventType": "Monitoring",
+    "title": "Periodic Conservation and Management Reporting",
+    "description": "UNESCO's second periodic reporting cycle documented conservation, management, scientific studies and monitoring information for the property.",
+    "verification": "verified",
+    "source": {
+      "organization": "UNESCO World Heritage Centre",
+      "title": "Periodic Reporting Cycle 2, Section II",
+      "url": "https://whc.unesco.org/document/164621"
+    }
+  },
+  {
+    "id": "konark-2012-boundary-decision",
+    "date": "2012",
+    "dateType": "year",
+    "eventType": "Heritage Management",
+    "title": "Minor Boundary Modification Examination",
+    "description": "UNESCO examined the proposed minor boundary modification for Sun Temple, Konârak.",
+    "verification": "verified",
+    "source": {
+      "organization": "UNESCO World Heritage Centre",
+      "title": "36COM 8B.52",
+      "url": "https://whc.unesco.org/en/list/246/documents"
+    }
+  },
+  {
+    "id": "konark-2021-asi-conservation",
+    "date": "2021-03-09",
+    "dateType": "exact_date",
+    "eventType": "Conservation",
+    "title": "ASI Conservation Measures",
+    "description": "ASI reported measures addressing saline action, water logging, erosion and vegetative intrusion, including surface cleaning, stone consolidation and strengthening, tree plantation, pumping sets and periodic biocidal treatment.",
+    "verification": "verified",
+    "source": {
+      "organization": "Press Information Bureau, Government of India",
+      "title": "Conservation of the Sun Temple at Konark",
+      "url": "https://www.pib.gov.in/pressreleaseshare.aspx?lang=2&prid=1703558&reg=48"
+    }
+  },
+  {
+    "id": "konark-2023-periodic-reporting",
+    "date": "2023",
+    "dateType": "year",
+    "eventType": "Monitoring",
+    "title": "Periodic Reporting Cycle 3",
+    "description": "UNESCO's third periodic reporting cycle documented the property's Outstanding Universal Value, conservation and management context.",
+    "verification": "verified",
+    "source": {
+      "organization": "UNESCO World Heritage Centre",
+      "title": "Periodic Reporting Cycle 3, Section II",
+      "url": "https://whc.unesco.org/document/216402"
+    }
+  },
+  {
+    "id": "konark-2026-current-reference",
+    "date": "2026",
+    "dateType": "current_reference",
+    "eventType": "Current Reference",
+    "title": "Current Official Heritage Record",
+    "description": "The Ministry of Culture's official Sun Temple page remains an active government reference for the monument and was last updated on 03 September 2026.",
+    "verification": "verified",
+    "isHistoricalEvent": false,
+    "source": {
+      "organization": "Ministry of Culture, Government of India",
+      "title": "Sun Temple, Konârak",
+      "url": "https://culture.gov.in/sun-temple-konarak",
+      "lastUpdated": "2026-09-03"
+    }
+  }
+]

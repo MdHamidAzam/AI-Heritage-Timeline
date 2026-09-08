@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "1.0.0",
+  "monumentId": "konark-sun-temple",
+
+  "digitalPreservation": {
+    "official360View": {
+      "available": true,
+      "platform": "Ministry of Culture",
+      "title": "Konark Sun Temple",
+      "sourceUrl": "https://culture.gov.in/monuments",
+      "pageLastUpdated": "2026-09-07",
+      "rights": "All rights reserved",
+      "verification": "verified"
+    },
+
+    "officialMonumentPage": {
+      "available": true,
+      "platform": "Ministry of Culture",
+      "title": "Sun Temple, Konârak",
+      "sourceUrl": "https://culture.gov.in/sun-temple-konarak",
+      "lastUpdated": "2026-09-03",
+      "rights": "All rights reserved",
+      "verification": "verified"
+    }
+  },
+
+  "digitalTwinStatus": {
+    "officialInteractive360Reference": true,
+    "authoritativeDownloadable3DModel": false,
+    "authoritativePointCloud": false,
+    "authoritativeGLB": false,
+    "authoritativeGLTF": false,
+    "status": "360_reference_available_3d_download_not_established"
+  },
+
+  "usagePolicy": {
+    "360ViewCanBeReferenced": true,
+    "360ViewCanBeRedistributed": false,
+    "downloadWithoutPermission": false,
+    "useAsHistoricalGroundTruth": false,
+    "useAsVisualReference": true,
+    "sourceAttributionRequired": true
+  },
+
+  "projectIntegration": {
+    "travelModule": true,
+    "digitalTwinEntryPoint": true,
+    "componentNavigation": true,
+    "evidencePanel": true,
+    "historicalTimeline": true,
+    "damageOverlay": true,
+    "reconstructionOverlay": true
+  },
+
+  "futureWorkflow": {
+    "step1": "Use official 360 view as visual reference.",
+    "step2": "Obtain rights-cleared high-resolution imagery where required.",
+    "step3": "Acquire documented survey-grade 3D geometry.",
+    "step4": "Register component IDs against measured geometry.",
+    "step5": "Link verified damage/evidence records.",
+    "step6": "Expose provenance and uncertainty in the UI."
+  },
+
+  "source": {
+    "organization": "Ministry of Culture, Government of India",
+    "url": "https://culture.gov.in/monuments",
+    "verification": "verified"
+  }
+}

@@ -1,0 +1,52 @@
+[
+  {
+    "id": "konark-site-plan-1984",
+    "assetType": "site_plan",
+    "title": "Detailed Site Plan of Sun Temple at Konarak",
+    "date": "1984",
+    "format": "Site Plan",
+    "organization": "UNESCO World Heritage Centre",
+    "sourceUrl": "https://whc.unesco.org/en/documents/103350",
+    "status": "verified",
+    "verified": true,
+    "use": [
+      "Site spatial reference",
+      "Architectural component mapping",
+      "Historical spatial reconstruction",
+      "Timeline alignment"
+    ],
+    "copyright": {
+      "status": "UNESCO document",
+      "reusePolicy": "Check source-specific rights before public redistribution"
+    }
+  },
+  {
+    "id": "konark-3d-model-authoritative",
+    "assetType": "3d_model",
+    "format": "GLB/GLTF",
+    "status": "not-yet-sourced",
+    "verified": false,
+    "downloadUrl": null,
+    "note": "No authoritative downloadable Konark GLB/GLTF asset has been established in the verified source set."
+  },
+  {
+    "id": "konark-3d-documentation-method",
+    "assetType": "documentation_method",
+    "title": "Heritage 3D Documentation Methods",
+    "organization": "UNESCO",
+    "sourceUrl": "https://whc.unesco.org/en/dive-into-heritage",
+    "methods": [
+      "Laser scanning",
+      "Aerial photogrammetry",
+      "Terrestrial photogrammetry",
+      "360-degree photography"
+    ],
+    "status": "verified",
+    "verified": true,
+    "use": [
+      "Future 3D asset acquisition",
+      "Digital twin methodology",
+      "Geospatial documentation"
+    ]
+  }
+]

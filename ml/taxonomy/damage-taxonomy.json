@@ -1,0 +1,28 @@
+{
+  "taxonomyVersion": "1.0.0",
+  "purpose": "Explicit mappings from external source labels to normalized labels. Source labels are preserved.",
+  "normalizedLabels": [
+    "crack",
+    "spalling",
+    "vegetation",
+    "masonry_fabric_loss",
+    "surface_dissolution",
+    "efflorescence",
+    "discoloration",
+    "moss"
+  ],
+  "mappings": [
+    {"sourceLabel": "crack", "normalizedLabel": "crack", "datasetId": "darbhanga-fort"},
+    {"sourceLabel": "spalling", "normalizedLabel": "spalling", "datasetId": "darbhanga-fort"},
+    {"sourceLabel": "vegetation", "normalizedLabel": "vegetation", "datasetId": "darbhanga-fort"},
+    {"sourceLabel": "cracks", "normalizedLabel": "crack", "datasetId": "msd-det"},
+    {"sourceLabel": "fabric loss of masonry units", "normalizedLabel": "masonry_fabric_loss", "datasetId": "msd-det"},
+    {"sourceLabel": "surface dissolution", "normalizedLabel": "surface_dissolution", "datasetId": "msd-det"},
+    {"sourceLabel": "efflorescence", "normalizedLabel": "efflorescence", "datasetId": "msd-det"},
+    {"sourceLabel": "discoloration", "normalizedLabel": "discoloration", "datasetId": "msd-det"},
+    {"sourceLabel": "plant", "normalizedLabel": "vegetation", "datasetId": "msd-det"},
+    {"sourceLabel": "moss", "normalizedLabel": "moss", "datasetId": "msd-det"},
+    {"sourceLabel": "crack", "normalizedLabel": "crack", "datasetId": "ytu-crackis"},
+    {"sourceLabel": "crack", "normalizedLabel": "crack", "datasetId": "heritage-cracks"}
+  ]
+}

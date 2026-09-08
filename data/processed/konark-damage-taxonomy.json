@@ -1,0 +1,241 @@
+{
+  "schemaVersion": "1.0.0",
+  "monumentId": "konark-sun-temple",
+
+  "taxonomy": [
+    {
+      "id": "foundation_subsidence",
+      "label": "Foundation Subsidence",
+      "category": "structural",
+      "description": "Settlement or subsidence affecting the foundation or supporting fill.",
+      "documentedAtKonark": true,
+      "sourceIds": [
+        "src-konark-soc-1997"
+      ]
+    },
+    {
+      "id": "sand_fill_settlement",
+      "label": "Sand-Fill Settlement",
+      "category": "structural",
+      "description": "Settlement of sand-fill associated with the temple's supporting structure.",
+      "documentedAtKonark": true,
+      "sourceIds": [
+        "src-konark-soc-1997"
+      ]
+    },
+    {
+      "id": "stone_displacement",
+      "label": "Stone Displacement",
+      "category": "structural",
+      "description": "Movement or displacement of loose stone elements.",
+      "documentedAtKonark": true,
+      "sourceIds": [
+        "src-konark-soc-1997"
+      ]
+    },
+    {
+      "id": "stone_loosening",
+      "label": "Stone Loosening",
+      "category": "structural",
+      "description": "Loosening of stone parts requiring monitoring or further examination.",
+      "documentedAtKonark": true,
+      "sourceIds": [
+        "src-konark-decision-2000"
+      ]
+    },
+    {
+      "id": "cracking",
+      "label": "Stone Cracking",
+      "category": "structural",
+      "description": "Cracking observed in stone wall or masonry elements.",
+      "documentedAtKonark": true,
+      "sourceIds": [
+        "src-konark-soc-1997"
+      ]
+    },
+    {
+      "id": "fragment_loss",
+      "label": "Stone Fragment Loss",
+      "category": "material_loss",
+      "description": "Loss or falling of fragments from stone elements.",
+      "documentedAtKonark": true,
+      "sourceIds": [
+        "src-konark-soc-1997"
+      ]
+    },
+    {
+      "id": "stone_fall",
+      "label": "Stone Fall",
+      "category": "material_loss",
+      "description": "Falling of a stone element from a structural location.",
+      "documentedAtKonark": true,
+      "sourceIds": [
+        "src-konark-decision-1999"
+      ]
+    },
+    {
+      "id": "water_penetration",
+      "label": "Water Penetration",
+      "category": "moisture",
+      "description": "Penetration of water into monument fabric identified as a long-term conservation concern.",
+      "documentedAtKonark": true,
+      "sourceIds": [
+        "src-konark-decision-2000"
+      ]
+    },
+    {
+      "id": "water_logging",
+      "label": "Water Logging",
+      "category": "moisture",
+      "description": "Accumulation or retention of water requiring drainage or pumping measures.",
+      "documentedAtKonark": true,
+      "sourceIds": [
+        "src-konark-pib-2012",
+        "src-konark-pib-2021"
+      ]
+    },
+    {
+      "id": "soil_erosion",
+      "label": "Soil Erosion",
+      "category": "environmental",
+      "description": "Erosion of surrounding or supporting soil associated with rain and environmental exposure.",
+      "documentedAtKonark": true,
+      "sourceIds": [
+        "src-konark-unesco-main"
+      ]
+    },
+    {
+      "id": "wind_erosion",
+      "label": "Mechanical Wind Erosion",
+      "category": "environmental",
+      "description": "Mechanical erosion caused by wind action and airborne particles.",
+      "documentedAtKonark": true,
+      "sourceIds": [
+        "src-konark-pib-2021"
+      ]
+    },
+    {
+      "id": "sand_blasting",
+      "label": "Sand Blasting",
+      "category": "environmental",
+      "description": "Surface erosion associated with wind-borne sand particles.",
+      "documentedAtKonark": true,
+      "sourceIds": [
+        "src-konark-unesco-main"
+      ]
+    },
+    {
+      "id": "saline_action",
+      "label": "Saline Action",
+      "category": "chemical_environmental",
+      "description": "Deterioration pressure associated with saline coastal conditions.",
+      "documentedAtKonark": true,
+      "sourceIds": [
+        "src-konark-unesco-main",
+        "src-konark-pib-2012",
+        "src-konark-pib-2021"
+      ]
+    },
+    {
+      "id": "metal_cramp_corrosion",
+      "label": "Metal Cramp Corrosion",
+      "category": "material_deterioration",
+      "description": "Corrosion of metal cramps associated with salt-air exposure and documented cracking.",
+      "documentedAtKonark": true,
+      "sourceIds": [
+        "src-konark-soc-1997",
+        "src-konark-unesco-main"
+      ]
+    },
+    {
+      "id": "microbiological_growth",
+      "label": "Microbiological Growth",
+      "category": "biological",
+      "description": "Microbiological growth identified as a deterioration pressure.",
+      "documentedAtKonark": true,
+      "sourceIds": [
+        "src-konark-unesco-main"
+      ]
+    },
+    {
+      "id": "vegetative_intrusion",
+      "label": "Vegetative Intrusion",
+      "category": "biological",
+      "description": "Unwanted vegetative growth requiring periodic control.",
+      "documentedAtKonark": true,
+      "sourceIds": [
+        "src-konark-pib-2021"
+      ]
+    },
+    {
+      "id": "cyclone_damage",
+      "label": "Cyclone Damage",
+      "category": "natural_hazard",
+      "description": "Damage caused by cyclone activity; specifically documented for the site's green belt in the 2000 monitoring record.",
+      "documentedAtKonark": true,
+      "sourceIds": [
+        "src-konark-decision-2000"
+      ]
+    }
+  ],
+
+  "normalizationRules": {
+    "oneCanonicalClassPerDamageEvent": true,
+    "multipleSecondaryEffectsAllowed": true,
+    "doNotMergeDistinctPhysicalProcesses": true,
+    "sourceTerminologyMustBePreserved": true,
+    "aiLabelsMustReferenceCanonicalClasses": true
+  },
+
+  "aiDetectionMapping": {
+    "crack": [
+      "cracking"
+    ],
+    "stone_missing": [
+      "fragment_loss"
+    ],
+    "stone_fallen": [
+      "stone_fall"
+    ],
+    "loose_stone": [
+      "stone_loosening",
+      "stone_displacement"
+    ],
+    "water_mark_or_moisture": [
+      "water_penetration"
+    ],
+    "standing_water": [
+      "water_logging"
+    ],
+    "vegetation_on_structure": [
+      "vegetative_intrusion"
+    ],
+    "surface_erosion": [
+      "wind_erosion",
+      "sand_blasting"
+    ],
+    "salt_related_decay": [
+      "saline_action",
+      "metal_cramp_corrosion"
+    ]
+  },
+
+  "severityPolicy": {
+    "allowedValues": [
+      "not-assigned",
+      "low",
+      "medium",
+      "high",
+      "critical"
+    ],
+    "defaultForHistoricalRecords": "not-assigned",
+    "rule": "A severity value must not be populated unless supported by a documented scoring methodology or source evidence."
+  },
+
+  "confidencePolicy": {
+    "taxonomyConfidence": "source-backed",
+    "detectionConfidence": "model-computed",
+    "historicalClaimConfidence": "evidence-computed",
+    "doNotReuseModelConfidenceAsHistoricalTruth": true
+  }
+}

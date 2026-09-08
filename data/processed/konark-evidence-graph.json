@@ -1,0 +1,182 @@
+{
+  "schemaVersion": "1.0.0",
+  "monumentId": "konark-sun-temple",
+
+  "nodes": [
+    {
+      "id": "node-vimana",
+      "type": "component",
+      "refId": "vimana",
+      "label": "Vimana"
+    },
+    {
+      "id": "node-jagamohana",
+      "type": "component",
+      "refId": "jagamohana",
+      "label": "Jagamohana"
+    },
+    {
+      "id": "node-1997-subsidence",
+      "type": "damage",
+      "refId": "damage-konark-1996-97-foundation-subsidence",
+      "label": "Foundation subsidence"
+    },
+    {
+      "id": "node-1997-cracking",
+      "type": "damage",
+      "refId": "damage-konark-1997-wall-cracking",
+      "label": "Wall cracking"
+    },
+    {
+      "id": "node-1998-stonefall",
+      "type": "damage",
+      "refId": "damage-konark-1998-stone-fall",
+      "label": "Approx. 2-ton stone fall"
+    },
+    {
+      "id": "node-2000-loosening",
+      "type": "damage",
+      "refId": "damage-konark-2000-stone-loosening",
+      "label": "Stone loosening"
+    },
+    {
+      "id": "node-2003-conservation",
+      "type": "conservation",
+      "refId": "konark-2003-conservation",
+      "label": "Jagamohana stabilisation"
+    },
+    {
+      "id": "node-2012-drainage",
+      "type": "conservation",
+      "refId": "condition-water-logging",
+      "label": "Water-management measures"
+    },
+    {
+      "id": "node-2021-conservation",
+      "type": "conservation",
+      "refId": "timeline-2021-asi-conservation",
+      "label": "ASI conservation measures"
+    },
+    {
+      "id": "node-1997-source",
+      "type": "source",
+      "refId": "src-konark-soc-1997",
+      "label": "UNESCO State of Conservation 1997"
+    },
+    {
+      "id": "node-1999-source",
+      "type": "source",
+      "refId": "src-konark-decision-1999",
+      "label": "UNESCO Decision 23 BUR IV.B.62"
+    },
+    {
+      "id": "node-2000-source",
+      "type": "source",
+      "refId": "src-konark-decision-2000",
+      "label": "UNESCO Decision 24 BUR IV.B.65"
+    },
+    {
+      "id": "node-2003-source",
+      "type": "source",
+      "refId": "src-konark-periodic-2003",
+      "label": "UNESCO Periodic Report 2003"
+    },
+    {
+      "id": "node-2012-source",
+      "type": "source",
+      "refId": "src-konark-pib-2012",
+      "label": "Government of India 2012"
+    },
+    {
+      "id": "node-2021-source",
+      "type": "source",
+      "refId": "src-konark-pib-2021",
+      "label": "Government of India 2021"
+    }
+  ],
+
+  "edges": [
+    {
+      "from": "node-1997-source",
+      "to": "node-1997-subsidence",
+      "relation": "supports"
+    },
+    {
+      "from": "node-1997-source",
+      "to": "node-1997-cracking",
+      "relation": "supports"
+    },
+    {
+      "from": "node-1999-source",
+      "to": "node-1998-stonefall",
+      "relation": "supports"
+    },
+    {
+      "from": "node-2000-source",
+      "to": "node-2000-loosening",
+      "relation": "supports"
+    },
+    {
+      "from": "node-jagamohana",
+      "to": "node-1998-stonefall",
+      "relation": "affected_by"
+    },
+    {
+      "from": "node-jagamohana",
+      "to": "node-2003-conservation",
+      "relation": "conserved_by"
+    },
+    {
+      "from": "node-2003-source",
+      "to": "node-2003-conservation",
+      "relation": "supports"
+    },
+    {
+      "from": "node-2012-source",
+      "to": "node-2012-drainage",
+      "relation": "supports"
+    },
+    {
+      "from": "node-2021-source",
+      "to": "node-2021-conservation",
+      "relation": "supports"
+    }
+  ],
+
+  "whyAmISeeingThis": {
+    "enabled": true,
+
+    "responseTemplate": {
+      "observation": "What the system is showing.",
+      "analysis": "What the system inferred or classified.",
+      "evidence": "Which documentary or visual evidence supports it.",
+      "inference": "What portion is interpretation rather than direct evidence.",
+      "confidence": "Calculated confidence, when available.",
+      "verification": "Verification status."
+    },
+
+    "example": {
+      "selectedItem": "node-1998-stonefall",
+      "observation": "Stone fall is shown for the Jagamohan porch.",
+      "analysis": "Historical damage event linked to Jagamohana.",
+      "evidence": [
+        {
+          "source": "UNESCO Decision 23 BUR IV.B.62",
+          "url": "https://whc.unesco.org/en/decisions/5737"
+        }
+      ],
+      "inference": null,
+      "confidence": "Very High",
+      "verification": "verified"
+    }
+  },
+
+  "trustRules": {
+    "sourceToClaimRequired": true,
+    "claimToComponentAllowed": true,
+    "claimToDamageAllowed": true,
+    "claimToReconstructionAllowed": true,
+    "inferenceMustBeMarked": true,
+    "unsupportedEdgeCreation": false
+  }
+}

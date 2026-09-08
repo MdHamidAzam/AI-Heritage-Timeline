@@ -1,0 +1,144 @@
+{
+  "schemaVersion": "1.0.0",
+  "monumentId": "konark-sun-temple",
+  "assessmentDate": "2026-09-08",
+
+  "assetClasses": [
+    {
+      "id": "authoritative_survey",
+      "label": "Authoritative Survey Geometry",
+      "definition": "Geometry produced from a documented heritage survey by an authoritative institution.",
+      "historicalGroundTruthAllowed": true,
+      "requiredEvidence": [
+        "Institution",
+        "Acquisition method",
+        "Survey/capture date",
+        "Coordinate/reference information",
+        "Processing provenance",
+        "Usage rights"
+      ]
+    },
+    {
+      "id": "academic_or_project_model",
+      "label": "Academic / Project Model",
+      "definition": "A model produced for research, education or visualization without established authority as measured heritage geometry.",
+      "historicalGroundTruthAllowed": false,
+      "prototypeUseAllowed": true
+    },
+    {
+      "id": "ai_generated_model",
+      "label": "AI-Generated Model",
+      "definition": "Model generated or substantially reconstructed using AI.",
+      "historicalGroundTruthAllowed": false,
+      "reconstructionUseAllowed": true,
+      "mustDisplayWarning": true
+    }
+  ],
+
+  "verifiedTechnicalEvidence": [
+    {
+      "id": "cbri-konark-laser-scanning",
+      "organization": "CSIR-Central Building Research Institute",
+      "technique": "3D laser scanning",
+      "subject": "Sun Temple Konark",
+      "evidenceType": "institutional_documentation",
+      "status": "verified",
+      "source": {
+        "title": "CSIR-CBRI contributions in Heritage Structures",
+        "url": "https://cbri.res.in/wp-content/uploads/2021/09/CSIR-CBRI-75-yrs.pdf"
+      }
+    },
+    {
+      "id": "cbri-konark-damage-mapping",
+      "organization": "CSIR-Central Building Research Institute",
+      "technique": "Damage mapping",
+      "subject": "Top of Sun Temple Konark",
+      "evidenceType": "institutional_documentation",
+      "status": "verified",
+      "source": {
+        "title": "CSIR-CBRI contributions in Heritage Structures",
+        "url": "https://cbri.res.in/wp-content/uploads/2021/09/CSIR-CBRI-75-yrs.pdf"
+      }
+    }
+  ],
+
+  "candidateModels": [
+    {
+      "id": "model-iitm-virtual-rebirth",
+      "title": "Virtual Rebirth of Konark Sun Temple",
+      "sourceType": "academic_project",
+      "format": "SKP",
+      "status": "candidate",
+      "authoritative": false,
+      "historicalGroundTruth": false,
+      "prototypeUse": true,
+      "sourceUrl": "https://github.com/shreenandansonu/Virtua-Rebirth-of-Konark-Sun-Temple",
+      "note": "Use only as a visualization/prototype candidate until geometry provenance is independently established."
+    },
+    {
+      "id": "model-sketchfab-ai-generated",
+      "title": "konark sun temple",
+      "sourceType": "AI_generated_public_model",
+      "format": "3D",
+      "status": "reference_only",
+      "authoritative": false,
+      "historicalGroundTruth": false,
+      "prototypeUse": false,
+      "sourceUrl": "https://sketchfab.com/3d-models/konark-sun-temple-f7b47d96fc144eef87fcc97988f477df",
+      "note": "Source explicitly identifies the model as generated using an AI toolkit."
+    }
+  ],
+
+  "authoritativeAssetStatus": {
+    "available": false,
+    "verifiedDownloadableModel": false,
+    "verifiedPointCloud": false,
+    "verifiedMesh": false,
+    "verifiedGLB": false,
+    "verifiedGLTF": false,
+    "status": "not_yet_obtained"
+  },
+
+  "requiredForAuthoritative3D": [
+    "Documented survey provenance",
+    "Original point cloud or mesh",
+    "Capture date",
+    "Survey method",
+    "Spatial reference information",
+    "Component/object naming",
+    "Processing history",
+    "License or permission"
+  ],
+
+  "integrationPolicy": {
+    "authoritativeSurvey": {
+      "timelineIntegration": true,
+      "damageIntegration": true,
+      "componentSelection": true,
+      "reconstructionBaseAllowed": true
+    },
+    "academicProjectModel": {
+      "timelineIntegration": true,
+      "damageIntegration": false,
+      "componentSelection": true,
+      "reconstructionBaseAllowed": false,
+      "displayLabel": "Project Model — Not Survey Ground Truth"
+    },
+    "aiGeneratedModel": {
+      "timelineIntegration": false,
+      "damageIntegration": false,
+      "componentSelection": false,
+      "reconstructionBaseAllowed": true,
+      "displayLabel": "AI-Generated Reconstruction — Not Historical Fact"
+    }
+  },
+
+  "qualityChecks": {
+    "geometryProvenanceRequired": true,
+    "modelLicenseRequired": true,
+    "surveyMethodRequired": true,
+    "historicalGroundTruthRequiresAuthoritativeSource": true,
+    "aiGeneratedGeometryCannotBecomeGroundTruth": true,
+    "unverifiedScaleCannotBePresentedAsMeasured": true
+  }
+}

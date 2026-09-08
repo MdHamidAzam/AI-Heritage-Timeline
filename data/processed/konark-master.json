@@ -1,0 +1,428 @@
+{
+  "schemaVersion": "1.0.0",
+  "datasetId": "konark-sun-temple-master",
+  "monumentId": "konark-sun-temple",
+  "lastVerified": "2026-09-08",
+  "dataPolicy": {
+    "realSourceOnly": true,
+    "inventedHistoricalFacts": false,
+    "inventedDamageSeverity": false,
+    "invented3DGeometry": false,
+    "aiReconstructionIsFact": false
+  },
+
+  "monument": {
+    "name": "Sun Temple, Konârak",
+    "location": {
+      "district": "Puri",
+      "state": "Odisha",
+      "country": "India",
+      "latitude": 19.8875,
+      "longitude": 86.09472
+    },
+    "historicalPeriod": "13th century",
+    "ruler": "Narasimha Deva I",
+    "dynasty": "Ganga dynasty",
+    "unesco": {
+      "inscriptionYear": 1984,
+      "criteria": ["i", "iii", "vi"],
+      "propertyAreaHa": 10.62
+    },
+    "architecturalConcept": {
+      "representation": "Chariot of Surya",
+      "wheels": 24,
+      "wheelDiameterApproxMeters": 3,
+      "horses": 6
+    }
+  },
+
+  "protection": {
+    "law": "Ancient Monuments and Archaeological Sites and Remains (AMASR) Act, 1958",
+    "rules": "AMASR Rules, 1959",
+    "prohibitedZoneMeters": 100,
+    "regulatedZoneMeters": 200,
+    "conservationAuthority": "Archaeological Survey of India"
+  },
+
+  "components": [
+    {
+      "id": "vimana",
+      "name": "Vimana",
+      "type": "principal_sanctuary",
+      "documentedHistoricalChange": {
+        "period": "19th century",
+        "description": "High tower and shikhara were razed."
+      }
+    },
+    {
+      "id": "jagamohana",
+      "name": "Jagamohana",
+      "type": "audience_hall",
+      "documentedIssues": [
+        "stone loosening",
+        "water penetration",
+        "historical stone fall"
+      ],
+      "documentedConservation": [
+        {
+          "year": 2003,
+          "description": "Major conservation and restoration work reported; property stabilised."
+        }
+      ]
+    },
+    {
+      "id": "natmandir",
+      "name": "Natmandir",
+      "type": "dance_hall",
+      "documentedStatus": "unroofed"
+    },
+    {
+      "id": "carved-wheels",
+      "name": "Carved Wheels",
+      "type": "architectural_sculpture",
+      "quantity": 24,
+      "diameterApproxMeters": 3
+    },
+    {
+      "id": "stone-horses",
+      "name": "Stone Horses",
+      "type": "architectural_sculpture",
+      "quantity": 6
+    },
+    {
+      "id": "plinth-reliefs",
+      "name": "Plinth Reliefs",
+      "type": "sculptural_relief"
+    },
+    {
+      "id": "subsidiary-structures",
+      "name": "Subsidiary Structures",
+      "type": "supporting_structures"
+    },
+    {
+      "id": "gates-towers",
+      "name": "Gates and Towers",
+      "type": "site_structures"
+    }
+  ],
+
+  "timeline": [
+    {
+      "date": "13th century",
+      "eventType": "Construction",
+      "title": "Construction of Sun Temple",
+      "verification": "verified"
+    },
+    {
+      "date": "19th century",
+      "eventType": "Historical Change",
+      "title": "Vimana Shikhara Loss",
+      "verification": "verified"
+    },
+    {
+      "date": "1984",
+      "eventType": "Heritage Recognition",
+      "title": "UNESCO World Heritage Inscription",
+      "verification": "verified"
+    },
+    {
+      "date": "1996-1997",
+      "eventType": "Damage",
+      "title": "Foundation Subsidence",
+      "verification": "verified"
+    },
+    {
+      "date": "1997",
+      "eventType": "Damage Assessment",
+      "title": "Structural Concerns and Emergency Assistance",
+      "verification": "verified"
+    },
+    {
+      "date": "1998-09-19",
+      "eventType": "Damage",
+      "title": "Approx. 2-Ton Stone Fall at Jagamohan",
+      "verification": "verified"
+    },
+    {
+      "date": "1999",
+      "eventType": "Damage Assessment",
+      "title": "Continued Deterioration",
+      "verification": "verified"
+    },
+    {
+      "date": "2000",
+      "eventType": "Monitoring",
+      "title": "ICOMOS Reactive Monitoring Mission",
+      "verification": "verified"
+    },
+    {
+      "date": "2000",
+      "eventType": "Conservation Assessment",
+      "title": "No Immediate Structural Threat Found",
+      "verification": "verified"
+    },
+    {
+      "date": "2003",
+      "eventType": "Conservation",
+      "title": "Jagamohana Conservation and Stabilisation",
+      "verification": "verified"
+    },
+    {
+      "date": "2012",
+      "eventType": "Monitoring",
+      "title": "Periodic Conservation and Management Reporting",
+      "verification": "verified"
+    },
+    {
+      "date": "2021",
+      "eventType": "Conservation",
+      "title": "ASI Conservation Measures",
+      "verification": "verified"
+    },
+    {
+      "date": "2023",
+      "eventType": "Monitoring",
+      "title": "UNESCO Periodic Reporting Cycle 3",
+      "verification": "verified"
+    },
+    {
+      "date": "2026",
+      "eventType": "Current Reference",
+      "title": "Current Government Heritage Record",
+      "isHistoricalEvent": false,
+      "verification": "verified"
+    }
+  ],
+
+  "damageEvents": [
+    {
+      "date": "1996-1997",
+      "component": "Temple structure",
+      "type": "foundation_subsidence",
+      "severity": "not-assigned",
+      "verification": "verified"
+    },
+    {
+      "date": "1996-1997",
+      "component": "Temple structure",
+      "type": "stone_displacement",
+      "severity": "not-assigned",
+      "verification": "verified"
+    },
+    {
+      "date": "1997",
+      "component": "Stone walls",
+      "type": "cracking",
+      "severity": "not-assigned",
+      "verification": "verified"
+    },
+    {
+      "date": "1997",
+      "component": "Stone walls",
+      "type": "fragment_loss",
+      "severity": "not-assigned",
+      "verification": "verified"
+    },
+    {
+      "date": "1998-09-19",
+      "component": "Jagamohana porch",
+      "location": "North-east side",
+      "type": "stone_fall",
+      "weightApproxTons": 2,
+      "severity": "not-assigned",
+      "verification": "verified"
+    },
+    {
+      "date": "2000",
+      "component": "Temple structure",
+      "type": "stone_loosening",
+      "severity": "not-assigned",
+      "status": "monitoring_required",
+      "verification": "verified"
+    },
+    {
+      "date": "2000",
+      "component": "Temple structure",
+      "type": "water_penetration",
+      "severity": "not-assigned",
+      "status": "monitoring_required",
+      "verification": "verified"
+    },
+    {
+      "date": "2000",
+      "component": "Site green belt",
+      "type": "cyclone_damage",
+      "severity": "not-assigned",
+      "verification": "verified"
+    }
+  ],
+
+  "conditions": [
+    "saline breeze",
+    "sand blasting",
+    "vehicular movements",
+    "microbiological growth",
+    "rain and water penetration",
+    "water logging",
+    "flooding",
+    "storms and cyclones",
+    "structural settlement",
+    "stone loosening",
+    "soil erosion",
+    "metal cramp corrosion",
+    "vegetative intrusion",
+    "mechanical wind erosion",
+    "tourism pressure",
+    "development pressure",
+    "local population growth"
+  ],
+
+  "conservationActions": [
+    {
+      "year": 2003,
+      "action": "Major conservation and restoration work on Jagamohana platform",
+      "verification": "verified"
+    },
+    {
+      "year": 2012,
+      "action": "CBRI studies and investigations",
+      "verification": "verified"
+    },
+    {
+      "year": 2012,
+      "action": "Unpaved drains and soak pits for water management",
+      "verification": "verified"
+    },
+    {
+      "year": 2012,
+      "action": "Measures related to saline action control",
+      "verification": "verified"
+    },
+    {
+      "year": 2021,
+      "action": "Surface cleaning",
+      "verification": "verified"
+    },
+    {
+      "year": 2021,
+      "action": "Stone consolidation and strengthening",
+      "verification": "verified"
+    },
+    {
+      "year": 2021,
+      "action": "Water pumping",
+      "verification": "verified"
+    },
+    {
+      "year": 2021,
+      "action": "Periodic biocidal treatment",
+      "verification": "verified"
+    },
+    {
+      "year": 2021,
+      "action": "Vegetation control and plantation",
+      "verification": "verified"
+    }
+  ],
+
+  "spatialAssets": [
+    {
+      "id": "konark-site-plan-1984",
+      "type": "site_plan",
+      "year": 1984,
+      "verification": "verified",
+      "url": "https://whc.unesco.org/en/documents/103350"
+    },
+    {
+      "id": "konark-authoritative-3d",
+      "type": "3d_model",
+      "status": "not-yet-sourced",
+      "verification": "not-verified",
+      "url": null
+    }
+  ],
+
+  "reconstruction": {
+    "enabled": true,
+    "type": "evidence_based_ai_hypothesis",
+    "historicalFact": false,
+    "humanVerificationRequired": true,
+    "confidence": null
+  },
+
+  "sourceRegistry": [
+    {
+      "year": 1984,
+      "organization": "UNESCO World Heritage Centre",
+      "type": "World Heritage Record",
+      "url": "https://whc.unesco.org/en/list/246"
+    },
+    {
+      "year": 1984,
+      "organization": "ICOMOS / UNESCO",
+      "type": "Advisory Body Evaluation",
+      "url": "https://whc.unesco.org/en/documents/153031"
+    },
+    {
+      "year": 1984,
+      "organization": "UNESCO World Heritage Centre",
+      "type": "Detailed Site Plan",
+      "url": "https://whc.unesco.org/en/documents/103350"
+    },
+    {
+      "year": 1997,
+      "organization": "UNESCO World Heritage Centre",
+      "type": "State of Conservation",
+      "url": "https://whc.unesco.org/en/soc/2143"
+    },
+    {
+      "year": 1999,
+      "organization": "UNESCO World Heritage Centre",
+      "type": "World Heritage Committee Decision",
+      "url": "https://whc.unesco.org/en/decisions/5737"
+    },
+    {
+      "year": 2000,
+      "organization": "UNESCO World Heritage Centre",
+      "type": "World Heritage Committee Decision",
+      "url": "https://whc.unesco.org/en/decisions/5825"
+    },
+    {
+      "year": 2003,
+      "organization": "UNESCO World Heritage Centre",
+      "type": "Periodic Report",
+      "url": "https://whc.unesco.org/document/162851"
+    },
+    {
+      "year": 2012,
+      "organization": "UNESCO World Heritage Centre",
+      "type": "Periodic Report",
+      "url": "https://whc.unesco.org/document/164621"
+    },
+    {
+      "year": 2012,
+      "organization": "Ministry of Culture, Government of India",
+      "type": "Government Record",
+      "url": "https://www.pib.gov.in/newsite/PrintRelease.aspx?lang=2&reg=48&relid=86496"
+    },
+    {
+      "year": 2021,
+      "organization": "Ministry of Culture, Government of India",
+      "type": "Government Record",
+      "url": "https://www.pib.gov.in/pressreleaseshare.aspx?lang=2&prid=1703558&reg=48"
+    },
+    {
+      "year": 2023,
+      "organization": "UNESCO World Heritage Centre",
+      "type": "Periodic Report",
+      "url": "https://whc.unesco.org/document/216402"
+    },
+    {
+      "year": 2026,
+      "organization": "Ministry of Culture, Government of India",
+      "type": "Current Government Reference",
+      "url": "https://culture.gov.in/sun-temple-konarak",
+      "isHistoricalEvidence": false
+    }
+  ]
+}

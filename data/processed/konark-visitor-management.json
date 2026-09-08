@@ -1,0 +1,108 @@
+{
+  "schemaVersion": "1.0.0",
+  "monumentId": "konark-sun-temple",
+
+  "historicalVisitorManagement": {
+    "reportYear": 2003,
+    "referenceVisitorYear": 2001,
+    "visitorCount": 813700,
+    "visitorUnit": "visits",
+    "verification": "verified",
+    "source": {
+      "organization": "UNESCO World Heritage Centre",
+      "document": "Periodic Reporting Cycle 1, Section II (Summary)",
+      "url": "https://whc.unesco.org/document/162851"
+    }
+  },
+
+  "documentedVisitorFacilities": {
+    "existingBasicAmenities": true,
+    "verification": "verified"
+  },
+
+  "documentedManagementNeeds": [
+    {
+      "id": "need-disabled-access",
+      "item": "Elevator for handicapped visitors",
+      "category": "accessibility",
+      "status": "identified_need",
+      "verification": "verified"
+    },
+    {
+      "id": "need-tourist-information",
+      "item": "Kiosk for tourist information",
+      "category": "visitor_information",
+      "status": "identified_need",
+      "verification": "verified"
+    },
+    {
+      "id": "need-amenity-location-planning",
+      "item": "Planning for locations of visitor amenities",
+      "category": "site_planning",
+      "status": "identified_need",
+      "verification": "verified"
+    },
+    {
+      "id": "need-tourist-movement",
+      "item": "Defined movement pattern for tourists",
+      "category": "visitor_flow",
+      "status": "identified_need",
+      "verification": "verified"
+    },
+    {
+      "id": "need-pedestrian-road",
+      "item": "Pedestrian road",
+      "category": "visitor_flow",
+      "status": "identified_need",
+      "verification": "verified"
+    },
+    {
+      "id": "need-electric-vehicles",
+      "item": "Electric vehicles",
+      "category": "visitor_transport",
+      "status": "identified_need",
+      "verification": "verified"
+    },
+    {
+      "id": "need-alternative-attractions",
+      "item": "Alternative supporting attractions",
+      "category": "visitor_distribution",
+      "status": "identified_need",
+      "verification": "verified"
+    }
+  ],
+
+  "publicUsePlanning": {
+    "surroundingAreaDevelopmentPlan": true,
+    "statusAtReporting": "prepared_and_in_final_approval_stage",
+    "verification": "verified"
+  },
+
+  "heritageCommunication": {
+    "documentedActivities": [
+      "World Heritage Day programmes",
+      "World Heritage Week programmes",
+      "Awareness programmes",
+      "Competitions",
+      "Debates",
+      "Seminars"
+    ],
+    "verification": "verified"
+  },
+
+  "currentIntegration": {
+    "travelModule": true,
+    "visitorFlowModule": true,
+    "accessibilityModule": true,
+    "tourismPressureContext": true,
+    "heritageInterpretation": true
+  },
+
+  "dataRules": {
+    "visitorCountIsNotDamageEvidence": true,
+    "identifiedManagementNeedIsNotProofOfCompletion": true,
+    "historicManagementPlanMustRetainItsReportYear": true,
+    "currentVisitorFacilitiesMustNotBeInferredFromOldReport": true,
+    "visitorPressureMustBeKeptSeparateFromStructuralDamage": true
+  }
+}

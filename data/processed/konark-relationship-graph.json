@@ -1,0 +1,325 @@
+{
+  "schemaVersion": "1.0.0",
+  "monumentId": "konark-sun-temple",
+
+  "entityTypes": [
+    "monument",
+    "component",
+    "timeline_event",
+    "damage_event",
+    "condition",
+    "monitoring_record",
+    "conservation_action",
+    "conservation_project",
+    "technical_survey",
+    "evidence",
+    "source",
+    "media",
+    "3d_asset",
+    "restricted_zone",
+    "claim",
+    "reconstruction"
+  ],
+
+  "relationships": [
+    {
+      "id": "rel-001",
+      "from": "monument:konark-sun-temple",
+      "relation": "has_component",
+      "to": "component:vimana"
+    },
+    {
+      "id": "rel-002",
+      "from": "monument:konark-sun-temple",
+      "relation": "has_component",
+      "to": "component:jagamohana"
+    },
+    {
+      "id": "rel-003",
+      "from": "monument:konark-sun-temple",
+      "relation": "has_component",
+      "to": "component:natmandir"
+    },
+    {
+      "id": "rel-004",
+      "from": "monument:konark-sun-temple",
+      "relation": "has_timeline_event",
+      "to": "timeline:konark-13th-century-construction"
+    },
+    {
+      "id": "rel-005",
+      "from": "monument:konark-sun-temple",
+      "relation": "has_timeline_event",
+      "to": "timeline:konark-1984-world-heritage"
+    },
+    {
+      "id": "rel-006",
+      "from": "monument:konark-sun-temple",
+      "relation": "has_damage_event",
+      "to": "damage:damage-konark-1996-97-foundation-subsidence"
+    },
+    {
+      "id": "rel-007",
+      "from": "monument:konark-sun-temple",
+      "relation": "has_damage_event",
+      "to": "damage:damage-konark-1998-stone-fall"
+    },
+
+    {
+      "id": "rel-008",
+      "from": "damage:damage-konark-1998-stone-fall",
+      "relation": "affected_component",
+      "to": "component:jagamohana"
+    },
+    {
+      "id": "rel-009",
+      "from": "damage:damage-konark-1997-wall-cracking",
+      "relation": "associated_condition",
+      "to": "condition:condition-metal-cramp-corrosion"
+    },
+    {
+      "id": "rel-010",
+      "from": "condition:condition-saline-breeze",
+      "relation": "contributes_to",
+      "to": "condition:condition-metal-cramp-corrosion"
+    },
+    {
+      "id": "rel-011",
+      "from": "condition:condition-metal-cramp-corrosion",
+      "relation": "associated_with",
+      "to": "damage:damage-konark-1997-wall-cracking"
+    },
+
+    {
+      "id": "rel-012",
+      "from": "damage:damage-konark-1996-97-foundation-subsidence",
+      "relation": "documented_by",
+      "to": "evidence:evidence-unesco-soc-1997"
+    },
+    {
+      "id": "rel-013",
+      "from": "damage:damage-konark-1998-stone-fall",
+      "relation": "documented_by",
+      "to": "evidence:evidence-unesco-decision-1999"
+    },
+    {
+      "id": "rel-014",
+      "from": "damage:damage-konark-2000-stone-loosening",
+      "relation": "documented_by",
+      "to": "evidence:evidence-unesco-decision-2000"
+    },
+
+    {
+      "id": "rel-015",
+      "from": "monitoring:monitoring-konark-2000",
+      "relation": "examines",
+      "to": "damage:damage-konark-2000-stone-loosening"
+    },
+    {
+      "id": "rel-016",
+      "from": "monitoring:monitoring-konark-2000",
+      "relation": "examines",
+      "to": "damage:damage-konark-2000-water-penetration"
+    },
+
+    {
+      "id": "rel-017",
+      "from": "conservation:conservation-2003-jagamohana",
+      "relation": "addresses",
+      "to": "component:jagamohana"
+    },
+    {
+      "id": "rel-018",
+      "from": "conservation:conservation-2012-drainage",
+      "relation": "addresses",
+      "to": "condition:condition-water-logging"
+    },
+    {
+      "id": "rel-019",
+      "from": "conservation:conservation-2021-stone-strengthening",
+      "relation": "addresses",
+      "to": "condition:condition-stone-loosening"
+    },
+    {
+      "id": "rel-020",
+      "from": "conservation:conservation-2021-water-removal",
+      "relation": "addresses",
+      "to": "condition:condition-water-logging"
+    },
+    {
+      "id": "rel-021",
+      "from": "conservation:conservation-2021-biocidal",
+      "relation": "addresses",
+      "to": "condition:condition-microbiological-growth"
+    },
+    {
+      "id": "rel-022",
+      "from": "conservation:conservation-2021-vegetation",
+      "relation": "addresses",
+      "to": "condition:condition-vegetative-intrusion"
+    },
+
+    {
+      "id": "rel-023",
+      "from": "technical:cbri-konark-gpr",
+      "relation": "investigates",
+      "to": "monument:konark-sun-temple"
+    },
+    {
+      "id": "rel-024",
+      "from": "technical:cbri-konark-laser-scanning",
+      "relation": "documents",
+      "to": "monument:konark-sun-temple"
+    },
+    {
+      "id": "rel-025",
+      "from": "technical:cbri-konark-damage-mapping",
+      "relation": "maps",
+      "to": "damage:damage-konark-1997-wall-cracking"
+    },
+
+    {
+      "id": "rel-026",
+      "from": "3d:konark-site-plan-1984",
+      "relation": "spatial_reference_for",
+      "to": "monument:konark-sun-temple"
+    },
+    {
+      "id": "rel-027",
+      "from": "3d:konark-authoritative-3d",
+      "relation": "future_geometry_for",
+      "to": "monument:konark-sun-temple"
+    },
+
+    {
+      "id": "rel-028",
+      "from": "claim:claim-012",
+      "relation": "describes",
+      "to": "damage:damage-konark-1998-stone-fall"
+    },
+    {
+      "id": "rel-029",
+      "from": "claim:claim-017",
+      "relation": "describes",
+      "to": "conservation:conservation-2003-jagamohana"
+    },
+    {
+      "id": "rel-030",
+      "from": "claim:claim-022",
+      "relation": "describes",
+      "to": "state:konark-2021"
+    },
+
+    {
+      "id": "rel-031",
+      "from": "reconstruction:reconstruction-vimana-shikhara",
+      "relation": "reconstructs",
+      "to": "component:vimana"
+    },
+    {
+      "id": "rel-032",
+      "from": "reconstruction:reconstruction-vimana-shikhara",
+      "relation": "based_on",
+      "to": "claim:claim-006"
+    },
+    {
+      "id": "rel-033",
+      "from": "reconstruction:reconstruction-vimana-shikhara",
+      "relation": "requires",
+      "to": "evidence:evidence-unesco-main-record"
+    },
+
+    {
+      "id": "rel-034",
+      "from": "zone:konark-prohibited-zone",
+      "relation": "protects",
+      "to": "monument:konark-sun-temple"
+    },
+    {
+      "id": "rel-035",
+      "from": "zone:konark-regulated-zone",
+      "relation": "protects",
+      "to": "monument:konark-sun-temple"
+    },
+
+    {
+      "id": "rel-036",
+      "from": "media:konark-img-005",
+      "relation": "visually_references",
+      "to": "monument:konark-sun-temple"
+    },
+    {
+      "id": "rel-037",
+      "from": "media:konark-img-005",
+      "relation": "may_support_future_spatial_annotation",
+      "to": "monument:konark-sun-temple"
+    }
+  ],
+
+  "relationshipRules": {
+    "damageToEvidenceRequired": true,
+    "claimToEvidenceRequired": true,
+    "reconstructionToEvidenceRequired": true,
+    "componentToDamageAllowed": true,
+    "componentToConservationAllowed": true,
+    "conditionToConservationAllowed": true,
+    "mediaToHistoricalEventAutomaticLink": false,
+    "3dToDamageAutomaticLink": false,
+    "unsupportedRelationshipCreation": false
+  },
+
+  "queryPatterns": [
+    {
+      "name": "component_history",
+      "query": "Get component → timeline → damage → conservation → evidence"
+    },
+    {
+      "name": "damage_provenance",
+      "query": "Get damage → component → claim → evidence → source"
+    },
+    {
+      "name": "reconstruction_provenance",
+      "query": "Get reconstruction → historical claim → evidence → uncertainty"
+    },
+    {
+      "name": "current_condition",
+      "query": "Get latest current-state record → source → reporting date"
+    },
+    {
+      "name": "risk_chain",
+      "query": "Get condition/risk → documented effect → conservation action → monitoring"
+    }
+  ],
+
+  "frontendFlows": {
+    "selectComponent": [
+      "component",
+      "timeline",
+      "damage",
+      "conservation",
+      "evidence",
+      "3d"
+    ],
+    "selectDamage": [
+      "damage",
+      "component",
+      "condition",
+      "evidence",
+      "timeline"
+    ],
+    "selectReconstruction": [
+      "reconstruction",
+      "historical_claim",
+      "evidence",
+      "confidence"
+    ],
+    "whyAmISeeingThis": [
+      "observation",
+      "claim",
+      "evidence",
+      "inference",
+      "confidence",
+      "verification"
+    ]
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "monumentId": "konark-sun-temple",
+  "snapshotDate": "2026-09-08",
+
+  "conditionAssessment": {
+    "overallStatus": "good_state_of_preservation",
+    "assessmentBasis": "government_reported",
+    "monumentSpecificLatestDetailedAssessmentYear": 2021,
+    "latestNationalASIConditionStatementYear": 2026,
+    "standardizedSeverityScore": null
+  },
+
+  "conservationStatus": {
+    "responsibleAgency": "Archaeological Survey of India",
+    "process": "continuous",
+    "regularInspection": true,
+    "regularMaintenance": true,
+    "restorationAsRequired": true,
+    "verification": "verified"
+  },
+
+  "documentedConservationMeasures": [
+    {
+      "measure": "Surface cleaning using paper pulp method",
+      "sourceYear": 2021,
+      "verification": "verified"
+    },
+    {
+      "measure": "Stone consolidation and strengthening wherever needed",
+      "sourceYear": 2021,
+      "verification": "verified"
+    },
+    {
+      "measure": "Plantation around the monument to reduce mechanical wind erosion",
+      "sourceYear": 2021,
+      "verification": "verified"
+    },
+    {
+      "measure": "Water removal using pumping sets",
+      "sourceYear": 2021,
+      "verification": "verified"
+    },
+    {
+      "measure": "Periodic biocidal treatment for vegetative intrusion",
+      "sourceYear": 2021,
+      "verification": "verified"
+    }
+  ],
+
+  "2026GovernmentContext": {
+    "statement": "ASI undertakes regular conservation, preservation, protection, restoration and maintenance of centrally protected monuments according to need and available resources.",
+    "verification": "verified",
+    "source": {
+      "organization": "Ministry of Culture, Government of India",
+      "publicationDate": "2026-03-12",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2238875"
+    }
+  },
+
+  "interpretationLimits": {
+    "newDamageEventEstablished": false,
+    "currentDamagePercentageAvailable": false,
+    "componentSeverityScoreAvailable": false,
+    "current3DConditionModelAvailable": false,
+    "note": "The 2026 government record provides a general ASI conservation-status statement; it does not establish a new Konark-specific physical damage percentage or component-level severity score."
+  },
+
+  "historicalDataSeparation": {
+    "1996_2000_damageRecords": "historical_documentation",
+    "2003_stabilisation": "historical_conservation_record",
+    "2012_conservation_measures": "historical_conservation_record",
+    "2021_condition_and_conservation": "monument_specific_government_record",
+    "2026_status": "current_government_context"
+  },
+
+  "sources": [
+    {
+      "organization": "Ministry of Culture, Government of India",
+      "year": 2021,
+      "title": "Conservation of the Sun Temple at Konark",
+      "url": "https://www.pib.gov.in/pressreleaseshare.aspx?lang=2&prid=1703558&reg=48",
+      "verification": "verified"
+    },
+    {
+      "organization": "Ministry of Culture, Government of India",
+      "year": 2026,
+      "title": "Conservation of Protected Monuments",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2238875",
+      "verification": "verified"
+    }
+  ]
+}

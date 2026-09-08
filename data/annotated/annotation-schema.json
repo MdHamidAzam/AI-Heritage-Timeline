@@ -1,0 +1,153 @@
+{
+  "schemaVersion": "1.0.0",
+  "datasetId": "konark-annotations",
+  "monumentId": "konark-sun-temple",
+
+  "annotationPolicy": {
+    "realSourceOnly": true,
+    "inventedGeometry": false,
+    "inventedDamageCoordinates": false,
+    "humanReviewRequired": true
+  },
+
+  "annotationTypes": [
+    {
+      "id": "component",
+      "name": "Architectural Component",
+      "purpose": "Identify a documented architectural component.",
+      "geometryType": [
+        "polygon",
+        "bounding_box",
+        "point"
+      ]
+    },
+    {
+      "id": "damage",
+      "name": "Damage Region",
+      "purpose": "Mark a physically documented damaged or deteriorated region.",
+      "geometryType": [
+        "polygon",
+        "bounding_box",
+        "point"
+      ],
+      "requiredEvidence": true
+    },
+    {
+      "id": "restricted_zone",
+      "name": "Restricted / Regulated Zone",
+      "purpose": "Represent officially documented protection or access-management zones.",
+      "geometryType": [
+        "polygon",
+        "circle",
+        "point"
+      ],
+      "requiredEvidence": true
+    },
+    {
+      "id": "evidence_region",
+      "name": "Evidence Region",
+      "purpose": "Link a visible image or spatial region to its documentary evidence.",
+      "geometryType": [
+        "polygon",
+        "bounding_box",
+        "point"
+      ],
+      "requiredEvidence": true
+    }
+  ],
+
+  "annotations": [
+    {
+      "id": "annotation-vimana",
+      "type": "component",
+      "componentId": "vimana",
+      "geometry": null,
+      "geometryStatus": "not-yet-annotated",
+      "source": {
+        "type": "UNESCO_site_documentation",
+        "url": "https://whc.unesco.org/en/list/246"
+      }
+    },
+    {
+      "id": "annotation-jagamohana",
+      "type": "component",
+      "componentId": "jagamohana",
+      "geometry": null,
+      "geometryStatus": "not-yet-annotated",
+      "source": {
+        "type": "UNESCO_site_documentation",
+        "url": "https://whc.unesco.org/en/list/246"
+      }
+    },
+    {
+      "id": "annotation-natmandir",
+      "type": "component",
+      "componentId": "natmandir",
+      "geometry": null,
+      "geometryStatus": "not-yet-annotated",
+      "source": {
+        "type": "UNESCO_site_documentation",
+        "url": "https://whc.unesco.org/en/list/246"
+      }
+    },
+    {
+      "id": "annotation-jagamohana-stone-fall",
+      "type": "damage",
+      "damageEventId": "damage-konark-1998-stone-fall",
+      "componentId": "jagamohana",
+      "geometry": null,
+      "geometryStatus": "location-documented-but-image-coordinate-not-established",
+      "source": {
+        "type": "UNESCO_decision",
+        "url": "https://whc.unesco.org/en/decisions/5737"
+      }
+    },
+    {
+      "id": "annotation-1997-wall-cracking",
+      "type": "damage",
+      "damageEventId": "damage-konark-1997-wall-cracking",
+      "componentId": null,
+      "geometry": null,
+      "geometryStatus": "not-yet-annotated",
+      "source": {
+        "type": "UNESCO_state_of_conservation",
+        "url": "https://whc.unesco.org/en/soc/2143"
+      }
+    },
+    {
+      "id": "annotation-water-logging-zone",
+      "type": "evidence_region",
+      "conditionId": "condition-water-logging",
+      "geometry": null,
+      "geometryStatus": "not-yet-annotated",
+      "source": {
+        "type": "Government_of_India",
+        "url": "https://www.pib.gov.in/newsite/PrintRelease.aspx?lang=2&reg=48&relid=86496"
+      }
+    },
+    {
+      "id": "annotation-protection-zone",
+      "type": "restricted_zone",
+      "geometry": null,
+      "geometryStatus": "requires_official_spatial_boundary",
+      "distanceMeters": 100,
+      "zoneType": "prohibited",
+      "source": {
+        "type": "UNESCO_property_record",
+        "url": "https://whc.unesco.org/en/list/246"
+      }
+    },
+    {
+      "id": "annotation-regulated-zone",
+      "type": "restricted_zone",
+      "geometry": null,
+      "geometryStatus": "requires_official_spatial_boundary",
+      "distanceMeters": 200,
+      "zoneType": "regulated",
+      "source": {
+        "type": "UNESCO_property_record",
+        "url": "https://whc.unesco.org/en/list/246"
+      }
+    }
+  ]
+}

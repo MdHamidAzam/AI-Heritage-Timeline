@@ -1,0 +1,55 @@
+{
+  "reportVersion": "1.0.0",
+  "datasetId": "darbhanga-fort",
+  "datasetName": "Brick Masonry Surface Damage Dataset Collected from Battledore of the Darbhanga Fort",
+  "sourceUrl": "https://data.mendeley.com/datasets/s6t5nn73bm/1",
+  "license": "CC BY 4.0",
+  "imageCountRegistered": 7886,
+  "sourceClasses": [
+    "crack",
+    "spalling",
+    "vegetation",
+    "background"
+  ],
+  "taxonomyMappings": [
+    {
+      "sourceLabel": "crack",
+      "normalizedLabel": "crack",
+      "datasetId": "darbhanga-fort"
+    },
+    {
+      "sourceLabel": "spalling",
+      "normalizedLabel": "spalling",
+      "datasetId": "darbhanga-fort"
+    },
+    {
+      "sourceLabel": "vegetation",
+      "normalizedLabel": "vegetation",
+      "datasetId": "darbhanga-fort"
+    }
+  ],
+  "splits": {
+    "train": null,
+    "validation": null,
+    "test": null,
+    "sourceProvided": false
+  },
+  "localFiles": {
+    "localPath": "ml/datasets/darbhanga-fort/source",
+    "localDirectoryExists": true,
+    "imageFiles": [],
+    "annotationFiles": [],
+    "imagesAvailableLocally": false,
+    "annotationsAvailableLocally": false
+  },
+  "annotationValidation": {
+    "valid": false,
+    "annotationCount": 0,
+    "errors": [
+      "DATASET REGISTERED — SOURCE FILES NOT LOCALLY AVAILABLE"
+    ]
+  },
+  "validationStatus": "DATASET REGISTERED — SOURCE FILES NOT LOCALLY AVAILABLE",
+  "trainingReadiness": "NOT READY — SOURCE FILES NOT LOCALLY AVAILABLE",
+  "modelStatus": "MODEL NOT DEPLOYED"
+}

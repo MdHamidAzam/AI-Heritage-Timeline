@@ -1,0 +1,91 @@
+{
+  "schemaVersion": "1.0.0",
+  "monumentId": "konark-sun-temple",
+  "snapshotDate": "2026-09-08",
+
+  "amenitiesProgramme": {
+    "programme": "Adopt a Heritage 2.0",
+    "administeringAgency": "Archaeological Survey of India",
+    "purpose": "Development and provision of visitor-friendly amenities at protected monuments.",
+    "conservationBoundary": {
+      "partnerRole": "Non-conservational amenities only",
+      "asiRole": "Archaeological conservation and preservation",
+      "verification": "verified"
+    }
+  },
+
+  "konarkProject": {
+    "projectName": "Providing of public amenities like smart toilet, childcare room and rest room for senior citizens at Sun Temple, Konark, District Puri",
+    "state": "Odisha",
+    "district": "Puri",
+    "partnerAgency": "Armoured Vehicles Nigam Limited",
+    "projectType": "Public Amenities",
+    "projectCostLakh": 50.0,
+    "status": "ongoing",
+    "verification": "verified",
+    "source": {
+      "organization": "Ministry of Culture, Government of India",
+      "title": "Conservation of National Culture Heritage under NCF and AMASR Act",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2297463"
+    }
+  },
+
+  "latestReportedFinancialStatus": {
+    "reportedExpenditureLakh": 39.86,
+    "status": "ongoing",
+    "verification": "verified",
+    "source": {
+      "organization": "Ministry of Culture, Government of India",
+      "title": "NCF Project Status",
+      "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/mar/doc202639817601.pdf"
+    },
+    "interpretation": "The reported ₹39.86 lakh figure is associated with the listed ongoing public-amenities project; it is not treated as structural conservation expenditure."
+  },
+
+  "amenitiesScope": [
+    {
+      "item": "Smart toilet",
+      "category": "visitor_amenity"
+    },
+    {
+      "item": "Childcare room",
+      "category": "visitor_amenity"
+    },
+    {
+      "item": "Rest room for senior citizens",
+      "category": "accessibility_and_comfort"
+    }
+  ],
+
+  "conservationResponsibility": {
+    "agency": "Archaeological Survey of India",
+    "archaeologicalConservation": true,
+    "structuralPreservation": true,
+    "restoration": true,
+    "verification": "verified",
+    "source": {
+      "organization": "Ministry of Culture, Government of India",
+      "title": "Conservation of Protected Monuments",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2238875"
+    }
+  },
+
+  "dataInterpretationRules": {
+    "amenityProjectIsNotStructuralConservation": true,
+    "partnerFundingIsNotAutomaticallyConservationExpenditure": true,
+    "ongoingProjectDoesNotMeanCompleted": true,
+    "reportedExpenditureDoesNotEqualDamageRepairCost": true,
+    "doNotInferVisitorImpactFromAmenityProject": true,
+    "doNotInferCurrentPhysicalConditionFromProjectCost": true
+  },
+
+  "frontendUse": {
+    "showCurrentActivity": true,
+    "showVisitorAmenities": true,
+    "showProjectStatus": true,
+    "showPartner": true,
+    "showCost": true,
+    "showSource": true,
+    "showConservationResponsibility": true
+  }
+}

@@ -1,0 +1,192 @@
+{
+  "schemaVersion": "1.0.0",
+  "monumentId": "konark-sun-temple",
+
+  "displayClassification": {
+    "historical_fact": {
+      "label": "Historical Fact",
+      "sourceRequired": true,
+      "verificationRequired": true,
+      "aiGeneratedAllowed": false
+    },
+
+    "documented_damage": {
+      "label": "Documented Damage",
+      "sourceRequired": true,
+      "verificationRequired": true,
+      "spatialEvidencePreferred": true,
+      "aiGeneratedAllowed": false
+    },
+
+    "condition": {
+      "label": "Documented Condition",
+      "sourceRequired": true,
+      "verificationRequired": true,
+      "currentDateRequiredForCurrentClaim": true
+    },
+
+    "conservation_action": {
+      "label": "Conservation Action",
+      "sourceRequired": true,
+      "verificationRequired": true,
+      "effectivenessClaimAllowed": false
+    },
+
+    "monitoring_record": {
+      "label": "Monitoring Record",
+      "sourceRequired": true,
+      "verificationRequired": true
+    },
+
+    "current_reference": {
+      "label": "Current Official Reference",
+      "sourceRequired": true,
+      "verificationRequired": true,
+      "historicalEvent": false
+    },
+
+    "ai_inference": {
+      "label": "AI Inference",
+      "sourceRequired": true,
+      "verificationRequired": true,
+      "historicalFact": false,
+      "uncertaintyRequired": true
+    },
+
+    "ai_reconstruction": {
+      "label": "AI Reconstruction Hypothesis",
+      "sourceRequired": true,
+      "historicalFact": false,
+      "humanReviewRequired": true,
+      "uncertaintyRequired": true
+    }
+  },
+
+  "sourceHierarchy": [
+    {
+      "rank": 1,
+      "sourceClass": "UNESCO",
+      "trustLevel": "primary_authoritative"
+    },
+    {
+      "rank": 2,
+      "sourceClass": "ICOMOS",
+      "trustLevel": "primary_expert"
+    },
+    {
+      "rank": 3,
+      "sourceClass": "Government_of_India",
+      "trustLevel": "primary_official"
+    },
+    {
+      "rank": 4,
+      "sourceClass": "ASI",
+      "trustLevel": "primary_conservation_authority"
+    },
+    {
+      "rank": 5,
+      "sourceClass": "CSIR_CBRI",
+      "trustLevel": "primary_technical"
+    },
+    {
+      "rank": 6,
+      "sourceClass": "Open_license_media",
+      "trustLevel": "visual_reference"
+    }
+  ],
+
+  "claimRules": [
+    {
+      "id": "rule-001",
+      "rule": "A current official webpage must not automatically become a historical event.",
+      "enforced": true
+    },
+    {
+      "id": "rule-002",
+      "rule": "A conservation action must not automatically imply a quantified reduction in damage.",
+      "enforced": true
+    },
+    {
+      "id": "rule-003",
+      "rule": "A modern photograph must not automatically prove when historical damage occurred.",
+      "enforced": true
+    },
+    {
+      "id": "rule-004",
+      "rule": "A textual damage description must not automatically become an exact image or 3D coordinate.",
+      "enforced": true
+    },
+    {
+      "id": "rule-005",
+      "rule": "AI-generated reconstruction must never be labelled as original historical geometry.",
+      "enforced": true
+    },
+    {
+      "id": "rule-006",
+      "rule": "Severity values require a documented scoring methodology.",
+      "enforced": true
+    },
+    {
+      "id": "rule-007",
+      "rule": "Visitor numbers are contextual risk information and do not independently prove physical damage.",
+      "enforced": true
+    },
+    {
+      "id": "rule-008",
+      "rule": "Unverified 3D geometry must be labelled as non-authoritative.",
+      "enforced": true
+    }
+  ],
+
+  "currentStatusRules": {
+    "latestOfficialReference": {
+      "date": "2026-09-03",
+      "sourceOrganization": "Ministry of Culture, Government of India",
+      "url": "https://culture.gov.in/sun-temple-konarak"
+    },
+
+    "latestGovernmentWideASIConditionContext": {
+      "date": "2026-03-12",
+      "statement": "Centrally protected monuments under ASI are regularly inspected and conservation, restoration and maintenance work is undertaken according to need and availability of resources.",
+      "source": {
+        "organization": "Ministry of Culture, Government of India",
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2238875"
+      }
+    },
+
+    "konarkSpecificDetailedConditionReference": {
+      "date": "2021-03-09",
+      "reportedStatus": "Good state of preservation due to regular care by ASI",
+      "source": {
+        "organization": "Ministry of Culture, Government of India",
+        "url": "https://www.pib.gov.in/pressreleaseshare.aspx?lang=2&prid=1703558&reg=48"
+      }
+    }
+  },
+
+  "apiResponseRequirements": {
+    "everyHistoricalClaimMustIncludeSource": true,
+    "everyDamageClaimMustIncludeSource": true,
+    "everyCurrentClaimMustIncludeDate": true,
+    "everyAIInferenceMustIncludeUncertainty": true,
+    "everyReconstructionMustIncludeHypothesisLabel": true,
+    "sourceLinkMustBeUserAccessible": true
+  },
+
+  "uiLabels": {
+    "verified": "Verified",
+    "governmentReported": "Government Reported",
+    "documented": "Documented",
+    "monitoring": "Monitoring Record",
+    "currentReference": "Current Official Reference",
+    "hypothesis": "AI Reconstruction Hypothesis",
+    "notVerified": "Not Yet Verified",
+    "notAssigned": "Not Assigned"
+  },
+
+  "audit": {
+    "created": "2026-09-08",
+    "purpose": "Prevent unsupported historical, damage, condition, spatial and AI claims from entering the public interface.",
+    "status": "active"
+  }
+}

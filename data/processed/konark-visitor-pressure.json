@@ -1,0 +1,55 @@
+{
+  "schemaVersion": "1.0.0",
+  "monumentId": "konark-sun-temple",
+
+  "visitorRecords": [
+    {
+      "id": "visitor-konark-2024-25-domestic",
+      "period": "2024-2025",
+      "visitorType": "domestic",
+      "visitorCount": 3571289,
+      "unit": "visits",
+      "source": {
+        "organization": "Archaeological Survey of India / Government of India",
+        "document": "Tourism Compendium",
+        "year": 2025,
+        "url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/sep/doc2025927648801.pdf"
+      },
+      "verification": "verified"
+    }
+  ],
+
+  "tourismPressureContext": {
+    "unescoIdentifiedAsThreat": true,
+    "threatCategory": "tourism_pressure",
+    "interpretation": "High visitor volume is contextual information relevant to tourism-pressure assessment, but visitor count alone does not establish physical damage to the monument.",
+    "source": {
+      "organization": "UNESCO World Heritage Centre",
+      "title": "Sun Temple, Konârak",
+      "url": "https://whc.unesco.org/en/list/246"
+    }
+  },
+
+  "aiUsage": {
+    "damagePredictionUse": "context_feature_only",
+    "directDamageInferenceFromVisitors": false,
+    "severityInferenceFromVisitorCount": false,
+    "correlationRequiresAdditionalEvidence": true
+  },
+
+  "dashboardMetrics": {
+    "showVisitorCount": true,
+    "showTourismPressureIndicator": true,
+    "showSource": true,
+    "showWarning": true,
+    "warning": "Visitor volume is contextual data and does not by itself prove monument damage."
+  },
+
+  "dataQuality": {
+    "historicalAccuracy": "official_government_record",
+    "yearSpecific": true,
+    "dailyBreakdownAvailable": false,
+    "componentLevelVisitorImpactAvailable": false,
+    "damageCorrelationAvailable": false
+  }
+}

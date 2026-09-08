@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "1.0.0",
+  "monumentId": "konark-sun-temple",
+
+  "records": [
+    {
+      "id": "gov-konark-2024-asi-status",
+      "date": "2024-12-19",
+      "year": 2024,
+      "activityType": "Conservation_Management",
+      "title": "ASI conservation, restoration, maintenance and development responsibility",
+      "description": "Government of India confirmed that ASI undertakes conservation, restoration, maintenance and development works for monuments in Puri and Konark under the applicable conservation policy and AMASR framework.",
+      "verification": "verified",
+      "source": {
+        "organization": "Ministry of Culture, Government of India",
+        "title": "Development Status of Puri and Konark by ASI",
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2086010&lang=2&reg=48"
+      }
+    },
+
+    {
+      "id": "gov-konark-2024-ncf-amenities",
+      "date": "2024",
+      "year": 2024,
+      "activityType": "Public_Amenities",
+      "title": "Public amenities project at Sun Temple, Konark",
+      "description": "National Culture Fund records a project for providing public amenities such as a smart toilet, childcare room and rest room for senior citizens at Sun Temple, Konark.",
+      "projectCostLakh": 50,
+      "partnerOrganization": "Armoured Vehicles Nigam Limited",
+      "verification": "verified",
+      "source": {
+        "organization": "Ministry of Culture, Government of India",
+        "title": "Conservation of National Culture Heritage under NCF and AMASR Act",
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2297463&lang=2&reg=48"
+      }
+    },
+
+    {
+      "id": "gov-konark-2025-yoga",
+      "date": "2025-06-21",
+      "year": 2025,
+      "activityType": "Heritage_Public_Programme",
+      "title": "International Day of Yoga at Sun Temple, Konark",
+      "description": "Sun Temple, Konark was included among the 81 centrally protected monuments where ASI hosted International Day of Yoga activities in collaboration with the Ministry of Ayush.",
+      "verification": "verified",
+      "source": {
+        "organization": "Archaeological Survey of India / Ministry of Culture",
+        "title": "ASI to Host 11th International Yoga Day Celebrations at 81 Historic Sites",
+        "url": "https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=2137990&lang=2&reg=48"
+      }
+    },
+
+    {
+      "id": "gov-konark-2025-asi-maintenance-context",
+      "date": "2025-12-04",
+      "year": 2025,
+      "activityType": "National_Conservation_Programme",
+      "title": "ASI continuous conservation and maintenance framework",
+      "description": "Government of India reported that ASI continues conservation and maintenance of centrally protected monuments as an ongoing process according to monument need and resource availability.",
+      "verification": "verified",
+      "scope": "national_asi_context",
+      "konarkSpecificEvent": false,
+      "source": {
+        "organization": "Ministry of Culture, Government of India",
+        "title": "ASI takes up conservation and maintenance work of ancient monuments and archaeological sites",
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2198749&lang=1&reg=3"
+      }
+    },
+
+    {
+      "id": "gov-konark-2026-ncf",
+      "date": "2026-08-11",
+      "year": 2026,
+      "activityType": "Public_Amenities",
+      "title": "NCF public amenities project at Sun Temple, Konark",
+      "description": "Government of India listed the Konark public-amenities project under National Culture Fund-supported works for ASI monuments.",
+      "projectCostLakh": 50,
+      "partnerOrganization": "Armoured Vehicles Nigam Limited",
+      "verification": "verified",
+      "source": {
+        "organization": "Ministry of Culture, Government of India",
+        "title": "Conservation of National Culture Heritage under NCF and AMASR Act",
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2297463&lang=2&reg=48"
+      }
+    }
+  ],
+
+  "interpretationRules": {
+    "publicAmenityProjectIsNotStructuralDamageEvidence": true,
+    "publicAmenityProjectIsNotAutomaticConservationExpenditure": true,
+    "nationalASIProgrammeDoesNotEqualKonarkSpecificEvent": true,
+    "heritageCulturalProgrammeDoesNotEqualConservationEvent": true,
+    "doNotInferPhysicalConditionWithoutMonumentSpecificEvidence": true
+  }
+}

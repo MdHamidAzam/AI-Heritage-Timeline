@@ -1,0 +1,124 @@
+{
+  "monumentId": "konark-sun-temple",
+  "schemaVersion": "1.0.0",
+
+  "technicalSurveys": [
+    {
+      "id": "cbri-konark-investigation-2015",
+      "organization": "CSIR-Central Building Research Institute",
+      "year": 2015,
+      "title": "Investigation at Sun Temple Konark",
+      "projectStatus": "officially_listed",
+      "projectPhase": "initial_investigation",
+      "techniques": [
+        "technical_investigation"
+      ],
+      "damageMapping": false,
+      "laserScanning": false,
+      "gpr": false,
+      "verification": "verified",
+      "source": {
+        "title": "Heritage & Special Structures",
+        "url": "https://cbri.res.in/%E0%A4%B5%E0%A4%BF%E0%A4%B0%E0%A4%BE%E0%A4%B8%E0%A4%A4-%E0%A4%94%E0%A4%B0-%E0%A4%B5%E0%A4%BF%E0%A4%B6%E0%A5%87%E0%A4%B7-%E0%A4%B8%E0%A4%82%E0%A4%B0%E0%A4%9A%E0%A4%A8%E0%A4%BE%E0%A4%8F%E0%A4%82-hss/"
+      },
+      "note": "The CBRI page confirms the project listing but does not provide enough public detail to claim a specific test result."
+    },
+
+    {
+      "id": "cbri-konark-investigation-phase2-2018",
+      "organization": "CSIR-Central Building Research Institute",
+      "year": 2018,
+      "title": "Investigation of Sun Temple Konark Phase-II",
+      "projectStatus": "officially_listed",
+      "projectPhase": "phase_ii",
+      "techniques": [
+        "technical_investigation"
+      ],
+      "damageMapping": false,
+      "laserScanning": false,
+      "gpr": false,
+      "verification": "verified",
+      "source": {
+        "title": "Heritage & Special Structures",
+        "url": "https://cbri.res.in/%E0%A4%B5%E0%A4%BF%E0%A4%B0%E0%A4%BE%E0%A4%B8%E0%A4%A4-%E0%A4%94%E0%A4%B0-%E0%A4%B5%E0%A4%BF%E0%A4%B6%E0%A5%87%E0%A4%B7-%E0%A4%B8%E0%A4%82%E0%A4%B0%E0%A4%9A%E0%A4%A8%E0%A4%BE%E0%A4%8F%E0%A4%82-hss/"
+      },
+      "note": "The public CBRI project index confirms Phase-II, but does not expose its detailed findings on this page."
+    },
+
+    {
+      "id": "cbri-konark-laser-scanning",
+      "organization": "CSIR-Central Building Research Institute",
+      "year": null,
+      "title": "3D Model Laser Scanning at Sun Temple Konark",
+      "projectStatus": "heritage_documentation_record",
+      "techniques": [
+        "3D laser scanning"
+      ],
+      "damageMapping": true,
+      "verification": "verified",
+      "source": {
+        "title": "CSIR-CBRI contributions in Heritage Structures",
+        "url": "https://cbri.res.in/wp-content/uploads/2021/09/CSIR-CBRI-75-yrs.pdf"
+      },
+      "note": "CBRI's heritage documentation explicitly pairs Konark with 3D model laser scanning and damage mapping."
+    },
+
+    {
+      "id": "cbri-konark-gpr",
+      "organization": "CSIR-Central Building Research Institute",
+      "year": null,
+      "title": "GPR Investigation at Sun Temple Konark",
+      "projectStatus": "heritage_documentation_record",
+      "techniques": [
+        "Ground Penetrating Radar (GPR)"
+      ],
+      "verification": "verified",
+      "source": {
+        "title": "CSIR-CBRI contributions in Heritage Structures",
+        "url": "https://cbri.res.in/wp-content/uploads/2021/09/CSIR-CBRI-75-yrs.pdf"
+      }
+    },
+
+    {
+      "id": "cbri-konark-damage-mapping",
+      "organization": "CSIR-Central Building Research Institute",
+      "year": null,
+      "title": "Damage Mapping at the Top of Temple",
+      "projectStatus": "heritage_documentation_record",
+      "techniques": [
+        "Damage mapping"
+      ],
+      "verification": "verified",
+      "source": {
+        "title": "CSIR-CBRI contributions in Heritage Structures",
+        "url": "https://cbri.res.in/wp-content/uploads/2021/09/CSIR-CBRI-75-yrs.pdf"
+      },
+      "note": "The public CBRI document records damage mapping at the top of the temple but does not publish the complete damage map data in the source snippet."
+    }
+  ],
+
+  "dataInterpretationRules": {
+    "surveyListingIsNotSurveyResult": true,
+    "techniqueEvidenceDoesNotEqualDamageResult": true,
+    "laserScanRecordDoesNotEqualDownloadable3DModel": true,
+    "damageMappingRecordDoesNotProvideCoordinatesAutomatically": true,
+    "exactMeasurementsRequireOriginalTechnicalReport": true,
+    "technicalResultsRequireClaimLevelSource": true
+  },
+
+  "projectIntegration": {
+    "timeline": [
+      "cbri-konark-investigation-2015",
+      "cbri-konark-investigation-phase2-2018"
+    ],
+    "3dDigitalTwin": [
+      "cbri-konark-laser-scanning"
+    ],
+    "damageIntelligence": [
+      "cbri-konark-damage-mapping"
+    ],
+    "subsurfaceInvestigation": [
+      "cbri-konark-gpr"
+    ]
+  }
+}

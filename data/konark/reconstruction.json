@@ -1,0 +1,61 @@
+{
+  "monumentId": "konark-sun-temple",
+  "reconstructionPolicy": {
+    "type": "evidence_based_ai_hypothesis",
+    "historicalFact": false,
+    "humanVerificationRequired": true,
+    "fabricationAllowed": false,
+    "unsupportedDetailsAllowed": false
+  },
+  "reconstructions": [
+    {
+      "id": "reconstruction-vimana-shikhara",
+      "component": "Vimana",
+      "subject": "Historical reconstruction of the lost high tower and shikhara",
+      "historicalBasis": [
+        {
+          "fact": "The high tower and shikhara of the Vimana were razed in the 19th century.",
+          "source": "UNESCO World Heritage Centre",
+          "url": "https://whc.unesco.org/en/list/246"
+        }
+      ],
+      "evidenceLevel": "documented_loss",
+      "inferenceLevel": "requires_research",
+      "confidence": null,
+      "status": "not_generated",
+      "historicalFact": false,
+      "label": "AI Reconstruction Hypothesis"
+    },
+    {
+      "id": "reconstruction-jagamohana",
+      "component": "Jagamohana",
+      "subject": "Evidence-supported visualization of documented historical/conservation state",
+      "historicalBasis": [
+        {
+          "fact": "The Jagamohana underwent major conservation and restoration work.",
+          "source": "UNESCO Periodic Reporting Cycle 1, 2003",
+          "url": "https://whc.unesco.org/document/162851"
+        },
+        {
+          "fact": "Structural monitoring documented stone loosening and water penetration.",
+          "source": "UNESCO Decision 24 BUR IV.B.65",
+          "url": "https://whc.unesco.org/en/decisions/5825"
+        }
+      ],
+      "evidenceLevel": "documented",
+      "inferenceLevel": "low",
+      "confidence": null,
+      "status": "not_generated",
+      "historicalFact": false,
+      "label": "Evidence-Based Visualization"
+    }
+  ],
+  "displayRules": {
+    "showEvidence": true,
+    "showInference": true,
+    "showConfidence": true,
+    "showUncertainty": true,
+    "showSource": true,
+    "showHistoricalFactWarning": true
+  }
+}

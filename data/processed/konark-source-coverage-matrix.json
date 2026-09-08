@@ -1,0 +1,259 @@
+{
+  "schemaVersion": "1.0.0",
+  "monumentId": "konark-sun-temple",
+  "auditDate": "2026-09-08",
+
+  "coverage": [
+    {
+      "dataArea": "Monument Identity",
+      "datasetFiles": [
+        "data/konark/monument.json"
+      ],
+      "primarySources": [
+        "https://whc.unesco.org/en/list/246",
+        "https://culture.gov.in/sun-temple-konarak"
+      ],
+      "status": "fully_supported",
+      "verification": "verified"
+    },
+    {
+      "dataArea": "Historical Timeline",
+      "datasetFiles": [
+        "data/konark/timeline.json",
+        "data/processed/konark-state-snapshots.json"
+      ],
+      "primarySources": [
+        "https://whc.unesco.org/en/list/246",
+        "https://whc.unesco.org/en/soc/2143",
+        "https://whc.unesco.org/en/decisions/5737",
+        "https://whc.unesco.org/en/decisions/5825",
+        "https://whc.unesco.org/document/162851",
+        "https://whc.unesco.org/document/164621",
+        "https://whc.unesco.org/document/216402"
+      ],
+      "status": "fully_supported_with_reporting_scope",
+      "verification": "verified"
+    },
+    {
+      "dataArea": "Damage Events",
+      "datasetFiles": [
+        "data/konark/damage-events.json"
+      ],
+      "primarySources": [
+        "https://whc.unesco.org/en/soc/2143",
+        "https://whc.unesco.org/en/decisions/5737",
+        "https://whc.unesco.org/en/decisions/5825"
+      ],
+      "status": "source_supported",
+      "verification": "verified",
+      "notes": [
+        "Severity values intentionally remain unassigned.",
+        "Exact image or 3D coordinates are not inferred from text."
+      ]
+    },
+    {
+      "dataArea": "Architectural Components",
+      "datasetFiles": [
+        "data/konark/components.json",
+        "data/processed/konark-3d-component-map.json"
+      ],
+      "primarySources": [
+        "https://whc.unesco.org/en/list/246"
+      ],
+      "status": "fully_supported",
+      "verification": "verified"
+    },
+    {
+      "dataArea": "Condition and Threats",
+      "datasetFiles": [
+        "data/konark/condition.json",
+        "data/processed/konark-risk-register.json",
+        "data/processed/konark-damage-taxonomy.json"
+      ],
+      "primarySources": [
+        "https://whc.unesco.org/en/list/246",
+        "https://whc.unesco.org/document/164621",
+        "https://www.pib.gov.in/newsite/PrintRelease.aspx?lang=2&reg=48&relid=86496",
+        "https://www.pib.gov.in/pressreleaseshare.aspx?lang=2&prid=1703558&reg=48"
+      ],
+      "status": "source_supported",
+      "verification": "verified"
+    },
+    {
+      "dataArea": "Conservation",
+      "datasetFiles": [
+        "data/konark/conservation-projects.json",
+        "data/processed/konark-conservation-actions.json"
+      ],
+      "primarySources": [
+        "https://whc.unesco.org/document/162851",
+        "https://www.pib.gov.in/newsite/PrintRelease.aspx?lang=2&reg=48&relid=86496",
+        "https://www.pib.gov.in/pressreleaseshare.aspx?lang=2&prid=1703558&reg=48"
+      ],
+      "status": "source_supported",
+      "verification": "verified"
+    },
+    {
+      "dataArea": "Technical Research",
+      "datasetFiles": [
+        "data/processed/konark-technical-surveys.json",
+        "data/processed/konark-research-records.json"
+      ],
+      "primarySources": [
+        "https://cbri.res.in/",
+        "https://cbri.res.in/wp-content/uploads/2021/09/CSIR-CBRI-75-yrs.pdf"
+      ],
+      "status": "documented_with_result_limits",
+      "verification": "verified",
+      "notes": [
+        "Project existence is documented.",
+        "Technique records are documented.",
+        "Underlying point clouds, measurements and detailed technical reports are not included unless directly sourced."
+      ]
+    },
+    {
+      "dataArea": "3D Assets",
+      "datasetFiles": [
+        "data/konark/3d-assets.json",
+        "data/konark/3d-model-registry.json",
+        "data/processed/konark-3d-asset-assessment.json"
+      ],
+      "primarySources": [
+        "https://cbri.res.in/wp-content/uploads/2021/09/CSIR-CBRI-75-yrs.pdf",
+        "https://whc.unesco.org/en/documents/103350"
+      ],
+      "status": "incomplete",
+      "verification": "partially_verified",
+      "gaps": [
+        "Authoritative downloadable 3D mesh",
+        "Verified point cloud",
+        "Verified GLB/GLTF",
+        "Survey coordinate/reference metadata"
+      ]
+    },
+    {
+      "dataArea": "Geospatial Reference",
+      "datasetFiles": [
+        "data/processed/konark-geospatial-reference.json",
+        "data/konark/restricted-zones.json"
+      ],
+      "primarySources": [
+        "https://whc.unesco.org/en/list/246",
+        "https://whc.unesco.org/en/documents/103350"
+      ],
+      "status": "partially_complete",
+      "verification": "verified",
+      "available": [
+        "Official coordinates",
+        "Property area",
+        "1984 site plan",
+        "100 m prohibited zone",
+        "Further 200 m regulated zone"
+      ],
+      "gaps": [
+        "Georeferenced property polygon",
+        "Exact spatial geometry of protection zones"
+      ]
+    },
+    {
+      "dataArea": "Visual Media",
+      "datasetFiles": [
+        "data/konark/media-assets.json",
+        "data/raw/konark/image-registry.json",
+        "data/raw/konark/image-acquisition-manifest.json"
+      ],
+      "primarySources": [
+        "https://commons.wikimedia.org/",
+        "https://culture.gov.in/photo-gallery/sun-temple-konarak",
+        "https://whc.unesco.org/en/list/246"
+      ],
+      "status": "metadata_ready",
+      "verification": "partially_verified",
+      "gaps": [
+        "Physical image files",
+        "SHA-256 hashes",
+        "Human-reviewed annotations"
+      ]
+    },
+    {
+      "dataArea": "Visitor Pressure",
+      "datasetFiles": [
+        "data/processed/konark-visitor-pressure.json",
+        "data/processed/konark-visitor-history.json"
+      ],
+      "primarySources": [
+        "https://whc.unesco.org/document/162851",
+        "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2025/sep/doc2025927648801.pdf"
+      ],
+      "status": "source_supported",
+      "verification": "verified",
+      "notes": [
+        "Visitor volume is treated as contextual pressure data.",
+        "Visitor counts are not interpreted as proof of physical damage."
+      ]
+    },
+    {
+      "dataArea": "OUV and Authenticity",
+      "datasetFiles": [
+        "data/processed/konark-outstanding-universal-value.json"
+      ],
+      "primarySources": [
+        "https://whc.unesco.org/en/list/246"
+      ],
+      "status": "fully_supported",
+      "verification": "verified"
+    },
+    {
+      "dataArea": "Management",
+      "datasetFiles": [
+        "data/processed/konark-management-framework.json",
+        "data/processed/konark-compliance-rules.json"
+      ],
+      "primarySources": [
+        "https://whc.unesco.org/en/list/246",
+        "https://whc.unesco.org/en/decisions/5825",
+        "https://whc.unesco.org/en/decisions/5930"
+      ],
+      "status": "source_supported",
+      "verification": "verified"
+    },
+    {
+      "dataArea": "AI Reconstruction",
+      "datasetFiles": [
+        "data/konark/reconstruction.json",
+        "data/processed/konark-confidence-framework.json",
+        "data/processed/konark-ai-training-manifest.json"
+      ],
+      "status": "framework_only",
+      "verification": "not_applicable",
+      "gaps": [
+        "Evidence-conditioned reconstruction model",
+        "Evaluation dataset",
+        "Human-reviewed reconstruction outputs",
+        "Computed reconstruction confidence"
+      ]
+    }
+  ],
+
+  "overallAudit": {
+    "historicalCore": "verified",
+    "damageHistory": "verified",
+    "conservationHistory": "verified",
+    "sourceProvenance": "verified",
+    "currentGovernmentContext": "verified",
+    "visualDataset": "incomplete",
+    "3dDataset": "incomplete",
+    "annotationDataset": "not_started",
+    "trainedAiModels": "not_started"
+  },
+
+  "hardRules": {
+    "unsupportedClaimMustNotEnterProduction": true,
+    "archiveListingCannotSupportDetailedClaim": true,
+    "historicalFactRequiresPrimaryEvidence": true,
+    "damageSeverityCannotBeInvented": true,
+    "3dGeometryCannotBeInvented": true,
+    "aiReconstructionCannotBeHistoricalGroundTruth": true,
+    "currentReferenceCannotBeConvertedIntoHistoricalEvent": true
+  }
+}

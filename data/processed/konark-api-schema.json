@@ -1,0 +1,190 @@
+{
+  "schemaVersion": "1.0.0",
+  "apiVersion": "v1",
+  "monumentId": "konark-sun-temple",
+
+  "endpoints": {
+    "monument": {
+      "path": "/api/v1/monuments/konark-sun-temple",
+      "source": "data/konark/monument.json"
+    },
+
+    "timeline": {
+      "path": "/api/v1/monuments/konark-sun-temple/timeline",
+      "source": "data/konark/timeline.json"
+    },
+
+    "conditions": {
+      "path": "/api/v1/monuments/konark-sun-temple/conditions",
+      "source": "data/konark/condition.json"
+    },
+
+    "damageEvents": {
+      "path": "/api/v1/monuments/konark-sun-temple/damage-events",
+      "source": "data/konark/damage-events.json"
+    },
+
+    "components": {
+      "path": "/api/v1/monuments/konark-sun-temple/components",
+      "source": "data/konark/components.json"
+    },
+
+    "evidence": {
+      "path": "/api/v1/monuments/konark-sun-temple/evidence",
+      "source": "data/konark/evidence.json"
+    },
+
+    "monitoring": {
+      "path": "/api/v1/monuments/konark-sun-temple/monitoring",
+      "source": "data/konark/monitoring-records.json"
+    },
+
+    "conservation": {
+      "path": "/api/v1/monuments/konark-sun-temple/conservation",
+      "source": "data/konark/conservation-projects.json"
+    },
+
+    "restrictedZones": {
+      "path": "/api/v1/monuments/konark-sun-temple/restricted-zones",
+      "source": "data/konark/restricted-zones.json"
+    },
+
+    "media": {
+      "path": "/api/v1/monuments/konark-sun-temple/media",
+      "source": "data/konark/media-assets.json"
+    },
+
+    "reconstruction": {
+      "path": "/api/v1/monuments/konark-sun-temple/reconstruction",
+      "source": "data/konark/reconstruction.json"
+    },
+
+    "stateSnapshots": {
+      "path": "/api/v1/monuments/konark-sun-temple/state-snapshots",
+      "source": "data/processed/konark-state-snapshots.json"
+    },
+
+    "currentCondition": {
+      "path": "/api/v1/monuments/konark-sun-temple/current-condition",
+      "source": "data/processed/konark-current-condition-2026.json"
+    },
+
+    "3dMapping": {
+      "path": "/api/v1/monuments/konark-sun-temple/3d-mapping",
+      "source": "data/processed/konark-3d-component-map.json"
+    },
+
+    "confidence": {
+      "path": "/api/v1/monuments/konark-sun-temple/confidence",
+      "source": "data/processed/konark-confidence-framework.json"
+    }
+  },
+
+  "responseModel": {
+    "monument": {
+      "id": "string",
+      "name": "string",
+      "location": "object",
+      "unesco": "object",
+      "components": "array",
+      "protection": "object"
+    },
+
+    "timelineEvent": {
+      "id": "string",
+      "date": "string",
+      "eventType": "string",
+      "title": "string",
+      "description": "string",
+      "verification": "string",
+      "source": "object"
+    },
+
+    "damageEvent": {
+      "id": "string",
+      "date": "string",
+      "component": "string|null",
+      "type": "string",
+      "description": "string",
+      "severity": "string|null",
+      "verification": "string",
+      "source": "object"
+    },
+
+    "evidence": {
+      "id": "string",
+      "sourceType": "string",
+      "year": "number|null",
+      "title": "string",
+      "organization": "string",
+      "url": "string",
+      "verification": "string"
+    },
+
+    "component": {
+      "id": "string",
+      "name": "string",
+      "type": "string",
+      "geometryReference": "string|null",
+      "timelineLinks": "array",
+      "damageLinks": "array",
+      "evidenceLinks": "array"
+    },
+
+    "reconstruction": {
+      "id": "string",
+      "component": "string",
+      "historicalFact": "boolean",
+      "evidenceLevel": "string",
+      "inferenceLevel": "string",
+      "confidence": "number|null",
+      "humanVerificationRequired": "boolean"
+    }
+  },
+
+  "frontendCapabilities": {
+    "explorer": true,
+    "machineTimeline": true,
+    "timelineFiltering": true,
+    "damageIntelligence": true,
+    "componentSelection": true,
+    "restrictedZones": true,
+    "evidencePanel": true,
+    "whyAmISeeingThis": true,
+    "stateComparison": true,
+    "3dDigitalTwin": true,
+    "aiReconstruction": true
+  },
+
+  "trustRequirements": {
+    "historicalFact": {
+      "requiresSource": true,
+      "requiresVerification": true
+    },
+    "damage": {
+      "requiresEvidence": true,
+      "requiresVerification": true,
+      "severityMayBeNull": true
+    },
+    "3d": {
+      "requiresProvenance": true,
+      "unverifiedGeometryMustBeLabelled": true
+    },
+    "reconstruction": {
+      "historicalFact": false,
+      "requiresEvidence": true,
+      "requiresUncertaintyDisplay": true,
+      "requiresHumanVerification": true
+    }
+  },
+
+  "displayLabels": {
+    "verified": "Verified",
+    "governmentReported": "Government Reported",
+    "archiveVerified": "Archive Verified",
+    "prototype": "Prototype",
+    "hypothesis": "AI Reconstruction Hypothesis",
+    "notYetVerified": "Not Yet Verified",
+    "notAssigned": "Not Assigned"
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "schemaVersion": "1.0.0",
+  "monumentId": "konark-sun-temple",
+
+  "outstandingUniversalValue": {
+    "summary": "Sun Temple at Konârak is an outstanding example of temple architecture and art, representing the 13th-century kingdom of Orissa and the monumental personification of Surya.",
+    
+    "architecturalSignificance": {
+      "statement": "The temple is an outstanding example of temple architecture and art in conception, scale, proportion and sculptural expression.",
+      "tradition": "Kalingan temple architecture",
+      "verification": "verified"
+    },
+
+    "historicalSignificance": {
+      "statement": "Konârak is an outstanding testimony to the 13th-century kingdom of Orissa.",
+      "verification": "verified"
+    },
+
+    "religiousAndCulturalSignificance": {
+      "statement": "The property is directly and materially linked to the diffusion of the cult of Surya and to Brahmanical and tantric belief systems.",
+      "verification": "verified"
+    },
+
+    "artisticSignificance": {
+      "statement": "The monument contains sophisticated sculptural and iconographical representations connected with religious, political, social and secular life.",
+      "verification": "verified"
+    }
+  },
+
+  "unescoCriteria": [
+    {
+      "id": "criterion-i",
+      "criterion": "(i)",
+      "title": "Masterpiece of human creative genius",
+      "konarkBasis": "UNESCO describes Konârak as a unique artistic achievement and masterpiece of creative genius.",
+      "verification": "verified"
+    },
+    {
+      "id": "criterion-iii",
+      "criterion": "(iii)",
+      "title": "Outstanding testimony to a cultural tradition or civilization",
+      "konarkBasis": "Konârak is an outstanding testimony to the 13th-century kingdom of Orissa.",
+      "verification": "verified"
+    },
+    {
+      "id": "criterion-vi",
+      "criterion": "(vi)",
+      "title": "Association with beliefs or traditions of outstanding universal significance",
+      "konarkBasis": "Konârak is directly and materially linked to Brahman beliefs and the diffusion of the cult of Surya.",
+      "verification": "verified"
+    }
+  ],
+
+  "authenticity": {
+    "status": "maintained",
+    "documentedAttributes": [
+      "Surviving edifices",
+      "Placement within the complex",
+      "Structures",
+      "Integral relationship between sculpture and architecture",
+      "Original forms",
+      "Original materials",
+      "Original setting and location"
+    ],
+    "livingCulturalAssociation": [
+      "Chandrabhanga festival"
+    ],
+    "verification": "verified"
+  },
+
+  "integrity": {
+    "status": "documented",
+    "documentedAttributes": [
+      "Surviving structures",
+      "Surviving sculptures",
+      "Dislodged remains preserved in situ",
+      "Protected areas with potential archaeological remains"
+    ],
+    "identifiedThreats": [
+      "Development pressure",
+      "Environmental pressure",
+      "Tourism pressure",
+      "Floods",
+      "Cyclones",
+      "Local population growth"
+    ],
+    "verification": "verified"
+  },
+
+  "preservationTargets": [
+    {
+      "id": "preservation-architecture",
+      "target": "Architectural form and design",
+      "reason": "Forms part of the property's authenticity and Outstanding Universal Value."
+    },
+    {
+      "id": "preservation-sculpture",
+      "target": "Sculptural relief and iconography",
+      "reason": "Integral to the property's artistic and cultural significance."
+    },
+    {
+      "id": "preservation-setting",
+      "target": "Site setting and location",
+      "reason": "Part of the property's authenticity and integrity."
+    },
+    {
+      "id": "preservation-jagamohana",
+      "target": "Jagamohana structure and sculptures",
+      "reason": "UNESCO identifies continuing structural and material conservation of the main Jagamohana structure and its sculptures as necessary."
+    }
+  ],
+
+  "aiUsage": {
+    "useForHistoricalContext": true,
+    "useForReconstructionConstraints": true,
+    "useForDamagePrioritization": true,
+    "useForEvidenceExplanation": true,
+    "useAsVisualGroundTruth": false,
+    "useAs3DGeometry": false
+  },
+
+  "reconstructionRules": {
+    "mustPreserveDocumentedArchitecturalAttributes": true,
+    "mustPreserveDocumentedCulturalContext": true,
+    "unsupportedDecorativeDetailsForbidden": true,
+    "inventedHistoricalFeaturesForbidden": true,
+    "uncertainFeaturesMustBeMarked": true
+  },
+
+  "sources": [
+    {
+      "organization": "UNESCO World Heritage Centre",
+      "title": "Sun Temple, Konârak",
+      "url": "https://whc.unesco.org/en/list/246",
+      "verification": "verified"
+    },
+    {
+      "organization": "UNESCO World Heritage Centre",
+      "title": "Adoption of retrospective Statements of Outstanding Universal Value",
+      "url": "https://whc.unesco.org/archive/2013/whc13-37com-8e-en.pdf",
+      "verification": "verified"
+    },
+    {
+      "organization": "ICOMOS / UNESCO World Heritage Centre",
+      "title": "Advisory Body Evaluation",
+      "url": "https://whc.unesco.org/en/documents/153031",
+      "verification": "verified"
+    }
+  ]
+}

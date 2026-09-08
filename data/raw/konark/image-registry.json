@@ -1,0 +1,88 @@
+{
+  "monumentId": "konark-sun-temple",
+  "registryVersion": "1.0.0",
+  "lastChecked": "2026-09-08",
+
+  "images": [
+    {
+      "id": "img-konark-cc0-2024",
+      "title": "Sun Temple Konark Odisha",
+      "sourcePlatform": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sun_Temple_Konark_Odisha.jpg",
+      "author": "Maina Tudu",
+      "captureDate": "2024-10-27",
+      "license": "CC0 1.0",
+      "usage": "project_asset_candidate",
+      "attributionRequired": false,
+      "commercialReuseAllowed": true,
+      "modificationAllowed": true,
+      "verification": "verified"
+    },
+    {
+      "id": "img-konark-cc-by-sa-2011",
+      "title": "Sun Temple of Konark",
+      "sourcePlatform": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sun_Temple_of_Konark.jpg",
+      "author": "Pkumark",
+      "captureDate": "2011-09-10",
+      "license": "CC BY-SA 3.0",
+      "usage": "project_asset_candidate",
+      "attributionRequired": true,
+      "shareAlikeRequired": true,
+      "modificationAllowed": true,
+      "verification": "verified"
+    },
+    {
+      "id": "img-konark-cc-by-sa-2016",
+      "title": "KONARK OR SUN TEMPLE",
+      "sourcePlatform": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:KONARK_OR_SUN_TEMPLE.jpg",
+      "author": "Kabita.singh",
+      "captureDate": "2016-09-09",
+      "license": "CC BY-SA 4.0",
+      "usage": "project_asset_candidate",
+      "attributionRequired": true,
+      "shareAlikeRequired": true,
+      "modificationAllowed": true,
+      "verification": "verified"
+    },
+    {
+      "id": "img-konark-cc-by-sa-2009",
+      "title": "Konark The sun temple",
+      "sourcePlatform": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Konark_The_sun_temple.JPG",
+      "author": "Dassalok",
+      "captureDate": "2009-01-24",
+      "license": "CC BY-SA 3.0",
+      "usage": "project_asset_candidate",
+      "attributionRequired": true,
+      "shareAlikeRequired": true,
+      "modificationAllowed": true,
+      "verification": "verified"
+    },
+    {
+      "id": "img-konark-cc-by-sa-2025",
+      "title": "Konark Temple, Sun Temple",
+      "sourcePlatform": "Wikimedia Commons",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Konark_Temple,_Sun_Temple.jpg",
+      "author": "TheOneStoic",
+      "captureDate": null,
+      "license": "CC BY-SA 4.0",
+      "usage": "project_asset_candidate",
+      "attributionRequired": true,
+      "shareAlikeRequired": true,
+      "modificationAllowed": true,
+      "verification": "verified"
+    }
+  ],
+
+  "selectionRules": {
+    "preferOpenLicense": true,
+    "preferOriginalResolution": true,
+    "storeAuthor": true,
+    "storeLicense": true,
+    "storeSourceUrl": true,
+    "redistributeOnlyWhenLicenseAllows": true,
+    "officialAllRightsReservedMediaNotUsedAsProjectAssets": true
+  }
+}

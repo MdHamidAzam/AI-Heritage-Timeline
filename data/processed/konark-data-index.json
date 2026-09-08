@@ -1,0 +1,200 @@
+{
+  "datasetId": "konark-sun-temple",
+  "schemaVersion": "1.0.0",
+  "lastUpdated": "2026-09-08",
+
+  "monument": {
+    "id": "konark-sun-temple",
+    "name": "Sun Temple, Konârak",
+    "country": "India",
+    "state": "Odisha",
+    "district": "Puri"
+  },
+
+  "dataFiles": [
+    {
+      "file": "data/konark/monument.json",
+      "type": "monument_metadata",
+      "purpose": "Core monument identity, location, UNESCO status and protection",
+      "status": "complete"
+    },
+    {
+      "file": "data/konark/timeline.json",
+      "type": "historical_timeline",
+      "purpose": "Chronological historical, damage, monitoring and conservation events",
+      "status": "complete"
+    },
+    {
+      "file": "data/konark/condition.json",
+      "type": "condition",
+      "purpose": "Documented deterioration factors, environmental pressures and conditions",
+      "status": "complete"
+    },
+    {
+      "file": "data/konark/evidence.json",
+      "type": "evidence_registry",
+      "purpose": "Claim-to-source provenance",
+      "status": "complete"
+    },
+    {
+      "file": "data/konark/components.json",
+      "type": "architectural_components",
+      "purpose": "Documented architectural units and sculptures",
+      "status": "complete"
+    },
+    {
+      "file": "data/konark/damage-events.json",
+      "type": "damage_events",
+      "purpose": "Documented physical damage and deterioration events",
+      "status": "complete"
+    },
+    {
+      "file": "data/konark/3d-assets.json",
+      "type": "spatial_assets",
+      "purpose": "3D and site-plan asset registry",
+      "status": "complete_with_missing_authoritative_3d"
+    },
+    {
+      "file": "data/konark/reconstruction.json",
+      "type": "ai_reconstruction",
+      "purpose": "Evidence-based reconstruction hypotheses",
+      "status": "framework_ready"
+    },
+    {
+      "file": "data/konark/source-registry.json",
+      "type": "source_registry",
+      "purpose": "Official and technical source inventory",
+      "status": "complete"
+    },
+    {
+      "file": "data/konark/media-assets.json",
+      "type": "media_registry",
+      "purpose": "Photographic and video source/licence tracking",
+      "status": "complete_with_downloads_pending"
+    },
+    {
+      "file": "data/konark/conservation-projects.json",
+      "type": "conservation_projects",
+      "purpose": "Documented conservation and heritage-support projects",
+      "status": "complete"
+    },
+    {
+      "file": "data/konark/monitoring-records.json",
+      "type": "monitoring_records",
+      "purpose": "UNESCO/ICOMOS monitoring and committee decisions",
+      "status": "complete"
+    },
+    {
+      "file": "data/konark/restricted-zones.json",
+      "type": "protection_zones",
+      "purpose": "Legally documented prohibited and regulated zones",
+      "status": "complete_with_geometry_pending"
+    }
+  ],
+
+  "processedFiles": [
+    {
+      "file": "data/processed/konark-master.json",
+      "purpose": "Unified machine-readable Konark dataset",
+      "status": "complete"
+    },
+    {
+      "file": "data/processed/konark-state-snapshots.json",
+      "purpose": "Time-based documented condition/state snapshots",
+      "status": "complete"
+    },
+    {
+      "file": "data/processed/konark-current-state.json",
+      "purpose": "Current official reference state",
+      "status": "complete"
+    },
+    {
+      "file": "data/processed/konark-current-condition-2026.json",
+      "purpose": "Latest government-supported condition context",
+      "status": "complete"
+    },
+    {
+      "file": "data/processed/konark-3d-component-map.json",
+      "purpose": "3D component, timeline and damage relationships",
+      "status": "schema_ready"
+    },
+    {
+      "file": "data/processed/data-quality-report.json",
+      "purpose": "Dataset validation and known gaps",
+      "status": "complete"
+    },
+    {
+      "file": "data/processed/konark-confidence-framework.json",
+      "purpose": "Evidence and confidence computation rules",
+      "status": "framework_ready"
+    }
+  ],
+
+  "annotationFiles": [
+    {
+      "file": "data/annotated/annotation-schema.json",
+      "purpose": "Schema for components, damage regions, evidence regions and restricted zones",
+      "status": "schema_ready"
+    }
+  ],
+
+  "rawFiles": [
+    {
+      "file": "data/raw/konark/source-manifest.json",
+      "purpose": "Raw source inventory",
+      "status": "complete"
+    },
+    {
+      "file": "data/raw/konark/image-registry.json",
+      "purpose": "Raw image inventory and licence tracking",
+      "status": "complete_with_downloads_pending"
+    }
+  ],
+
+  "datasetCapabilities": {
+    "historicalTimeline": true,
+    "damageIntelligence": true,
+    "conditionTracking": true,
+    "evidenceProvenance": true,
+    "conservationHistory": true,
+    "restrictedZones": true,
+    "mediaManagement": true,
+    "stateSnapshots": true,
+    "confidenceFramework": true,
+    "aiReconstructionFramework": true,
+    "3dIntegrationFramework": true
+  },
+
+  "knownGaps": [
+    {
+      "id": "gap-authoritative-3d",
+      "description": "Authoritative measured 3D geometry has not yet been established.",
+      "status": "open"
+    },
+    {
+      "id": "gap-spatial-annotations",
+      "description": "Actual image/3D damage coordinates and component geometry still require human-reviewed annotation.",
+      "status": "open"
+    },
+    {
+      "id": "gap-raw-downloads",
+      "description": "Referenced raw source binaries and media still need to be physically collected into the repository.",
+      "status": "open"
+    },
+    {
+      "id": "gap-reconstruction-model",
+      "description": "Evidence-conditioned AI reconstruction model has not yet been trained or deployed.",
+      "status": "open"
+    }
+  ],
+
+  "trustRules": {
+    "officialSourcePreferred": true,
+    "historicalFactRequiresEvidence": true,
+    "damageClaimRequiresEvidence": true,
+    "severityCannotBeInvented": true,
+    "3dGeometryCannotBeInvented": true,
+    "aiHypothesisMustBeLabelled": true,
+    "currentReferenceCannotAutomaticallyBecomeHistoricalEvent": true
+  }
+}

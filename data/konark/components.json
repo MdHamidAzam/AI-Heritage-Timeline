@@ -1,0 +1,127 @@
+[
+  {
+    "id": "konark-vimana",
+    "name": "Vimana",
+    "type": "Principal Sanctuary",
+    "role": "Main sanctuary of the temple complex",
+    "historicalCondition": {
+      "documentedChange": "The high tower and shikhara were razed in the 19th century.",
+      "status": "Partially lost historical structure"
+    },
+    "verification": "verified",
+    "source": {
+      "organization": "UNESCO World Heritage Centre",
+      "document": "Sun Temple, Konârak",
+      "url": "https://whc.unesco.org/en/list/246"
+    }
+  },
+  {
+    "id": "konark-jagamohana",
+    "name": "Jagamohana",
+    "type": "Audience Hall",
+    "role": "Major surviving architectural mass of the temple",
+    "historicalCondition": {
+      "documentedIssues": [
+        "Structural monitoring",
+        "Stone loosening",
+        "Water penetration",
+        "Historical stone fall"
+      ],
+      "conservationHistory": [
+        "Major conservation and restoration work reported by 2003",
+        "Platform reported as stabilised in 2003"
+      ]
+    },
+    "verification": "verified",
+    "source": {
+      "organization": "UNESCO World Heritage Centre",
+      "document": "Sun Temple, Konârak",
+      "url": "https://whc.unesco.org/en/list/246"
+    }
+  },
+  {
+    "id": "konark-natmandir",
+    "name": "Natmandir",
+    "type": "Dance Hall",
+    "role": "Architectural unit of the temple complex",
+    "historicalCondition": {
+      "documentedStatus": "Unroofed"
+    },
+    "verification": "verified",
+    "source": {
+      "organization": "UNESCO World Heritage Centre",
+      "document": "Sun Temple, Konârak",
+      "url": "https://whc.unesco.org/en/list/246"
+    }
+  },
+  {
+    "id": "konark-wheels",
+    "name": "Carved Wheels",
+    "type": "Architectural Sculpture",
+    "quantity": 24,
+    "diameterApproxMeters": 3,
+    "role": "Represent the wheels of the monumental chariot of Surya",
+    "sculpturalDetail": "Richly carved wheel surfaces",
+    "verification": "verified",
+    "source": {
+      "organization": "UNESCO World Heritage Centre",
+      "document": "Sun Temple, Konârak",
+      "url": "https://whc.unesco.org/en/list/246"
+    }
+  },
+  {
+    "id": "konark-horses",
+    "name": "Stone Horses",
+    "type": "Architectural Sculpture",
+    "quantity": 6,
+    "role": "Represent the horses drawing the chariot of Surya",
+    "verification": "verified",
+    "source": {
+      "organization": "UNESCO World Heritage Centre",
+      "document": "Sun Temple, Konârak",
+      "url": "https://whc.unesco.org/en/list/246"
+    }
+  },
+  {
+    "id": "konark-plinth-reliefs",
+    "name": "Plinth Reliefs",
+    "type": "Sculptural Relief",
+    "role": "Decorative and narrative sculptural programme",
+    "subjectsDocumented": [
+      "Lions",
+      "Musicians",
+      "Dancers",
+      "Narrative imagery"
+    ],
+    "verification": "verified",
+    "source": {
+      "organization": "UNESCO World Heritage Centre",
+      "document": "Sun Temple, Konârak",
+      "url": "https://whc.unesco.org/en/list/246"
+    }
+  },
+  {
+    "id": "konark-subsidiary-structures",
+    "name": "Subsidiary Structures",
+    "type": "Supporting Structures",
+    "role": "Additional architectural structures within the World Heritage property",
+    "verification": "verified",
+    "source": {
+      "organization": "UNESCO World Heritage Centre",
+      "document": "Sun Temple, Konârak",
+      "url": "https://whc.unesco.org/en/list/246"
+    }
+  },
+  {
+    "id": "konark-gates-towers",
+    "name": "Gates and Towers",
+    "type": "Site Structures",
+    "role": "Architectural elements forming part of the temple complex",
+    "verification": "verified",
+    "source": {
+      "organization": "UNESCO World Heritage Centre",
+      "document": "Sun Temple, Konârak",
+      "url": "https://whc.unesco.org/en/list/246"
+    }
+  }
+]

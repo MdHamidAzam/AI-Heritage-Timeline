@@ -1,0 +1,139 @@
+{
+  "schemaVersion": "1.0.0",
+  "monumentId": "konark-sun-temple",
+
+  "managementAuthority": {
+    "primaryConservationAuthority": "Archaeological Survey of India",
+    "nationalPolicyContext": "National Policy for Conservation, 2014",
+    "verification": "verified"
+  },
+
+  "managementPlans": [
+    {
+      "id": "management-safety",
+      "name": "Safety Management",
+      "category": "safety",
+      "status": "unesco_documented",
+      "purpose": "Address safety-related management needs of the heritage property."
+    },
+    {
+      "id": "management-environment",
+      "name": "Environment Management",
+      "category": "environment",
+      "status": "unesco_documented",
+      "purpose": "Manage environmental pressures affecting the property."
+    },
+    {
+      "id": "management-master-planning",
+      "name": "Master Planning",
+      "category": "planning",
+      "status": "unesco_documented",
+      "purpose": "Coordinate planning and development around the heritage property."
+    },
+    {
+      "id": "management-environmental-development",
+      "name": "Environmental Development",
+      "category": "landscape",
+      "status": "unesco_documented",
+      "purpose": "Manage environmental development and the wider site setting."
+    },
+    {
+      "id": "management-tourism",
+      "name": "Tourism Management",
+      "category": "tourism",
+      "status": "unesco_documented",
+      "purpose": "Manage tourism pressure while protecting Outstanding Universal Value."
+    }
+  ],
+
+  "unescoContinuingRequirements": [
+    {
+      "id": "requirement-jagamohana-conservation",
+      "priority": "high",
+      "requirement": "Continue structural and material conservation of the main Jagamohana structure and its sculptures.",
+      "category": "conservation",
+      "verification": "verified"
+    },
+    {
+      "id": "requirement-authority-integration",
+      "priority": "high",
+      "requirement": "Strengthen functional integration between local and central authorities.",
+      "category": "governance",
+      "verification": "verified"
+    },
+    {
+      "id": "requirement-landscape-regulation",
+      "priority": "high",
+      "requirement": "Include the larger landscape setting within the regulated development area.",
+      "category": "landscape_management",
+      "verification": "verified"
+    },
+    {
+      "id": "requirement-development-pressure",
+      "priority": "high",
+      "requirement": "Address development pressure.",
+      "category": "threat_management",
+      "verification": "verified"
+    },
+    {
+      "id": "requirement-environmental-pressure",
+      "priority": "high",
+      "requirement": "Address environmental pressure.",
+      "category": "threat_management",
+      "verification": "verified"
+    },
+    {
+      "id": "requirement-tourism-pressure",
+      "priority": "high",
+      "requirement": "Address tourism pressure.",
+      "category": "threat_management",
+      "verification": "verified"
+    },
+    {
+      "id": "requirement-natural-disasters",
+      "priority": "high",
+      "requirement": "Address risks from natural disasters.",
+      "category": "disaster_management",
+      "verification": "verified"
+    },
+    {
+      "id": "requirement-population-growth",
+      "priority": "medium",
+      "requirement": "Address pressure associated with local population growth.",
+      "category": "development_management",
+      "verification": "verified"
+    }
+  ],
+
+  "documentedProtectionFramework": {
+    "prohibitedZoneMeters": 100,
+    "regulatedZoneMeters": 200,
+    "law": "Ancient Monuments and Archaeological Sites and Remains Act, 1958",
+    "rules": "AMASR Rules, 1959",
+    "verification": "verified"
+  },
+
+  "managementDataRules": {
+    "managementPlanDoesNotEqualCompletedAction": true,
+    "unescoRequirementDoesNotEqualCurrentImplementationStatus": true,
+    "recommendationDoesNotEqualPhysicalIntervention": true,
+    "doNotInferCompletionWithoutEvidence": true,
+    "doNotInferEffectivenessWithoutEvidence": true
+  },
+
+  "systemIntegration": {
+    "machineTimeline": true,
+    "damageIntelligence": true,
+    "riskRegister": true,
+    "restrictedZones": true,
+    "evidenceGraph": true,
+    "currentState": true
+  },
+
+  "source": {
+    "organization": "UNESCO World Heritage Centre",
+    "title": "Sun Temple, Konârak",
+    "url": "https://whc.unesco.org/en/list/246",
+    "verification": "verified"
+  }
+}

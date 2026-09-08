@@ -1,0 +1,172 @@
+{
+  "datasetId": "konark-sun-temple-master",
+  "validationDate": "2026-09-08",
+
+  "overallStatus": "usable_with_tracked_gaps",
+
+  "validationPolicy": {
+    "primaryOfficialSourcesPreferred": true,
+    "claimLevelVerificationRequired": true,
+    "archiveListingDoesNotEqualClaimVerification": true,
+    "unsupportedValuesRejected": true,
+    "severityValuesMustBeSourceBacked": true,
+    "spatialCoordinatesMustBeEvidenceBacked": true,
+    "aiInferenceMustBeSeparatedFromHistoricalFact": true
+  },
+
+  "qualitySummary": {
+    "monumentMetadata": "verified",
+    "architecturalComponents": "verified",
+    "timeline": "verified_with_limited_reporting_entries",
+    "damageEvents": "verified",
+    "conditions": "verified",
+    "conservationActions": "verified",
+    "evidenceRegistry": "verified",
+    "monitoringRecords": "verified",
+    "sourceRegistry": "verified",
+    "mediaMetadata": "partially_verified",
+    "3dAssets": "incomplete",
+    "imageCoordinates": "incomplete",
+    "aiReconstruction": "hypothesis_only"
+  },
+
+  "verifiedData": [
+    {
+      "category": "monument",
+      "status": "verified",
+      "items": [
+        "13th-century construction",
+        "Narasimha Deva I",
+        "Ganga dynasty",
+        "24 carved wheels",
+        "6 horses",
+        "Vimana",
+        "Jagamohana",
+        "Natmandir",
+        "1984 UNESCO inscription",
+        "Criteria (i), (iii), (vi)",
+        "10.62 ha property",
+        "Official coordinates",
+        "AMASR protection"
+      ]
+    },
+    {
+      "category": "historical_damage",
+      "status": "verified",
+      "items": [
+        "1996-1997 foundation subsidence",
+        "1996-1997 loose stone displacement",
+        "1997 wall cracking",
+        "1997 stone fragment loss",
+        "1998-09-19 approximate 2-ton stone fall",
+        "2000 stone loosening concern",
+        "2000 water penetration concern",
+        "2000 cyclone damage to green belt"
+      ]
+    },
+    {
+      "category": "conservation",
+      "status": "verified",
+      "items": [
+        "2003 Jagamohana conservation/stabilisation",
+        "2012 CBRI investigations",
+        "2012 drainage and soak-pit measures",
+        "2021 ASI conservation measures"
+      ]
+    }
+  ],
+
+  "limitedVerification": [
+    {
+      "item": "1998 State of Conservation report",
+      "status": "archive_verified_only",
+      "reason": "Official UNESCO archive confirms the report exists, but claim-level facts must be taken from the individual report rather than the archive listing.",
+      "allowedUse": [
+        "Source registry",
+        "Monitoring chronology"
+      ],
+      "restrictedUse": [
+        "New damage claims"
+      ]
+    },
+    {
+      "item": "2000 ICOMOS mission report",
+      "status": "archive_and_decision_supported",
+      "reason": "The UNESCO decision documents the mission findings, while the archive separately identifies the mission report.",
+      "allowedUse": [
+        "Monitoring",
+        "Decision-supported findings"
+      ]
+    }
+  ],
+
+  "unresolvedData": [
+    {
+      "id": "gap-3d-model",
+      "category": "3d",
+      "status": "not-sourced",
+      "description": "No authoritative downloadable Konark GLB/GLTF asset has been established.",
+      "requiredAction": "Obtain a rights-cleared authoritative 3D model or perform a new documented capture."
+    },
+    {
+      "id": "gap-image-coordinates",
+      "category": "spatial_annotation",
+      "status": "not-established",
+      "description": "Documented damage locations are not automatically equivalent to pixel-level or 3D coordinates.",
+      "requiredAction": "Create human-reviewed image or spatial annotations from suitable evidence imagery."
+    },
+    {
+      "id": "gap-current-severity",
+      "category": "condition",
+      "status": "not-assigned",
+      "description": "Official sources do not provide a standardized Low/Medium/High severity score for the listed conditions.",
+      "requiredAction": "Create a documented scoring methodology before generating severity values."
+    },
+    {
+      "id": "gap-reconstruction-confidence",
+      "category": "ai",
+      "status": "not-computed",
+      "description": "AI reconstruction confidence cannot be represented as a real percentage before the evidence-scoring pipeline exists.",
+      "requiredAction": "Compute confidence from documented evidence, model uncertainty and human review."
+    }
+  ],
+
+  "rejectedDataPatterns": [
+    {
+      "pattern": "Invented damage percentage",
+      "reason": "No official source establishes the percentage."
+    },
+    {
+      "pattern": "Invented severity score",
+      "reason": "No standardized source-backed severity value."
+    },
+    {
+      "pattern": "Fake 3D download URL",
+      "reason": "No verified authoritative asset established."
+    },
+    {
+      "pattern": "AI reconstruction presented as historical fact",
+      "reason": "Reconstruction is an inference/hypothesis."
+    },
+    {
+      "pattern": "2026 current webpage treated as a 2026 damage event",
+      "reason": "A current reference page does not establish a physical event."
+    }
+  ],
+
+  "sourcePriority": [
+    "UNESCO World Heritage Centre",
+    "ICOMOS",
+    "Government of India / Ministry of Culture",
+    "Archaeological Survey of India",
+    "CSIR-CBRI",
+    "Open-license secondary media sources"
+  ],
+
+  "releaseRecommendation": {
+    "datasetCanBeUsedForPrototype": true,
+    "datasetCanBeUsedForHistoricalClaims": true,
+    "datasetCanBeUsedForAITrainingImmediately": false,
+    "reason": "Image-level annotations and authoritative 3D geometry are still incomplete."
+  }
+}

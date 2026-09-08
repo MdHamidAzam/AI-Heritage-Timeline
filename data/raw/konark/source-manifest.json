@@ -1,0 +1,248 @@
+{
+  "datasetId": "konark-raw-sources",
+  "monumentId": "konark-sun-temple",
+  "manifestVersion": "1.0.0",
+  "lastChecked": "2026-09-08",
+
+  "sources": [
+    {
+      "id": "raw-001",
+      "year": 1984,
+      "organization": "UNESCO World Heritage Centre",
+      "type": "World Heritage Record",
+      "title": "Sun Temple, Konârak",
+      "url": "https://whc.unesco.org/en/list/246",
+      "status": "verified",
+      "usedBy": [
+        "monument.json",
+        "timeline.json",
+        "condition.json",
+        "components.json",
+        "evidence.json"
+      ]
+    },
+    {
+      "id": "raw-002",
+      "year": 1984,
+      "organization": "ICOMOS / UNESCO World Heritage Centre",
+      "type": "Advisory Body Evaluation",
+      "title": "Advisory Body Evaluation",
+      "url": "https://whc.unesco.org/en/documents/153031",
+      "status": "verified",
+      "usedBy": [
+        "evidence.json",
+        "source-registry.json"
+      ]
+    },
+    {
+      "id": "raw-003",
+      "year": 1984,
+      "organization": "UNESCO World Heritage Centre",
+      "type": "Site Plan",
+      "title": "Detailed Site Plan of Sun Temple at Konarak",
+      "url": "https://whc.unesco.org/en/documents/103350",
+      "status": "verified",
+      "usedBy": [
+        "3d-assets.json",
+        "evidence.json",
+        "annotation-schema.json"
+      ]
+    },
+    {
+      "id": "raw-004",
+      "year": 1997,
+      "organization": "UNESCO World Heritage Centre",
+      "type": "State of Conservation",
+      "title": "State of Conservation 1997",
+      "url": "https://whc.unesco.org/en/soc/2143",
+      "status": "verified",
+      "usedBy": [
+        "timeline.json",
+        "damage-events.json",
+        "condition.json",
+        "evidence.json"
+      ]
+    },
+    {
+      "id": "raw-005",
+      "year": 1998,
+      "organization": "UNESCO World Heritage Centre",
+      "type": "State of Conservation",
+      "title": "State of Conservation 1998",
+      "url": "https://whc.unesco.org/en/list/246/documents",
+      "status": "archive_verified",
+      "claimLevel": "archive_listing",
+      "usedBy": [
+        "source-registry.json"
+      ],
+      "note": "The archive confirms the report exists. Do not derive detailed claim-level facts from the archive listing alone."
+    },
+    {
+      "id": "raw-006",
+      "year": 1999,
+      "organization": "UNESCO World Heritage Centre",
+      "type": "World Heritage Committee Decision",
+      "title": "Decision 23 BUR IV.B.62",
+      "url": "https://whc.unesco.org/en/decisions/5737",
+      "status": "verified",
+      "usedBy": [
+        "timeline.json",
+        "damage-events.json",
+        "evidence.json"
+      ]
+    },
+    {
+      "id": "raw-007",
+      "year": 2000,
+      "organization": "ICOMOS / UNESCO World Heritage Centre",
+      "type": "Reactive Monitoring Mission",
+      "title": "Report on the ICOMOS Reactive Monitoring Mission to the Sun Temple, Konârak",
+      "url": "https://whc.unesco.org/en/list/246/documents",
+      "status": "archive_verified",
+      "usedBy": [
+        "source-registry.json",
+        "evidence.json"
+      ]
+    },
+    {
+      "id": "raw-008",
+      "year": 2000,
+      "organization": "UNESCO World Heritage Centre",
+      "type": "World Heritage Committee Decision",
+      "title": "Decision 24 BUR IV.B.65",
+      "url": "https://whc.unesco.org/en/decisions/5825",
+      "status": "verified",
+      "usedBy": [
+        "timeline.json",
+        "damage-events.json",
+        "condition.json",
+        "evidence.json"
+      ]
+    },
+    {
+      "id": "raw-009",
+      "year": 2003,
+      "organization": "UNESCO World Heritage Centre",
+      "type": "Periodic Report",
+      "title": "Periodic Reporting Cycle 1, Section II",
+      "url": "https://whc.unesco.org/document/162852",
+      "status": "verified",
+      "usedBy": [
+        "timeline.json",
+        "condition.json",
+        "evidence.json"
+      ]
+    },
+    {
+      "id": "raw-010",
+      "year": 2012,
+      "organization": "UNESCO World Heritage Centre",
+      "type": "Periodic Report",
+      "title": "Periodic Reporting Cycle 2, Section II",
+      "url": "https://whc.unesco.org/document/164621",
+      "status": "verified",
+      "usedBy": [
+        "timeline.json",
+        "condition.json",
+        "evidence.json"
+      ]
+    },
+    {
+      "id": "raw-011",
+      "year": 2012,
+      "organization": "Ministry of Culture, Government of India",
+      "type": "Government Record",
+      "title": "Conservation Measures for Sun Temple at Konark",
+      "url": "https://www.pib.gov.in/newsite/PrintRelease.aspx?lang=2&reg=48&relid=86496",
+      "status": "verified",
+      "usedBy": [
+        "timeline.json",
+        "condition.json",
+        "evidence.json"
+      ]
+    },
+    {
+      "id": "raw-012",
+      "year": 2021,
+      "organization": "Ministry of Culture, Government of India",
+      "type": "Government Record",
+      "title": "Conservation of the Sun Temple at Konark",
+      "url": "https://www.pib.gov.in/pressreleaseshare.aspx?lang=2&prid=1703558&reg=48",
+      "status": "verified",
+      "usedBy": [
+        "timeline.json",
+        "condition.json",
+        "evidence.json"
+      ]
+    },
+    {
+      "id": "raw-013",
+      "year": 2023,
+      "organization": "UNESCO World Heritage Centre",
+      "type": "Periodic Report",
+      "title": "Periodic Reporting Cycle 3, Section II",
+      "url": "https://whc.unesco.org/document/216402",
+      "status": "verified",
+      "usedBy": [
+        "timeline.json",
+        "evidence.json"
+      ]
+    },
+    {
+      "id": "raw-014",
+      "year": 2024,
+      "organization": "Ministry of Culture, Government of India",
+      "type": "Government Record",
+      "title": "Development Status of Puri and Konark by ASI",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2086010&lang=2&reg=48",
+      "status": "verified",
+      "usedBy": [
+        "evidence.json",
+        "source-registry.json"
+      ],
+      "note": "Reported allocations are for Odisha ASI conservation/restoration/maintenance/development and are not treated as Konark-specific expenditure."
+    },
+    {
+      "id": "raw-015",
+      "year": null,
+      "organization": "CSIR-Central Building Research Institute",
+      "type": "Technical Documentation",
+      "title": "CSIR-CBRI Heritage Contributions",
+      "url": "https://cbri.res.in/wp-content/uploads/2021/09/CSIR-CBRI-75-yrs.pdf",
+      "status": "verified",
+      "usedBy": [
+        "3d-assets.json",
+        "source-registry.json",
+        "annotation-schema.json"
+      ]
+    },
+    {
+      "id": "raw-016",
+      "year": 2026,
+      "organization": "Ministry of Culture, Government of India",
+      "type": "Current Government Reference",
+      "title": "Sun Temple, Konârak",
+      "url": "https://culture.gov.in/sun-temple-konarak",
+      "status": "verified",
+      "lastUpdated": "2026-09-03",
+      "isHistoricalEvidence": false,
+      "usedBy": [
+        "monument.json",
+        "timeline.json",
+        "evidence.json",
+        "source-registry.json"
+      ],
+      "note": "Current reference only; not evidence of a specific 2026 physical event."
+    }
+  ],
+
+  "sourceRules": {
+    "primarySourcesPreferred": true,
+    "secondarySourcesRequireCrossCheck": true,
+    "archiveListingIsNotClaimEvidence": true,
+    "unsupportedDetailsMustNotBeAdded": true,
+    "historicalFactsRequireSource": true,
+    "damageCoordinatesRequireSpatialEvidence": true,
+    "severityRequiresDocumentedBasis": true
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "schemaVersion": "1.0.0",
+  "monumentId": "konark-sun-temple",
+
+  "records": [
+    {
+      "id": "funding-konark-ncf-2024",
+      "year": 2024,
+      "fundingType": "NCF_project",
+      "project": "Providing public amenities like smart toilet, childcare room and rest room for senior citizens at Sun Temple, Konark",
+      "donor": "Armoured Vehicles Nigam Limited",
+      "state": "Odisha",
+      "district": "Puri",
+      "reportedProjectAmountLakh": 14.95,
+      "verification": "verified",
+      "scope": "Konark_specific",
+      "isStructuralConservationExpenditure": false,
+      "source": {
+        "organization": "Ministry of Culture, Government of India",
+        "title": "Conservation of National Culture Heritage under NCF",
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2242377"
+      }
+    },
+    {
+      "id": "funding-konark-ncf-2024-50",
+      "year": 2024,
+      "fundingType": "NCF_project",
+      "project": "Public amenities at Sun Temple, Konark",
+      "partner": "Armoured Vehicles Nigam Limited",
+      "reportedProjectCostLakh": 50,
+      "verification": "verified",
+      "scope": "Konark_specific",
+      "isStructuralConservationExpenditure": false,
+      "note": "Use the specific government table/source when presenting the project amount; do not combine this figure with other NCF figures without reconciling source definitions.",
+      "source": {
+        "organization": "Ministry of Culture, Government of India",
+        "title": "Conservation of National Culture Heritage under NCF and AMASR Act",
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2297463"
+      }
+    },
+    {
+      "id": "funding-odisha-2023-24",
+      "year": "2023-24",
+      "fundingType": "ASI_state_allocation",
+      "state": "Odisha",
+      "scope": "Odisha_ASI_wide",
+      "konarkSpecific": false,
+      "note": "State-wide ASI allocation. Must not be represented as expenditure on Konark.",
+      "verification": "verified",
+      "source": {
+        "organization": "Ministry of Culture, Government of India",
+        "title": "Conservation and Protection of Monuments",
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2243786"
+      }
+    },
+    {
+      "id": "funding-odisha-2024-25",
+      "year": "2024-25",
+      "fundingType": "ASI_state_allocation",
+      "state": "Odisha",
+      "scope": "Odisha_ASI_wide",
+      "konarkSpecific": false,
+      "note": "State-wide ASI allocation/expenditure data. Not attributable to Konark without monument-specific accounting.",
+      "verification": "verified",
+      "source": {
+        "organization": "Ministry of Culture, Government of India",
+        "title": "Government allocates significant funds for conservation of protected monuments",
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2240811"
+      }
+    },
+    {
+      "id": "funding-national-2025-26",
+      "year": "2025-26",
+      "fundingType": "ASI_national_context",
+      "periodEnd": "2026-03-05",
+      "scope": "All_Centrally_Protected_Monuments",
+      "konarkSpecific": false,
+      "note": "National conservation allocation/expenditure context; not Konark-specific.",
+      "verification": "verified",
+      "source": {
+        "organization": "Ministry of Culture, Government of India",
+        "title": "Conservation and Protection of Monuments of National Importance",
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2243786"
+      }
+    }
+  ],
+
+  "fundingRules": {
+    "monumentSpecificAmountPreferred": true,
+    "stateWideAllocationCannotBeAttributedToKonark": true,
+    "nationalAllocationCannotBeAttributedToKonark": true,
+    "publicAmenitiesMustBeSeparatedFromStructuralConservation": true,
+    "differentGovernmentTablesMustNotBeMergedWithoutSourceReconciliation": true
+  },
+
+  "dashboard": {
+    "showFundingHistory": true,
+    "showScope": true,
+    "showProjectType": true,
+    "showSource": true,
+    "warnWhenRegionalOrNational": true
+  }
+}

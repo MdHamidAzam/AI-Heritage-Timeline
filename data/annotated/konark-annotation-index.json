@@ -1,0 +1,174 @@
+{
+  "schemaVersion": "1.0.0",
+  "datasetId": "konark-visual-annotations",
+  "monumentId": "konark-sun-temple",
+  "createdDate": "2026-09-08",
+
+  "annotationPolicy": {
+    "sourceImageRequired": true,
+    "licenseRequired": true,
+    "geometryMustBeObserved": true,
+    "textOnlyDamageClaimCannotCreateGeometry": true,
+    "historicalDamageCannotBeAssumedFromModernImage": true,
+    "humanReviewRequired": true,
+    "aiSuggestedAnnotationsRequireReview": true
+  },
+
+  "annotationClasses": [
+    {
+      "id": "component",
+      "label": "Architectural Component",
+      "examples": [
+        "Vimana",
+        "Jagamohana",
+        "Natmandir",
+        "Carved Wheels",
+        "Stone Horses",
+        "Plinth Reliefs"
+      ]
+    },
+    {
+      "id": "damage",
+      "label": "Observed Damage / Deterioration",
+      "examples": [
+        "Cracking",
+        "Stone Fragment Loss",
+        "Stone Loosening",
+        "Stone Fall",
+        "Surface Erosion",
+        "Vegetative Intrusion",
+        "Water-related Evidence"
+      ]
+    },
+    {
+      "id": "environment",
+      "label": "Environmental Condition",
+      "examples": [
+        "Standing Water",
+        "Vegetation",
+        "Wind/Sand Exposure Evidence"
+      ]
+    },
+    {
+      "id": "evidence",
+      "label": "Evidence Region",
+      "examples": [
+        "Visible structural feature",
+        "Visible conservation intervention",
+        "Documentary reference region"
+      ]
+    }
+  ],
+
+  "images": [
+    {
+      "assetId": "konark-img-001",
+      "sourceRegistry": "data/raw/konark/image-acquisition-manifest.json",
+      "filename": "konark_front_2024_cc0.jpg",
+      "license": "CC0 1.0",
+      "physicalFileStatus": "pending",
+      "annotationStatus": "not_started",
+      "annotations": []
+    },
+    {
+      "assetId": "konark-img-002",
+      "sourceRegistry": "data/raw/konark/image-acquisition-manifest.json",
+      "filename": "konark_sun_temple_2024_cc0.jpg",
+      "license": "CC0 1.0",
+      "physicalFileStatus": "pending",
+      "annotationStatus": "not_started",
+      "annotations": []
+    },
+    {
+      "assetId": "konark-img-003",
+      "sourceRegistry": "data/raw/konark/image-acquisition-manifest.json",
+      "filename": "konark_sun_temple_2011_cc_by_sa.jpg",
+      "license": "CC BY-SA 3.0",
+      "physicalFileStatus": "pending",
+      "annotationStatus": "not_started",
+      "annotations": []
+    },
+    {
+      "assetId": "konark-img-004",
+      "sourceRegistry": "data/raw/konark/image-acquisition-manifest.json",
+      "filename": "konark_front_2016_cc_by_sa.jpg",
+      "license": "CC BY-SA 4.0",
+      "physicalFileStatus": "pending",
+      "annotationStatus": "not_started",
+      "annotations": []
+    },
+    {
+      "assetId": "konark-img-005",
+      "sourceRegistry": "data/raw/konark/image-acquisition-manifest.json",
+      "filename": "konark_front_2024_geotagged_cc0.jpg",
+      "license": "CC0 1.0",
+      "physicalFileStatus": "pending",
+      "annotationStatus": "not_started",
+      "cameraLocation": {
+        "latitude": 19.887632,
+        "longitude": 86.095053
+      },
+      "annotations": []
+    },
+    {
+      "assetId": "konark-img-006",
+      "sourceRegistry": "data/raw/konark/image-acquisition-manifest.json",
+      "filename": "konark_sun_temple_2017_cc_by_sa.jpg",
+      "license": "CC BY-SA 4.0",
+      "physicalFileStatus": "pending",
+      "annotationStatus": "not_started",
+      "annotations": []
+    }
+  ],
+
+  "annotationRecordTemplate": {
+    "id": "annotation-unique-id",
+    "assetId": "source-image-id",
+    "annotationType": "component | damage | environment | evidence",
+    "label": "canonical-label",
+    "geometryType": "polygon | bounding_box | point",
+    "geometry": null,
+    "componentId": null,
+    "damageEventId": null,
+    "conditionId": null,
+    "evidenceSourceId": null,
+    "observedDate": null,
+    "imageCaptureDate": null,
+    "annotator": null,
+    "reviewer": null,
+    "reviewStatus": "pending",
+    "confidence": null,
+    "notes": null
+  },
+
+  "historicalLinkingRules": {
+    "modernPhotographDoesNotProveHistoricalDamage": true,
+    "historicalEventRequiresDocumentaryEvidence": true,
+    "imageCanProvideVisualEvidenceWithoutProvingDateOfDamage": true,
+    "historicalEventAndVisualObservationMustRemainSeparate": true
+  },
+
+  "qualityControl": {
+    "minimumTwoStepReview": true,
+    "reviewStates": [
+      "pending",
+      "accepted",
+      "rejected",
+      "needs_revision"
+    ],
+    "geometryValidationRequired": true,
+    "labelValidationRequired": true,
+    "sourceValidationRequired": true,
+    "duplicateAnnotationCheck": true
+  },
+
+  "outputFormats": {
+    "internal": "JSON",
+    "computerVisionTraining": [
+      "COCO",
+      "YOLO",
+      "GeoJSON"
+    ],
+    "exportOnlyAfterReview": true
+  }
+}

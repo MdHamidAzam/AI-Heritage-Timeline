@@ -1,0 +1,254 @@
+{
+  "monumentId": "konark-sun-temple",
+  "schemaVersion": "1.0.0",
+
+  "snapshots": [
+    {
+      "id": "state-13th-century",
+      "period": "13th century",
+      "stateType": "historical_origin",
+      "documentedState": {
+        "construction": "Temple constructed during the reign of Narasimha Deva I.",
+        "architecturalConcept": "Monumental chariot of Surya",
+        "wheels": 24,
+        "horses": 6
+      },
+      "certainty": "documented",
+      "source": {
+        "organization": "UNESCO World Heritage Centre",
+        "url": "https://whc.unesco.org/en/list/246"
+      }
+    },
+
+    {
+      "id": "state-19th-century",
+      "period": "19th century",
+      "stateType": "historical_change",
+      "documentedState": {
+        "majorChange": "High tower and shikhara of the Vimana were razed."
+      },
+      "certainty": "documented",
+      "source": {
+        "organization": "UNESCO World Heritage Centre",
+        "url": "https://whc.unesco.org/en/list/246"
+      }
+    },
+
+    {
+      "id": "state-1984",
+      "period": "1984",
+      "stateType": "heritage_recognition",
+      "documentedState": {
+        "unescoStatus": "World Heritage Site",
+        "criteria": ["i", "iii", "vi"],
+        "propertyAreaHa": 10.62
+      },
+      "certainty": "documented",
+      "source": {
+        "organization": "UNESCO World Heritage Centre",
+        "url": "https://whc.unesco.org/en/list/246"
+      }
+    },
+
+    {
+      "id": "state-1997",
+      "period": "1996-1997",
+      "stateType": "structural_damage",
+      "documentedState": {
+        "foundation": "Serious subsidence of sand-fill and surrounding foundation",
+        "interior": "Loose stones had begun to fall into the hollow interior",
+        "walls": "Cracking associated with rusting iron clamps",
+        "stoneLoss": "Stone fragments reported falling",
+        "triggerContext": [
+          "Heavy monsoon rains",
+          "Sea breeze / salt-air exposure"
+        ]
+      },
+      "severity": "not-assigned",
+      "certainty": "documented",
+      "source": {
+        "organization": "UNESCO World Heritage Centre",
+        "url": "https://whc.unesco.org/en/soc/2143"
+      }
+    },
+
+    {
+      "id": "state-1998",
+      "period": "1998",
+      "stateType": "monitoring",
+      "documentedState": {
+        "reportedConcerns": [
+          "Monsoon rain",
+          "Gradual deterioration",
+          "Structural instability"
+        ],
+        "monitoring": "Structural stability study followed by UNESCO reporting."
+      },
+      "severity": "not-assigned",
+      "certainty": "documented",
+      "source": {
+        "organization": "UNESCO World Heritage Centre",
+        "url": "https://whc.unesco.org/en/soc/3031"
+      }
+    },
+
+    {
+      "id": "state-1999",
+      "period": "1999",
+      "stateType": "structural_concern",
+      "documentedState": {
+        "overallAssessment": "Continued deterioration of stone structures",
+        "majorRecordedEvent": "Approximately 2-ton stone reportedly fell from the north-east side of the Jagamohan porch on 19 September 1998."
+      },
+      "severity": "not-assigned",
+      "certainty": "documented",
+      "source": {
+        "organization": "UNESCO World Heritage Centre",
+        "url": "https://whc.unesco.org/en/decisions/5737"
+      }
+    },
+
+    {
+      "id": "state-2000",
+      "period": "2000",
+      "stateType": "monitoring_and_assessment",
+      "documentedState": {
+        "immediateStructuralThreat": "No immediate threat from structural instability reported by the ICOMOS mission",
+        "longTermConcerns": [
+          "Loosening of stone parts",
+          "Water penetration"
+        ],
+        "environmentalEvent": "Cyclone damage to site green belt",
+        "managementResponse": [
+          "Regular maintenance",
+          "Periodic monitoring",
+          "Further examination of structural and water-related effects"
+        ]
+      },
+      "severity": "not-assigned",
+      "certainty": "documented",
+      "source": {
+        "organization": "UNESCO World Heritage Centre",
+        "url": "https://whc.unesco.org/en/decisions/5825"
+      }
+    },
+
+    {
+      "id": "state-2003",
+      "period": "2003",
+      "stateType": "conservation_stabilisation",
+      "documentedState": {
+        "jagamohana": "Major conservation and restoration work carried out on the platform",
+        "overallStatus": "Property reported as stabilised"
+      },
+      "certainty": "documented",
+      "source": {
+        "organization": "UNESCO World Heritage Centre",
+        "url": "https://whc.unesco.org/document/162851"
+      }
+    },
+
+    {
+      "id": "state-2012",
+      "period": "2012",
+      "stateType": "conservation_and_monitoring",
+      "documentedState": {
+        "monitoringTopics": [
+          "Wind-related effects",
+          "Structural condition",
+          "Water-related concerns",
+          "Flooding",
+          "Conservation management"
+        ],
+        "documentedMeasures": [
+          "CBRI investigations",
+          "Drainage measures",
+          "Soak pits",
+          "Measures addressing water logging",
+          "Measures related to saline action"
+        ]
+      },
+      "certainty": "documented",
+      "source": {
+        "organization": "UNESCO World Heritage Centre",
+        "url": "https://whc.unesco.org/document/164621"
+      }
+    },
+
+    {
+      "id": "state-2021",
+      "period": "2021",
+      "stateType": "active_conservation",
+      "documentedState": {
+        "reportedCondition": "Good state of preservation due to regular care by ASI",
+        "conservationActions": [
+          "Surface cleaning",
+          "Stone consolidation and strengthening",
+          "Water pumping",
+          "Periodic biocidal treatment",
+          "Vegetation control",
+          "Plantation measures"
+        ]
+      },
+      "certainty": "government_reported",
+      "source": {
+        "organization": "Ministry of Culture, Government of India",
+        "url": "https://www.pib.gov.in/pressreleaseshare.aspx?lang=2&prid=1703558&reg=48"
+      }
+    },
+
+    {
+      "id": "state-2023",
+      "period": "2023",
+      "stateType": "periodic_monitoring",
+      "documentedState": {
+        "physicalFabricFactors": [
+          "Wind",
+          "Relative humidity",
+          "Water"
+        ],
+        "climateAndWeatherFactors": [
+          "Storms",
+          "Flooding"
+        ],
+        "managementFactors": [
+          "Management system",
+          "Legal framework",
+          "Governance",
+          "Management activities",
+          "Financial resources",
+          "Human resources",
+          "Research and monitoring"
+        ],
+        "trendStatus": "Continue monitoring"
+      },
+      "certainty": "documented",
+      "source": {
+        "organization": "UNESCO World Heritage Centre",
+        "url": "https://whc.unesco.org/document/216402"
+      }
+    },
+
+    {
+      "id": "state-2026",
+      "period": "2026",
+      "stateType": "current_reference",
+      "documentedState": {
+        "officialGovernmentReference": true,
+        "officialPageLastUpdated": "2026-09-03",
+        "unescoInscription": 1984,
+        "propertyAreaHa": 10.62
+      },
+      "interpretation": {
+        "historicalEvent": false,
+        "newDamageClaim": false,
+        "newConservationEventClaim": false
+      },
+      "certainty": "current_official_reference",
+      "source": {
+        "organization": "Ministry of Culture, Government of India",
+        "url": "https://culture.gov.in/sun-temple-konarak"
+      }
+    }
+  ]
+}

@@ -1,0 +1,267 @@
+[
+  {
+    "id": "evidence-unesco-main-record",
+    "sourceType": "Official World Heritage Record",
+    "year": 1984,
+    "title": "Sun Temple, Konârak",
+    "organization": "UNESCO World Heritage Centre",
+    "url": "https://whc.unesco.org/en/list/246",
+    "supports": [
+      "13th-century construction",
+      "Outstanding Universal Value",
+      "24 wheels",
+      "six horses",
+      "Vimana",
+      "Jagamohana",
+      "Natmandir",
+      "19th-century loss of Vimana shikhara",
+      "1984 World Heritage inscription",
+      "criteria (i), (iii), (vi)",
+      "property area",
+      "coordinates",
+      "documented threats",
+      "AMASR protection"
+    ],
+    "verification": "verified"
+  },
+  {
+    "id": "evidence-unesco-1984-evaluation",
+    "sourceType": "ICOMOS Advisory Body Evaluation",
+    "year": 1984,
+    "title": "Advisory Body Evaluation - Sun Temple, Konârak",
+    "organization": "ICOMOS / UNESCO World Heritage Centre",
+    "url": "https://whc.unesco.org/en/documents/153031",
+    "supports": [
+      "Outstanding Universal Value assessment",
+      "architectural significance",
+      "historical significance",
+      "1984 inscription assessment"
+    ],
+    "verification": "verified"
+  },
+  {
+    "id": "evidence-unesco-1984-site-plan",
+    "sourceType": "Official Site Plan",
+    "year": 1984,
+    "title": "Detailed Site Plan of Sun Temple at Konarak",
+    "organization": "UNESCO World Heritage Centre",
+    "url": "https://whc.unesco.org/en/documents/103350",
+    "supports": [
+      "site boundary",
+      "spatial reference",
+      "architectural/site layout"
+    ],
+    "verification": "verified"
+  },
+  {
+    "id": "evidence-unesco-soc-1997",
+    "sourceType": "State of Conservation Report",
+    "year": 1997,
+    "title": "State of Conservation 1997",
+    "organization": "UNESCO World Heritage Centre",
+    "url": "https://whc.unesco.org/en/soc/2143",
+    "supports": [
+      "heavy monsoon impact",
+      "foundation subsidence",
+      "sand-fill settlement",
+      "loose stones",
+      "wall cracking",
+      "iron clamp corrosion",
+      "stone fragment loss",
+      "structural study requirement"
+    ],
+    "verification": "verified"
+  },
+  {
+    "id": "evidence-unesco-soc-1998",
+    "sourceType": "State of Conservation Report",
+    "year": 1998,
+    "title": "State of Conservation 1998",
+    "organization": "UNESCO World Heritage Centre",
+    "url": "https://whc.unesco.org/en/list/246/documents",
+    "supports": [
+      "continued structural monitoring",
+      "follow-up to structural study"
+    ],
+    "verification": "verified",
+    "note": "Archive confirms the 1998 State of Conservation record; detailed claims should be linked to the exact report text where required."
+  },
+  {
+    "id": "evidence-unesco-soc-1999",
+    "sourceType": "State of Conservation Report / UNESCO Decision",
+    "year": 1999,
+    "title": "Decision 23 BUR IV.B.62",
+    "organization": "UNESCO World Heritage Centre",
+    "url": "https://whc.unesco.org/en/decisions/5737",
+    "supports": [
+      "continued deterioration",
+      "approximately 2-ton stone fall",
+      "north-east side of Jagamohan porch",
+      "19 September 1998 event",
+      "urgent conservation concern"
+    ],
+    "verification": "verified"
+  },
+  {
+    "id": "evidence-unesco-2000-mission",
+    "sourceType": "ICOMOS Reactive Monitoring Mission",
+    "year": 2000,
+    "title": "Report on the ICOMOS Reactive Monitoring Mission to the Sun Temple, Konârak",
+    "organization": "ICOMOS / UNESCO World Heritage Centre",
+    "url": "https://whc.unesco.org/en/list/246/documents",
+    "supports": [
+      "site inspection",
+      "structural stability assessment",
+      "stone loosening",
+      "water penetration",
+      "monitoring recommendations"
+    ],
+    "verification": "verified"
+  },
+  {
+    "id": "evidence-unesco-decision-2000",
+    "sourceType": "UNESCO World Heritage Committee Decision",
+    "year": 2000,
+    "title": "Decision 24 BUR IV.B.65",
+    "organization": "UNESCO World Heritage Centre",
+    "url": "https://whc.unesco.org/en/decisions/5825",
+    "supports": [
+      "no immediate threat from structural instability",
+      "long-term monitoring",
+      "stone loosening",
+      "water penetration",
+      "regular maintenance",
+      "periodic monitoring",
+      "cyclone-related green-belt damage"
+    ],
+    "verification": "verified"
+  },
+  {
+    "id": "evidence-unesco-periodic-2003",
+    "sourceType": "Periodic Report",
+    "year": 2003,
+    "title": "Periodic Reporting Cycle 1, Section II (Summary)",
+    "organization": "UNESCO World Heritage Centre",
+    "url": "https://whc.unesco.org/document/162851",
+    "supports": [
+      "Jagamohana conservation",
+      "restoration work",
+      "property stabilisation",
+      "conservation programme"
+    ],
+    "verification": "verified"
+  },
+  {
+    "id": "evidence-unesco-periodic-2012",
+    "sourceType": "Periodic Report",
+    "year": 2012,
+    "title": "Periodic Reporting Cycle 2, Section II",
+    "organization": "UNESCO World Heritage Centre",
+    "url": "https://whc.unesco.org/document/164621",
+    "supports": [
+      "conservation monitoring",
+      "structural condition",
+      "water-related concerns",
+      "flooding",
+      "wind-related erosion",
+      "management and conservation context"
+    ],
+    "verification": "verified"
+  },
+  {
+    "id": "evidence-unesco-decision-2012",
+    "sourceType": "UNESCO World Heritage Committee Decision",
+    "year": 2012,
+    "title": "Decision 36 COM 8B.52",
+    "organization": "UNESCO World Heritage Centre",
+    "url": "https://whc.unesco.org/en/decisions/4823",
+    "supports": [
+      "minor boundary modification examination"
+    ],
+    "verification": "verified"
+  },
+  {
+    "id": "evidence-government-2012",
+    "sourceType": "Government of India Record",
+    "year": 2012,
+    "title": "Conservation Measures for Sun Temple at Konark",
+    "organization": "Ministry of Culture, Government of India",
+    "url": "https://www.pib.gov.in/newsite/PrintRelease.aspx?lang=2&reg=48&relid=86496",
+    "supports": [
+      "CBRI investigations",
+      "drainage measures",
+      "soak pits",
+      "water logging control",
+      "saline action management"
+    ],
+    "verification": "verified"
+  },
+  {
+    "id": "evidence-government-2021",
+    "sourceType": "Government of India Record",
+    "year": 2021,
+    "title": "Conservation of the Sun Temple at Konark",
+    "organization": "Ministry of Culture, Government of India",
+    "url": "https://www.pib.gov.in/pressreleaseshare.aspx?lang=2&prid=1703558&reg=48",
+    "supports": [
+      "saline action mitigation",
+      "water logging mitigation",
+      "erosion control",
+      "vegetative intrusion control",
+      "paper pulp cleaning",
+      "stone consolidation",
+      "stone strengthening",
+      "tree plantation",
+      "water pumping",
+      "periodic biocidal treatment",
+      "annual conservation planning"
+    ],
+    "verification": "verified"
+  },
+  {
+    "id": "evidence-unesco-periodic-2023",
+    "sourceType": "Periodic Report",
+    "year": 2023,
+    "title": "Periodic Reporting Cycle 3, Section II",
+    "organization": "UNESCO World Heritage Centre",
+    "url": "https://whc.unesco.org/document/216402",
+    "supports": [
+      "current UNESCO periodic reporting",
+      "property management",
+      "conservation context",
+      "site condition reporting"
+    ],
+    "verification": "verified"
+  },
+  {
+    "id": "evidence-government-2024",
+    "sourceType": "Government of India Record",
+    "year": 2024,
+    "title": "Development Status of Puri and Konark by ASI",
+    "organization": "Ministry of Culture, Government of India",
+    "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2086010&lang=2&reg=48",
+    "supports": [
+      "ASI conservation responsibility",
+      "conservation and restoration work",
+      "maintenance and development work",
+      "2021-22 allocation for Odisha",
+      "2022-23 allocation for Odisha",
+      "2023-24 allocation for Odisha"
+    ],
+    "verification": "verified"
+  },
+  {
+    "id": "evidence-government-2026-reference",
+    "sourceType": "Official Government Website",
+    "year": 2026,
+    "title": "Sun Temple, Konârak",
+    "organization": "Ministry of Culture, Government of India",
+    "url": "https://culture.gov.in/sun-temple-konarak",
+    "supports": [
+      "current official monument reference"
+    ],
+    "verification": "verified",
+    "isHistoricalEvidence": false,
+    "note": "This is a current reference source, not evidence of a specific 2026 physical change."
+  }
+]

@@ -1,0 +1,189 @@
+{
+  "schemaVersion": "1.0.0",
+  "monumentId": "konark-sun-temple",
+
+  "sourceRecord": {
+    "year": 2003,
+    "reportPrepared": "2002-12-10",
+    "organization": "Archaeological Survey of India",
+    "source": {
+      "organization": "UNESCO World Heritage Centre",
+      "title": "Periodic Reporting Cycle 1, Section II",
+      "url": "https://whc.unesco.org/document/162852"
+    },
+    "verification": "verified"
+  },
+
+  "documentedEnvironmentalPressure": [
+    {
+      "factor": "Urban growth",
+      "verification": "verified"
+    },
+    {
+      "factor": "Deforestation",
+      "verification": "verified"
+    },
+    {
+      "factor": "Saline breeze",
+      "verification": "verified"
+    },
+    {
+      "factor": "Sand blasting",
+      "verification": "verified"
+    },
+    {
+      "factor": "Pollution caused by vehicular movement",
+      "verification": "verified"
+    },
+    {
+      "factor": "Microbiological growth",
+      "verification": "verified"
+    }
+  ],
+
+  "documentedSpatialDeterioration": {
+    "period": "after Super Cyclone 1999",
+    "component": "Jagamohana",
+    "areas": [
+      "Southern side",
+      "Western side"
+    ],
+    "reportedCause": [
+      "Saline breeze",
+      "Sand blasting"
+    ],
+    "reportedTrend": "Deteriorating alarmingly",
+    "verification": "verified"
+  },
+
+  "environmentalMitigation": {
+    "treeSaplings": {
+      "quantityReported": 150000,
+      "quantityApproximate": true,
+      "areaHectares": 377,
+      "purpose": [
+        "Reduce saline wind exposure",
+        "Reduce sand blasting",
+        "Supplement existing green belt"
+      ],
+      "implementingBody": "Forest Department, Government of Orissa",
+      "context": "Coastal area around Sun Temple, Konarak",
+      "verification": "verified"
+    }
+  },
+
+  "monitoringMethods": [
+    {
+      "id": "monitor-sand-dust",
+      "method": "Sand dust collection",
+      "target": "Sand accumulation / wind-borne material",
+      "frequency": "periodic",
+      "verification": "verified"
+    },
+    {
+      "id": "monitor-salt-accretion",
+      "method": "Sampling of salt accretion on stone",
+      "target": "Stone disintegration associated with salt action",
+      "frequency": "periodic",
+      "verification": "verified"
+    },
+    {
+      "id": "monitor-stone-members",
+      "method": "Periodic examination of stone members",
+      "target": "Stone condition",
+      "frequency": "periodic",
+      "verification": "verified"
+    },
+    {
+      "id": "monitor-cracks-telltale",
+      "method": "Tell-tale glass",
+      "target": "Expansion of cracks",
+      "frequency": "as required",
+      "verification": "verified"
+    },
+    {
+      "id": "monitor-salt-action",
+      "method": "Periodic check of salt action",
+      "target": "Saline deterioration",
+      "frequency": "periodic",
+      "verification": "verified"
+    },
+    {
+      "id": "monitor-microbiological-growth",
+      "method": "Periodic check of microbiological growth",
+      "target": "Biological deterioration",
+      "frequency": "periodic",
+      "verification": "verified"
+    },
+    {
+      "id": "monitor-water-table",
+      "method": "Water-table monitoring around property",
+      "target": "Groundwater / water-table condition",
+      "frequency": "regular",
+      "verification": "verified"
+    }
+  ],
+
+  "quantifiedMonitoringSchedule": [
+    {
+      "indicator": "Saline effect statistics on stone members",
+      "frequency": "First week of every month",
+      "verification": "verified"
+    },
+    {
+      "indicator": "Quantum of sand brought inside property by tourists",
+      "frequency": "Statistical collection",
+      "verification": "verified"
+    },
+    {
+      "indicator": "Vertical crack expansion",
+      "instrument": "Tell-tale glass",
+      "frequency": "When required",
+      "verification": "verified"
+    },
+    {
+      "indicator": "Water-table level",
+      "frequency": "April and October every year",
+      "verification": "verified"
+    }
+  ],
+
+  "aiIntegration": {
+    "damageIntelligence": {
+      "enabled": true,
+      "features": [
+        "Salt-accumulation monitoring",
+        "Crack-growth monitoring",
+        "Sand-deposition context",
+        "Microbiological-growth monitoring",
+        "Water-table trend monitoring"
+      ]
+    },
+
+    "riskModel": {
+      "enabled": true,
+      "inputs": [
+        "Measured salt effect",
+        "Crack expansion",
+        "Sand accumulation",
+        "Water-table level",
+        "Biological growth observations"
+      ],
+      "score": null,
+      "reason": "No normalized risk score is provided by the source."
+    },
+
+    "historicalComparison": {
+      "enabled": true,
+      "rule": "Monitoring observations must retain their original reporting period."
+    }
+  },
+
+  "dataIntegrityRules": {
+    "reportedMonitoringMethodIsNotMeasuredResult": true,
+    "monitoringFrequencyIsNotDamageFrequency": true,
+    "documentedTrendCannotBeConvertedToPercentageWithoutData": true,
+    "treePlantingDoesNotProveRiskElimination": true,
+    "modernAIObservationMustRemainSeparateFromHistoricalMonitoringRecord": true
+  }
+}

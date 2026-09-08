@@ -1,0 +1,342 @@
+{
+  "schemaVersion": "1.0.0",
+  "monumentId": "konark-sun-temple",
+  "lastUpdated": "2026-09-08",
+
+  "claims": [
+    {
+      "id": "claim-001",
+      "category": "historical",
+      "claim": "The Sun Temple at Konark was constructed in the 13th century.",
+      "claimType": "historical_fact",
+      "status": "verified",
+      "evidenceLevel": "direct_primary_document",
+      "sourceIds": [
+        "src-konark-unesco-main"
+      ],
+      "historicalFact": true
+    },
+    {
+      "id": "claim-002",
+      "category": "historical",
+      "claim": "The temple was built during the reign of Narasimha Deva I of the Ganga dynasty.",
+      "claimType": "historical_fact",
+      "status": "verified",
+      "evidenceLevel": "direct_primary_document",
+      "sourceIds": [
+        "src-konark-unesco-main"
+      ],
+      "historicalFact": true
+    },
+    {
+      "id": "claim-003",
+      "category": "architecture",
+      "claim": "The temple represents the monumental chariot of the Sun God Surya.",
+      "claimType": "architectural_fact",
+      "status": "verified",
+      "evidenceLevel": "direct_primary_document",
+      "sourceIds": [
+        "src-konark-unesco-main"
+      ],
+      "historicalFact": true
+    },
+    {
+      "id": "claim-004",
+      "category": "architecture",
+      "claim": "The temple has 24 carved wheels of approximately 3 metres diameter.",
+      "claimType": "architectural_fact",
+      "status": "verified",
+      "evidenceLevel": "direct_primary_document",
+      "sourceIds": [
+        "src-konark-unesco-main"
+      ],
+      "historicalFact": true
+    },
+    {
+      "id": "claim-005",
+      "category": "architecture",
+      "claim": "Six stone horses survive as part of the chariot representation.",
+      "claimType": "architectural_fact",
+      "status": "verified",
+      "evidenceLevel": "direct_primary_document",
+      "sourceIds": [
+        "src-konark-unesco-main"
+      ],
+      "historicalFact": true
+    },
+    {
+      "id": "claim-006",
+      "category": "historical_change",
+      "claim": "The high tower and shikhara of the Vimana were razed in the 19th century.",
+      "claimType": "historical_fact",
+      "status": "verified",
+      "evidenceLevel": "direct_primary_document",
+      "sourceIds": [
+        "src-konark-unesco-main"
+      ],
+      "historicalFact": true
+    },
+    {
+      "id": "claim-007",
+      "category": "heritage",
+      "claim": "Konark was inscribed on the UNESCO World Heritage List in 1984 under criteria (i), (iii) and (vi).",
+      "claimType": "heritage_status",
+      "status": "verified",
+      "evidenceLevel": "direct_primary_document",
+      "sourceIds": [
+        "src-konark-unesco-main"
+      ],
+      "historicalFact": true
+    },
+    {
+      "id": "claim-008",
+      "category": "damage",
+      "claim": "Heavy monsoon rains in the 1996-1997 period were associated with serious subsidence of the sand-fill and surrounding foundation.",
+      "claimType": "documented_damage",
+      "status": "verified",
+      "evidenceLevel": "direct_primary_document",
+      "sourceIds": [
+        "src-konark-soc-1997"
+      ],
+      "historicalFact": true
+    },
+    {
+      "id": "claim-009",
+      "category": "damage",
+      "claim": "Loose stones began falling into the hollow interior previously supported by sand-fill.",
+      "claimType": "documented_damage",
+      "status": "verified",
+      "evidenceLevel": "direct_primary_document",
+      "sourceIds": [
+        "src-konark-soc-1997"
+      ],
+      "historicalFact": true
+    },
+    {
+      "id": "claim-010",
+      "category": "damage",
+      "claim": "Cracks in stone walls were associated with rusting of iron clamps caused by sea breeze.",
+      "claimType": "documented_damage",
+      "status": "verified",
+      "evidenceLevel": "direct_primary_document",
+      "sourceIds": [
+        "src-konark-soc-1997"
+      ],
+      "historicalFact": true
+    },
+    {
+      "id": "claim-011",
+      "category": "damage",
+      "claim": "Stone fragments were reported falling from affected wall areas.",
+      "claimType": "documented_damage",
+      "status": "verified",
+      "evidenceLevel": "direct_primary_document",
+      "sourceIds": [
+        "src-konark-soc-1997"
+      ],
+      "historicalFact": true
+    },
+    {
+      "id": "claim-012",
+      "category": "damage",
+      "claim": "An approximately 2-ton stone reportedly fell from the north-east side of the Jagamohan porch onto the Pidha ledge on 19 September 1998.",
+      "claimType": "documented_damage",
+      "status": "verified",
+      "evidenceLevel": "direct_primary_document",
+      "sourceIds": [
+        "src-konark-decision-1999"
+      ],
+      "historicalFact": true
+    },
+    {
+      "id": "claim-013",
+      "category": "monitoring",
+      "claim": "An ICOMOS reactive monitoring mission was undertaken in February 2000.",
+      "claimType": "monitoring_event",
+      "status": "verified",
+      "evidenceLevel": "direct_primary_document",
+      "sourceIds": [
+        "src-konark-decision-2000"
+      ],
+      "historicalFact": true
+    },
+    {
+      "id": "claim-014",
+      "category": "monitoring",
+      "claim": "The 2000 ICOMOS mission found no immediate threat from structural instability.",
+      "claimType": "official_assessment",
+      "status": "verified",
+      "evidenceLevel": "direct_primary_document",
+      "sourceIds": [
+        "src-konark-decision-2000"
+      ],
+      "historicalFact": true
+    },
+    {
+      "id": "claim-015",
+      "category": "monitoring",
+      "claim": "Long-term effects of loosening stone parts and water penetration required further examination.",
+      "claimType": "official_assessment",
+      "status": "verified",
+      "evidenceLevel": "direct_primary_document",
+      "sourceIds": [
+        "src-konark-decision-2000"
+      ],
+      "historicalFact": true
+    },
+    {
+      "id": "claim-016",
+      "category": "environment",
+      "claim": "A cyclone extensively damaged the site's green belt in the period discussed by the 2000 monitoring record.",
+      "claimType": "documented_damage",
+      "status": "verified",
+      "evidenceLevel": "direct_primary_document",
+      "sourceIds": [
+        "src-konark-decision-2000"
+      ],
+      "historicalFact": true
+    },
+    {
+      "id": "claim-017",
+      "category": "conservation",
+      "claim": "Major conservation and restoration works were carried out on the Jagamohana platform by the time of the 2003 periodic report.",
+      "claimType": "conservation_action",
+      "status": "verified",
+      "evidenceLevel": "direct_primary_document",
+      "sourceIds": [
+        "src-konark-periodic-2003"
+      ],
+      "historicalFact": true
+    },
+    {
+      "id": "claim-018",
+      "category": "conservation",
+      "claim": "The property was reported as stabilised in the 2003 periodic report.",
+      "claimType": "official_assessment",
+      "status": "verified",
+      "evidenceLevel": "direct_primary_document",
+      "sourceIds": [
+        "src-konark-periodic-2003"
+      ],
+      "historicalFact": true
+    },
+    {
+      "id": "claim-019",
+      "category": "conservation",
+      "claim": "CBRI studies and investigations were assigned in relation to the conservation of Konark.",
+      "claimType": "conservation_action",
+      "status": "verified",
+      "evidenceLevel": "direct_primary_document",
+      "sourceIds": [
+        "src-konark-pib-2012"
+      ],
+      "historicalFact": true
+    },
+    {
+      "id": "claim-020",
+      "category": "conservation",
+      "claim": "Unpaved drains and soak pits were provided to address water logging.",
+      "claimType": "conservation_action",
+      "status": "verified",
+      "evidenceLevel": "direct_primary_document",
+      "sourceIds": [
+        "src-konark-pib-2012"
+      ],
+      "historicalFact": true
+    },
+    {
+      "id": "claim-021",
+      "category": "conservation",
+      "claim": "ASI reported surface cleaning, stone consolidation and strengthening, pumping, biocidal treatment and vegetation-related measures in 2021.",
+      "claimType": "conservation_action",
+      "status": "verified",
+      "evidenceLevel": "direct_primary_document",
+      "sourceIds": [
+        "src-konark-pib-2021"
+      ],
+      "historicalFact": true
+    },
+    {
+      "id": "claim-022",
+      "category": "condition",
+      "claim": "The 2021 Government of India record described the monument as being in a good state of preservation due to regular care by ASI.",
+      "claimType": "government_reported_condition",
+      "status": "verified",
+      "evidenceLevel": "direct_primary_document",
+      "sourceIds": [
+        "src-konark-pib-2021"
+      ],
+      "historicalFact": true,
+      "scope": "government_reported"
+    },
+    {
+      "id": "claim-023",
+      "category": "heritage_protection",
+      "claim": "The 100 metre zone outside the protected property is treated as a prohibited zone under the applicable protection framework.",
+      "claimType": "protection_rule",
+      "status": "verified",
+      "evidenceLevel": "direct_primary_document",
+      "sourceIds": [
+        "src-konark-unesco-main"
+      ],
+      "historicalFact": true
+    },
+    {
+      "id": "claim-024",
+      "category": "heritage_protection",
+      "claim": "The further 200 metre zone is regulated under the applicable protection framework.",
+      "claimType": "protection_rule",
+      "status": "verified",
+      "evidenceLevel": "direct_primary_document",
+      "sourceIds": [
+        "src-konark-unesco-main"
+      ],
+      "historicalFact": true
+    },
+    {
+      "id": "claim-025",
+      "category": "3d",
+      "claim": "CSIR-CBRI has documented GPR investigation, laser scanning and damage mapping work associated with Konark.",
+      "claimType": "technical_documentation",
+      "status": "verified",
+      "evidenceLevel": "direct_primary_document",
+      "sourceIds": [
+        "src-konark-cbri"
+      ],
+      "historicalFact": true
+    },
+    {
+      "id": "claim-026",
+      "category": "ai",
+      "claim": "A reconstruction of the lost Vimana shikhara is an interpretive reconstruction and must not automatically be treated as historical fact.",
+      "claimType": "ai_policy",
+      "status": "policy",
+      "evidenceLevel": "not_applicable",
+      "sourceIds": [
+        "src-konark-unesco-main"
+      ],
+      "historicalFact": false
+    },
+    {
+      "id": "claim-027",
+      "category": "current",
+      "claim": "The Ministry of Culture maintained an official Konark monument reference page updated in September 2026.",
+      "claimType": "current_reference",
+      "status": "verified",
+      "evidenceLevel": "direct_primary_document",
+      "sourceIds": [
+        "src-konark-ministry-2026"
+      ],
+      "historicalFact": false
+    }
+  ],
+
+  "claimRules": {
+    "historicalFact": "Must have primary documentary evidence.",
+    "documentedDamage": "Must have a source explicitly documenting the damage.",
+    "currentCondition": "Must preserve the scope of the reporting organization.",
+    "aiInference": "Must never be silently converted into historical fact.",
+    "spatialClaim": "Exact coordinates require spatial evidence.",
+    "severity": "Cannot be generated without a defined evidence-backed scoring methodology."
+  }
+}

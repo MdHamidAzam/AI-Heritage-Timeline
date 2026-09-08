@@ -1,0 +1,7 @@
+ml/datasets/*/images/
+ml/datasets/*/labels/
+*.zip
+*.pt
+*.pth
+*.onnx
+node_modules

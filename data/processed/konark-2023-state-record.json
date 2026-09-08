@@ -1,0 +1,86 @@
+{
+  "schemaVersion": "1.0.0",
+  "monumentId": "konark-sun-temple",
+
+  "report": {
+    "cycle": 3,
+    "year": 2023,
+    "section": "Section II",
+    "sourceType": "UNESCO Periodic Reporting",
+    "verification": "verified",
+    "source": {
+      "organization": "UNESCO World Heritage Centre",
+      "title": "Periodic Reporting Cycle 3, Section II",
+      "url": "https://whc.unesco.org/document/216402"
+    }
+  },
+
+  "management": {
+    "responsibleAuthority": "Archaeological Survey of India",
+    "managementGuidance": [
+      "Director General, ASI",
+      "Joint Director General (Monument, Conservation and World Heritage Section)",
+      "Director (Monument, Conservation and World Heritage Section)",
+      "Superintending Archaeologist, ASI"
+    ],
+    "legalProtection": [
+      "AMASR Act 1958",
+      "AMASR Rules 1959",
+      "A&V Act 2010"
+    ],
+    "verification": "verified"
+  },
+
+  "monitoringContext": {
+    "reportingCycle": "Third Periodic Reporting Cycle",
+    "monitoringIsDocumented": true,
+    "verification": "verified"
+  },
+
+  "physicalFabricFactors": {
+    "documentedFactors": [
+      "Wind",
+      "Relative humidity",
+      "Water"
+    ],
+    "verification": "verified"
+  },
+
+  "naturalHazards": {
+    "documentedFactors": [
+      "Storms",
+      "Flooding"
+    ],
+    "verification": "verified"
+  },
+
+  "managementFactors": {
+    "documentedAreas": [
+      "Management system",
+      "Legal framework",
+      "Governance",
+      "Management activities",
+      "Financial resources",
+      "Human resources",
+      "Research and monitoring"
+    ],
+    "verification": "verified"
+  },
+
+  "currentStateInterpretation": {
+    "is2023Report": true,
+    "is2026ConditionAssessment": false,
+    "new2026DamageClaim": false,
+    "new2026SeverityScore": false,
+    "useAsHistoricalReportingSnapshot": true,
+    "useAsManagementContext": true
+  },
+
+  "dataRules": {
+    "reportYearMustBePreserved": true,
+    "doNotConvertReportToCurrentCondition": true,
+    "doNotInferDamageFromRiskFactorAlone": true,
+    "doNotInferSeverityWithoutScoringMethodology": true,
+    "doNotInferPhysicalChangeWithoutExplicitEvidence": true
+  }
+}

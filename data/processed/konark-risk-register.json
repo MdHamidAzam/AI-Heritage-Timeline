@@ -1,0 +1,268 @@
+{
+  "schemaVersion": "1.0.0",
+  "monumentId": "konark-sun-temple",
+
+  "scoringPolicy": {
+    "riskScore": null,
+    "riskScoreStatus": "not_computed",
+    "reason": "Official sources document threats and conditions but do not provide a common normalized risk score for this dataset.",
+    "futureFormula": {
+      "probability": "0-1",
+      "impact": "0-1",
+      "exposure": "0-1",
+      "confidence": "0-1",
+      "formula": "risk = probability × impact × exposure × confidence"
+    }
+  },
+
+  "risks": [
+    {
+      "id": "risk-saline-action",
+      "category": "environmental_material",
+      "risk": "Saline action",
+      "affectedMaterials": [
+        "stone",
+        "metal elements"
+      ],
+      "affectedComponents": [
+        "stone walls",
+        "architectural sculptures"
+      ],
+      "documentedEffects": [
+        "Material deterioration",
+        "Metal cramp corrosion"
+      ],
+      "riskScore": null,
+      "status": "documented_risk",
+      "sources": [
+        "src-konark-unesco-main",
+        "src-konark-pib-2012",
+        "src-konark-pib-2021"
+      ]
+    },
+
+    {
+      "id": "risk-sand-blasting",
+      "category": "environmental",
+      "risk": "Sand blasting / wind-borne particles",
+      "affectedMaterials": [
+        "exposed stone surfaces"
+      ],
+      "documentedEffects": [
+        "Surface erosion",
+        "Surface degeneration"
+      ],
+      "riskScore": null,
+      "status": "documented_risk",
+      "sources": [
+        "src-konark-unesco-main",
+        "src-konark-periodic-2012"
+      ]
+    },
+
+    {
+      "id": "risk-water-penetration",
+      "category": "moisture_structural",
+      "risk": "Water penetration",
+      "affectedComponents": [
+        "temple structure"
+      ],
+      "documentedEffects": [
+        "Long-term structural/material concern"
+      ],
+      "historicalEvidence": [
+        "2000 ICOMOS monitoring"
+      ],
+      "riskScore": null,
+      "status": "documented_risk",
+      "sources": [
+        "src-konark-decision-2000"
+      ]
+    },
+
+    {
+      "id": "risk-water-logging",
+      "category": "moisture",
+      "risk": "Water logging",
+      "affectedArea": [
+        "temple/site surroundings"
+      ],
+      "documentedResponse": [
+        "Drainage measures",
+        "Soak pits",
+        "Pumping sets"
+      ],
+      "riskScore": null,
+      "status": "documented_and_managed",
+      "sources": [
+        "src-konark-pib-2012",
+        "src-konark-pib-2021"
+      ]
+    },
+
+    {
+      "id": "risk-stone-loosening",
+      "category": "structural",
+      "risk": "Loosening of stone parts",
+      "affectedComponents": [
+        "temple structure",
+        "Jagamohana"
+      ],
+      "documentedEffects": [
+        "Potential stone displacement/fall"
+      ],
+      "historicalEvidence": [
+        "1996-1997 loose stones",
+        "2000 monitoring concern"
+      ],
+      "riskScore": null,
+      "status": "documented_and_monitored",
+      "sources": [
+        "src-konark-soc-1997",
+        "src-konark-decision-2000"
+      ]
+    },
+
+    {
+      "id": "risk-metal-cramp-corrosion",
+      "category": "material_deterioration",
+      "risk": "Metal cramp corrosion",
+      "affectedMaterials": [
+        "iron clamps"
+      ],
+      "documentedEffects": [
+        "Associated wall cracking",
+        "Stone fragment loss"
+      ],
+      "riskScore": null,
+      "status": "documented_risk",
+      "sources": [
+        "src-konark-soc-1997"
+      ]
+    },
+
+    {
+      "id": "risk-cyclone",
+      "category": "natural_hazard",
+      "risk": "Cyclones",
+      "affectedAreas": [
+        "site green belt",
+        "site environment"
+      ],
+      "documentedEffects": [
+        "Green-belt damage"
+      ],
+      "riskScore": null,
+      "status": "documented_risk",
+      "sources": [
+        "src-konark-decision-2000"
+      ]
+    },
+
+    {
+      "id": "risk-flooding",
+      "category": "natural_hazard",
+      "risk": "Flooding",
+      "affectedAreas": [
+        "site"
+      ],
+      "documentedEffects": [
+        "Water accumulation",
+        "Conservation concern"
+      ],
+      "riskScore": null,
+      "status": "documented_risk",
+      "sources": [
+        "src-konark-periodic-2012"
+      ]
+    },
+
+    {
+      "id": "risk-vegetative-intrusion",
+      "category": "biological",
+      "risk": "Vegetative intrusion",
+      "affectedMaterials": [
+        "stone surfaces",
+        "masonry"
+      ],
+      "documentedResponse": [
+        "Periodic biocidal treatment",
+        "Vegetation control"
+      ],
+      "riskScore": null,
+      "status": "documented_and_managed",
+      "sources": [
+        "src-konark-pib-2021"
+      ]
+    },
+
+    {
+      "id": "risk-microbiological-growth",
+      "category": "biological",
+      "risk": "Microbiological growth",
+      "affectedMaterials": [
+        "stone surfaces"
+      ],
+      "documentedResponse": [
+        "Periodic biocidal treatment"
+      ],
+      "riskScore": null,
+      "status": "documented_and_managed",
+      "sources": [
+        "src-konark-unesco-main",
+        "src-konark-pib-2021"
+      ]
+    },
+
+    {
+      "id": "risk-tourism-pressure",
+      "category": "human_pressure",
+      "risk": "Tourism pressure",
+      "affectedArea": [
+        "visitor environment",
+        "heritage property"
+      ],
+      "documentedStatus": "UNESCO-identified threat",
+      "riskScore": null,
+      "status": "documented_risk",
+      "sources": [
+        "src-konark-unesco-main"
+      ]
+    },
+
+    {
+      "id": "risk-development-pressure",
+      "category": "human_pressure",
+      "risk": "Development pressure",
+      "affectedArea": [
+        "property setting",
+        "buffer surroundings"
+      ],
+      "documentedStatus": "UNESCO-identified management concern",
+      "riskScore": null,
+      "status": "documented_risk",
+      "sources": [
+        "src-konark-unesco-main",
+        "src-konark-decision-2000"
+      ]
+    }
+  ],
+
+  "riskInterpretation": {
+    "historicalDamageIsEvidence": true,
+    "documentedThreatIsNotEquivalentToCurrentDamage": true,
+    "riskScoreRequiresMethodology": true,
+    "visitorCountDoesNotProveDamage": true,
+    "environmentalThreatDoesNotProveCurrentFailure": true,
+    "currentConditionMustUseLatestAvailableOfficialEvidence": true
+  },
+
+  "dashboardMapping": {
+    "damageIntelligence": true,
+    "conditionDashboard": true,
+    "riskHeatmap": true,
+    "componentRiskView": true,
+    "timelineRiskView": true,
+    "evidencePanel": true
+  }
+}

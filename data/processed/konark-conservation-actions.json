@@ -1,0 +1,188 @@
+{
+  "schemaVersion": "1.0.0",
+  "monumentId": "konark-sun-temple",
+
+  "actions": [
+    {
+      "id": "conservation-2003-jagamohana",
+      "year": 2003,
+      "component": "jagamohana",
+      "actionType": "restoration_and_stabilisation",
+      "title": "Major conservation and restoration of Jagamohana platform",
+      "description": "Major conservation and restoration works were carried out on the platform of the Jagamohana, and the property was reported as stabilised.",
+      "status": "reported_completed",
+      "verification": "verified",
+      "source": {
+        "organization": "UNESCO World Heritage Centre",
+        "document": "Periodic Reporting Cycle 1, Section II",
+        "url": "https://whc.unesco.org/document/162851"
+      }
+    },
+
+    {
+      "id": "conservation-2012-cbri-study",
+      "year": 2012,
+      "component": "site_and_structure",
+      "actionType": "technical_investigation",
+      "title": "CBRI investigations",
+      "description": "Studies and investigations related to conservation of the Sun Temple were assigned to the Central Building Research Institute, Roorkee.",
+      "status": "reported",
+      "verification": "verified",
+      "source": {
+        "organization": "Ministry of Culture, Government of India",
+        "document": "Conservation Measures for Sun Temple at Konark",
+        "url": "https://www.pib.gov.in/newsite/PrintRelease.aspx?lang=2&reg=48&relid=86496"
+      }
+    },
+
+    {
+      "id": "conservation-2012-drainage",
+      "year": 2012,
+      "component": "site",
+      "actionType": "water_management",
+      "title": "Drainage and soak-pit measures",
+      "description": "Unpaved drains and soak pits were provided as measures addressing water logging.",
+      "status": "reported_implemented",
+      "verification": "verified",
+      "source": {
+        "organization": "Ministry of Culture, Government of India",
+        "document": "Conservation Measures for Sun Temple at Konark",
+        "url": "https://www.pib.gov.in/newsite/PrintRelease.aspx?lang=2&reg=48&relid=86496"
+      }
+    },
+
+    {
+      "id": "conservation-2012-saline-control",
+      "year": 2012,
+      "component": "site_surroundings",
+      "actionType": "environmental_management",
+      "title": "Measures addressing saline action",
+      "description": "Measures involving surrounding land and tree growth were reported in relation to controlling saline action.",
+      "status": "reported",
+      "verification": "verified",
+      "source": {
+        "organization": "Ministry of Culture, Government of India",
+        "document": "Conservation Measures for Sun Temple at Konark",
+        "url": "https://www.pib.gov.in/newsite/PrintRelease.aspx?lang=2&reg=48&relid=86496"
+      }
+    },
+
+    {
+      "id": "conservation-2021-cleaning",
+      "year": 2021,
+      "component": "stone_surfaces",
+      "actionType": "surface_cleaning",
+      "title": "Paper-pulp cleaning",
+      "description": "Surface cleaning using paper pulp was reported as part of ASI conservation measures.",
+      "status": "reported",
+      "verification": "verified",
+      "source": {
+        "organization": "Ministry of Culture, Government of India",
+        "document": "Conservation of the Sun Temple at Konark",
+        "url": "https://www.pib.gov.in/pressreleaseshare.aspx?lang=2&prid=1703558&reg=48"
+      }
+    },
+
+    {
+      "id": "conservation-2021-stone-strengthening",
+      "year": 2021,
+      "component": "stone_elements",
+      "actionType": "consolidation_and_strengthening",
+      "title": "Stone consolidation and strengthening",
+      "description": "Stone consolidation and strengthening were reported where required.",
+      "status": "reported",
+      "verification": "verified",
+      "source": {
+        "organization": "Ministry of Culture, Government of India",
+        "document": "Conservation of the Sun Temple at Konark",
+        "url": "https://www.pib.gov.in/pressreleaseshare.aspx?lang=2&prid=1703558&reg=48"
+      }
+    },
+
+    {
+      "id": "conservation-2021-water-removal",
+      "year": 2021,
+      "component": "site",
+      "actionType": "water_management",
+      "title": "Pumping sets for water removal",
+      "description": "Pumping sets were reported as part of measures addressing water accumulation.",
+      "status": "reported",
+      "verification": "verified",
+      "source": {
+        "organization": "Ministry of Culture, Government of India",
+        "document": "Conservation of the Sun Temple at Konark",
+        "url": "https://www.pib.gov.in/pressreleaseshare.aspx?lang=2&prid=1703558&reg=48"
+      }
+    },
+
+    {
+      "id": "conservation-2021-biocidal",
+      "year": 2021,
+      "component": "monument_surfaces",
+      "actionType": "biological_control",
+      "title": "Periodic biocidal treatment",
+      "description": "Periodic biocidal treatment was reported for controlling biological growth.",
+      "status": "reported",
+      "verification": "verified",
+      "source": {
+        "organization": "Ministry of Culture, Government of India",
+        "document": "Conservation of the Sun Temple at Konark",
+        "url": "https://www.pib.gov.in/pressreleaseshare.aspx?lang=2&prid=1703558&reg=48"
+      }
+    },
+
+    {
+      "id": "conservation-2021-vegetation",
+      "year": 2021,
+      "component": "site_surroundings",
+      "actionType": "vegetation_management",
+      "title": "Vegetation control and plantation",
+      "description": "Vegetation management and plantation were reported, including plantation intended to help reduce mechanical wind erosion.",
+      "status": "reported",
+      "verification": "verified",
+      "source": {
+        "organization": "Ministry of Culture, Government of India",
+        "document": "Conservation of the Sun Temple at Konark",
+        "url": "https://www.pib.gov.in/pressreleaseshare.aspx?lang=2&prid=1703558&reg=48"
+      }
+    },
+
+    {
+      "id": "conservation-continuous-2026",
+      "year": 2026,
+      "component": "monument",
+      "actionType": "ongoing_conservation_framework",
+      "title": "Continuous ASI conservation and maintenance",
+      "description": "Government of India continues to describe conservation, preservation, restoration and maintenance of centrally protected monuments as an ongoing ASI responsibility.",
+      "status": "ongoing",
+      "monumentSpecific": false,
+      "verification": "verified",
+      "source": {
+        "organization": "Ministry of Culture, Government of India",
+        "document": "Conservation of Protected Monuments",
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2238875"
+      },
+      "note": "This is a national ASI framework statement and is not treated as proof of a new Konark-specific intervention in 2026."
+    }
+  ],
+
+  "actionCategories": [
+    "restoration_and_stabilisation",
+    "technical_investigation",
+    "water_management",
+    "environmental_management",
+    "surface_cleaning",
+    "consolidation_and_strengthening",
+    "biological_control",
+    "vegetation_management",
+    "ongoing_conservation_framework"
+  ],
+
+  "dataRules": {
+    "conservationActionDoesNotMeanDamageWasPresentAtSameTime": true,
+    "nationalASIStatementDoesNotEqualKonarkSpecificIntervention": true,
+    "reportedActionIsNotAutomaticallyIndependentlyMeasuredEffectiveness": true,
+    "effectivenessRequiresFollowUpEvidence": true,
+    "doNotInventBeforeAfterMeasurements": true
+  }
+}

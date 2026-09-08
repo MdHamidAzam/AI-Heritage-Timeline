@@ -1,0 +1,305 @@
+{
+  "schemaVersion": "1.0.0",
+  "datasetId": "konark-sun-temple",
+  "releaseVersion": "0.1.0",
+  "releaseDate": "2026-09-08",
+
+  "monument": {
+    "id": "konark-sun-temple",
+    "name": "Sun Temple, Konârak",
+    "country": "India",
+    "state": "Odisha",
+    "district": "Puri"
+  },
+
+  "releaseStatus": "research_data_complete_with_asset_gaps",
+
+  "coreData": {
+    "monument": {
+      "file": "data/konark/monument.json",
+      "status": "verified"
+    },
+    "timeline": {
+      "file": "data/konark/timeline.json",
+      "status": "verified"
+    },
+    "condition": {
+      "file": "data/konark/condition.json",
+      "status": "verified"
+    },
+    "evidence": {
+      "file": "data/konark/evidence.json",
+      "status": "verified"
+    },
+    "components": {
+      "file": "data/konark/components.json",
+      "status": "verified"
+    },
+    "damageEvents": {
+      "file": "data/konark/damage-events.json",
+      "status": "verified"
+    },
+    "reconstruction": {
+      "file": "data/konark/reconstruction.json",
+      "status": "framework_only"
+    },
+    "sourceRegistry": {
+      "file": "data/konark/source-registry.json",
+      "status": "verified"
+    },
+    "mediaAssets": {
+      "file": "data/konark/media-assets.json",
+      "status": "metadata_verified_assets_pending"
+    },
+    "conservationProjects": {
+      "file": "data/konark/conservation-projects.json",
+      "status": "verified"
+    },
+    "monitoringRecords": {
+      "file": "data/konark/monitoring-records.json",
+      "status": "verified"
+    },
+    "restrictedZones": {
+      "file": "data/konark/restricted-zones.json",
+      "status": "verified_geometry_pending"
+    }
+  },
+
+  "processedData": {
+    "master": {
+      "file": "data/processed/konark-master.json",
+      "status": "verified"
+    },
+    "stateSnapshots": {
+      "file": "data/processed/konark-state-snapshots.json",
+      "status": "verified"
+    },
+    "currentCondition2026": {
+      "file": "data/processed/konark-current-condition-2026.json",
+      "status": "government_supported"
+    },
+    "3dComponentMap": {
+      "file": "data/processed/konark-3d-component-map.json",
+      "status": "schema_ready_geometry_pending"
+    },
+    "3dAssetAssessment": {
+      "file": "data/processed/konark-3d-asset-assessment.json",
+      "status": "verified"
+    },
+    "technicalSurveys": {
+      "file": "data/processed/konark-technical-surveys.json",
+      "status": "verified_with_result_limits"
+    },
+    "researchRecords": {
+      "file": "data/processed/konark-research-records.json",
+      "status": "verified_with_result_limits"
+    },
+    "geospatialReference": {
+      "file": "data/processed/konark-geospatial-reference.json",
+      "status": "verified_geometry_pending"
+    },
+    "damageTaxonomy": {
+      "file": "data/processed/konark-damage-taxonomy.json",
+      "status": "verified"
+    },
+    "riskRegister": {
+      "file": "data/processed/konark-risk-register.json",
+      "status": "verified_score_pending"
+    },
+    "conservationActions": {
+      "file": "data/processed/konark-conservation-actions.json",
+      "status": "verified"
+    },
+    "visitorHistory": {
+      "file": "data/processed/konark-visitor-history.json",
+      "status": "verified"
+    },
+    "visitorManagement": {
+      "file": "data/processed/konark-visitor-management.json",
+      "status": "verified"
+    },
+    "heritagePartnerships": {
+      "file": "data/processed/konark-heritage-partnerships.json",
+      "status": "verified"
+    },
+    "governmentActivity2024_2026": {
+      "file": "data/processed/konark-government-activity-2024-2026.json",
+      "status": "verified"
+    },
+    "unescoAssistance": {
+      "file": "data/processed/konark-unesco-assistance.json",
+      "status": "verified"
+    },
+    "unescoDecisionsTimeline": {
+      "file": "data/processed/konark-unesco-decisions-timeline.json",
+      "status": "verified"
+    },
+    "monitoringIndicators": {
+      "file": "data/processed/konark-monitoring-indicators.json",
+      "status": "verified"
+    },
+    "reportingStatus2026": {
+      "file": "data/processed/konark-reporting-status-2026.json",
+      "status": "verified"
+    },
+    "governmentInspections2026": {
+      "file": "data/processed/konark-government-inspections-2026.json",
+      "status": "verified_with_scope_limits"
+    },
+    "digitalPreservation": {
+      "file": "data/processed/konark-digital-preservation.json",
+      "status": "verified_reference"
+    },
+    "sourceExcerpts": {
+      "file": "data/processed/konark-source-excerpts.json",
+      "status": "verified"
+    },
+    "searchIndex": {
+      "file": "data/processed/konark-search-index.json",
+      "status": "ready"
+    },
+    "ragDocumentManifest": {
+      "file": "data/processed/konark-rag-document-manifest.json",
+      "status": "ready"
+    },
+    "relationshipGraph": {
+      "file": "data/processed/konark-relationship-graph.json",
+      "status": "ready"
+    },
+    "claimLedger": {
+      "file": "data/processed/konark-claim-ledger.json",
+      "status": "verified"
+    },
+    "evidenceGraph": {
+      "file": "data/processed/konark-evidence-graph.json",
+      "status": "ready"
+    },
+    "confidenceFramework": {
+      "file": "data/processed/konark-confidence-framework.json",
+      "status": "framework_ready"
+    },
+    "qualityReport": {
+      "file": "data/processed/data-quality-report.json",
+      "status": "verified"
+    },
+    "sourceCoverage": {
+      "file": "data/processed/konark-source-coverage-matrix.json",
+      "status": "verified"
+    },
+    "managementFramework": {
+      "file": "data/processed/konark-management-framework.json",
+      "status": "verified"
+    },
+    "complianceRules": {
+      "file": "data/processed/konark-compliance-rules.json",
+      "status": "ready"
+    },
+    "apiSchema": {
+      "file": "data/processed/konark-api-schema.json",
+      "status": "ready"
+    },
+    "dataIndex": {
+      "file": "data/processed/konark-data-index.json",
+      "status": "ready"
+    },
+    "aiTrainingManifest": {
+      "file": "data/processed/konark-ai-training-manifest.json",
+      "status": "framework_ready"
+    }
+  },
+
+  "annotationData": {
+    "schema": {
+      "file": "data/annotated/annotation-schema.json",
+      "status": "ready"
+    },
+    "index": {
+      "file": "data/annotated/konark-annotation-index.json",
+      "status": "ready"
+    },
+    "guidelines": {
+      "file": "data/annotated/konark-annotation-guidelines.json",
+      "status": "ready"
+    },
+    "actualReviewedAnnotations": {
+      "status": "pending"
+    }
+  },
+
+  "rawData": {
+    "sourceManifest": {
+      "file": "data/raw/konark/source-manifest.json",
+      "status": "ready"
+    },
+    "documentRegistry": {
+      "file": "data/raw/konark/document-registry.json",
+      "status": "ready"
+    },
+    "imageRegistry": {
+      "file": "data/raw/konark/image-registry.json",
+      "status": "ready"
+    },
+    "imageAcquisitionManifest": {
+      "file": "data/raw/konark/image-acquisition-manifest.json",
+      "status": "ready"
+    },
+    "physicalSourceBinaries": {
+      "status": "pending"
+    },
+    "physicalImageBinaries": {
+      "status": "pending"
+    }
+  },
+
+  "actualAssetGaps": [
+    {
+      "id": "gap-authoritative-3d",
+      "status": "open",
+      "description": "Authoritative measured 3D geometry / point cloud not yet incorporated."
+    },
+    {
+      "id": "gap-reviewed-annotations",
+      "status": "open",
+      "description": "Human-reviewed image annotations not yet incorporated."
+    },
+    {
+      "id": "gap-raw-binaries",
+      "status": "open",
+      "description": "Referenced original documents and licensed media are not yet physically stored in repository."
+    },
+    {
+      "id": "gap-reconstruction-model",
+      "status": "open",
+      "description": "Evidence-conditioned reconstruction model is not yet trained/deployed."
+    },
+    {
+      "id": "gap-risk-model",
+      "status": "open",
+      "description": "Normalized probability/impact/exposure risk scoring is not yet computed."
+    }
+  ],
+
+  "productionReadiness": {
+    "historicalResearch": true,
+    "provenance": true,
+    "timeline": true,
+    "damageHistory": true,
+    "conditionTracking": true,
+    "conservationHistory": true,
+    "searchRetrieval": true,
+    "ragPreparation": true,
+    "computerVisionTraining": false,
+    "surveyGradeDigitalTwin": false,
+    "aiReconstruction": false,
+    "productionDeployment": false
+  },
+
+  "releaseRules": {
+    "doNotClaimMissingAssetsAsAvailable": true,
+    "doNotTreatFrameworkAsImplementedModel": true,
+    "doNotTreatCurrentReferenceAsHistoricalEvent": true,
+    "doNotTreatAIReconstructionAsHistoricalFact": true,
+    "doNotUseUnreviewedAnnotationsForTraining": true,
+    "doNotTreatThirdParty3DModelAsSurveyGroundTruth": true
+  }
+}

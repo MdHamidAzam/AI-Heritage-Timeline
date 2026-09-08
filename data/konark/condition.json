@@ -1,0 +1,241 @@
+[
+  {
+    "id": "condition-saline-breeze",
+    "condition": "Saline breeze",
+    "category": "Environmental pressure",
+    "effect": "Contributes to deterioration of stone and metal elements.",
+    "severity": "not-assigned",
+    "verification": "verified",
+    "source": {
+      "organization": "UNESCO World Heritage Centre",
+      "document": "Sun Temple, Konârak",
+      "url": "https://whc.unesco.org/en/list/246"
+    }
+  },
+  {
+    "id": "condition-sand-blasting",
+    "condition": "Sand blasting",
+    "category": "Environmental pressure",
+    "effect": "Wind-borne particles cause pitting and gradual surface degeneration of the temple and sculpted exterior.",
+    "severity": "not-assigned",
+    "verification": "verified",
+    "source": {
+      "organization": "UNESCO World Heritage Centre",
+      "document": "Periodic Report - Second Cycle",
+      "url": "https://whc.unesco.org/document/164621"
+    }
+  },
+  {
+    "id": "condition-vehicular-movement",
+    "condition": "Vehicular movements",
+    "category": "Environmental pressure",
+    "effect": "Identified by UNESCO as an environmental pressure affecting the property.",
+    "severity": "not-assigned",
+    "verification": "verified",
+    "source": {
+      "organization": "UNESCO World Heritage Centre",
+      "document": "Sun Temple, Konârak",
+      "url": "https://whc.unesco.org/en/list/246"
+    }
+  },
+  {
+    "id": "condition-microbiological-growth",
+    "condition": "Microbiological growth",
+    "category": "Biological pressure",
+    "effect": "Biological growth affects the monument's exterior and requires periodic control.",
+    "severity": "not-assigned",
+    "verification": "verified",
+    "source": {
+      "organization": "UNESCO World Heritage Centre",
+      "document": "Periodic Report - Second Cycle",
+      "url": "https://whc.unesco.org/document/164621"
+    }
+  },
+  {
+    "id": "condition-water-rain",
+    "condition": "Rain and water penetration",
+    "category": "Environmental / Structural",
+    "effect": "Rain affects both exterior and interior fabric and can contribute to structural deterioration and material dissolution.",
+    "severity": "not-assigned",
+    "verification": "verified",
+    "source": {
+      "organization": "UNESCO World Heritage Centre",
+      "document": "Periodic Report - Second Cycle",
+      "url": "https://whc.unesco.org/document/164621"
+    }
+  },
+  {
+    "id": "condition-water-logging",
+    "condition": "Water logging",
+    "category": "Environmental",
+    "effect": "Water accumulation is identified as a conservation concern.",
+    "severity": "not-assigned",
+    "status": "managed",
+    "conservationAction": [
+      "Unpaved drains",
+      "Soak pits",
+      "Water pumping"
+    ],
+    "verification": "verified",
+    "source": {
+      "organization": "Ministry of Culture, Government of India",
+      "document": "Conservation Measures for Sun Temple at Konark",
+      "url": "https://www.pib.gov.in/newsite/PrintRelease.aspx?lang=2&reg=48&relid=86496"
+    }
+  },
+  {
+    "id": "condition-flooding",
+    "condition": "Flooding",
+    "category": "Natural hazard",
+    "effect": "Flooding is identified as a threat to structural stability and can cause water accumulation within the temple complex.",
+    "severity": "not-assigned",
+    "verification": "verified",
+    "source": {
+      "organization": "UNESCO World Heritage Centre",
+      "document": "Periodic Report - Second Cycle",
+      "url": "https://whc.unesco.org/document/164621"
+    }
+  },
+  {
+    "id": "condition-storms-cyclones",
+    "condition": "Storms and cyclones",
+    "category": "Natural hazard",
+    "effect": "Storms are identified as a threat to structural stability and can cause flooding and sand deposition.",
+    "severity": "not-assigned",
+    "verification": "verified",
+    "source": {
+      "organization": "UNESCO World Heritage Centre",
+      "document": "Periodic Report - Second Cycle",
+      "url": "https://whc.unesco.org/document/164621"
+    }
+  },
+  {
+    "id": "condition-structural-settlement",
+    "condition": "Structural settlement",
+    "category": "Structural",
+    "effect": "Settlement of sand and masonry infill beneath the Jagamohana was investigated as a structural concern.",
+    "severity": "not-assigned",
+    "status": "monitored",
+    "verification": "verified",
+    "source": {
+      "organization": "UNESCO World Heritage Centre",
+      "document": "Periodic Report - Second Cycle",
+      "url": "https://whc.unesco.org/document/164621"
+    }
+  },
+  {
+    "id": "condition-stone-loosening",
+    "condition": "Loosening of stone parts",
+    "category": "Structural",
+    "effect": "Long-term effects of loosening stone parts were identified for further examination.",
+    "severity": "not-assigned",
+    "status": "monitored",
+    "verification": "verified",
+    "source": {
+      "organization": "UNESCO World Heritage Centre",
+      "document": "Decision 24 BUR IV.B.65",
+      "url": "https://whc.unesco.org/en/decisions/5825"
+    }
+  },
+  {
+    "id": "condition-soil-erosion",
+    "condition": "Soil erosion",
+    "category": "Environmental / Structural",
+    "effect": "Monsoon rains and associated soil erosion have previously raised concerns regarding structural integrity.",
+    "severity": "not-assigned",
+    "verification": "verified",
+    "source": {
+      "organization": "UNESCO World Heritage Centre",
+      "document": "Sun Temple, Konârak",
+      "url": "https://whc.unesco.org/en/list/246"
+    }
+  },
+  {
+    "id": "condition-metal-cramp-corrosion",
+    "condition": "Metal cramp corrosion",
+    "category": "Material deterioration",
+    "effect": "Salt-air corrosion of metal cramps has been associated with cracking and stone-fragment loss.",
+    "severity": "not-assigned",
+    "verification": "verified",
+    "source": {
+      "organization": "UNESCO World Heritage Centre",
+      "document": "Sun Temple, Konârak",
+      "url": "https://whc.unesco.org/en/list/246"
+    }
+  },
+  {
+    "id": "condition-vegetative-intrusion",
+    "condition": "Vegetative intrusion",
+    "category": "Biological",
+    "effect": "Vegetative growth requires periodic control as part of monument conservation.",
+    "severity": "not-assigned",
+    "status": "managed",
+    "conservationAction": [
+      "Periodic biocidal treatment",
+      "Cleaning",
+      "Vegetation control"
+    ],
+    "verification": "verified",
+    "source": {
+      "organization": "Ministry of Culture, Government of India",
+      "document": "Conservation of the Sun Temple at Konark",
+      "url": "https://www.pib.gov.in/pressreleaseshare.aspx?lang=2&prid=1703558&reg=48"
+    }
+  },
+  {
+    "id": "condition-wind-erosion",
+    "condition": "Mechanical wind erosion",
+    "category": "Environmental",
+    "effect": "Wind action can mechanically erode exposed surfaces.",
+    "severity": "not-assigned",
+    "status": "managed",
+    "conservationAction": [
+      "Plantation of trees in surrounding area"
+    ],
+    "verification": "verified",
+    "source": {
+      "organization": "Ministry of Culture, Government of India",
+      "document": "Conservation of the Sun Temple at Konark",
+      "url": "https://www.pib.gov.in/pressreleaseshare.aspx?lang=2&prid=1703558&reg=48"
+    }
+  },
+  {
+    "id": "condition-tourism-pressure",
+    "condition": "Tourism pressure",
+    "category": "Human pressure",
+    "effect": "Tourism pressure is identified as a threat requiring management.",
+    "severity": "not-assigned",
+    "verification": "verified",
+    "source": {
+      "organization": "UNESCO World Heritage Centre",
+      "document": "Sun Temple, Konârak",
+      "url": "https://whc.unesco.org/en/list/246"
+    }
+  },
+  {
+    "id": "condition-development-pressure",
+    "condition": "Development pressure",
+    "category": "Human pressure",
+    "effect": "Modernisation, urban growth and development around the property are identified as management concerns.",
+    "severity": "not-assigned",
+    "verification": "verified",
+    "source": {
+      "organization": "UNESCO World Heritage Centre",
+      "document": "Sun Temple, Konârak",
+      "url": "https://whc.unesco.org/en/list/246"
+    }
+  },
+  {
+    "id": "condition-local-population-growth",
+    "condition": "Local population growth",
+    "category": "Human pressure",
+    "effect": "Identified by UNESCO as a pressure affecting the property's wider setting.",
+    "severity": "not-assigned",
+    "verification": "verified",
+    "source": {
+      "organization": "UNESCO World Heritage Centre",
+      "document": "Sun Temple, Konârak",
+      "url": "https://whc.unesco.org/en/list/246"
+    }
+  }
+]

@@ -1,0 +1,126 @@
+[
+  {
+    "id": "damage-konark-1996-97-foundation-subsidence",
+    "date": "1996-1997",
+    "dateType": "period",
+    "component": "Temple structure",
+    "type": "foundation_subsidence",
+    "description": "Heavy monsoon rains were associated with serious subsidence of the sand-fill and surrounding foundation supporting the large stone structure.",
+    "severity": "not-assigned",
+    "verification": "verified",
+    "source": {
+      "organization": "UNESCO World Heritage Centre",
+      "document": "State of Conservation 1997",
+      "url": "https://whc.unesco.org/en/soc/2143"
+    }
+  },
+  {
+    "id": "damage-konark-1996-97-loose-stones",
+    "date": "1996-1997",
+    "dateType": "period",
+    "component": "Temple structure",
+    "type": "stone_displacement",
+    "description": "Loose stones were reported to fall into the hollow interior previously supported by sand-fill.",
+    "severity": "not-assigned",
+    "verification": "verified",
+    "source": {
+      "organization": "UNESCO World Heritage Centre",
+      "document": "State of Conservation 1997",
+      "url": "https://whc.unesco.org/en/soc/2143"
+    }
+  },
+  {
+    "id": "damage-konark-1997-wall-cracking",
+    "date": "1997",
+    "dateType": "year",
+    "component": "Stone walls",
+    "type": "cracking",
+    "description": "Cracks in stone walls were associated with rusting of iron clamps caused by sea breeze.",
+    "severity": "not-assigned",
+    "verification": "verified",
+    "source": {
+      "organization": "UNESCO World Heritage Centre",
+      "document": "State of Conservation 1997",
+      "url": "https://whc.unesco.org/en/soc/2143"
+    }
+  },
+  {
+    "id": "damage-konark-1997-fragment-loss",
+    "date": "1997",
+    "dateType": "year",
+    "component": "Stone walls",
+    "type": "fragment_loss",
+    "description": "Stone fragments were reported to fall from affected wall areas.",
+    "severity": "not-assigned",
+    "verification": "verified",
+    "source": {
+      "organization": "UNESCO World Heritage Centre",
+      "document": "State of Conservation 1997",
+      "url": "https://whc.unesco.org/en/soc/2143"
+    }
+  },
+  {
+    "id": "damage-konark-1998-stone-fall",
+    "date": "1998-09-19",
+    "dateType": "exact_date",
+    "component": "Jagamohana",
+    "location": "North-east side of Jagamohan porch",
+    "type": "stone_fall",
+    "description": "A stone weighing approximately 2 tons reportedly fell onto the Pidha ledge.",
+    "weightApproxTons": 2,
+    "severity": "not-assigned",
+    "verification": "verified",
+    "source": {
+      "organization": "UNESCO World Heritage Centre",
+      "document": "Decision 23 BUR IV.B.62",
+      "url": "https://whc.unesco.org/en/decisions/5737"
+    }
+  },
+  {
+    "id": "damage-konark-2000-stone-loosening",
+    "date": "2000",
+    "dateType": "year",
+    "component": "Temple structure",
+    "type": "stone_loosening",
+    "description": "The long-term effects of loosening stone parts were identified as requiring further examination.",
+    "severity": "not-assigned",
+    "status": "monitoring_required",
+    "verification": "verified",
+    "source": {
+      "organization": "UNESCO World Heritage Centre",
+      "document": "Decision 24 BUR IV.B.65",
+      "url": "https://whc.unesco.org/en/decisions/5825"
+    }
+  },
+  {
+    "id": "damage-konark-2000-water-penetration",
+    "date": "2000",
+    "dateType": "year",
+    "component": "Temple structure",
+    "type": "water_penetration",
+    "description": "Long-term effects of water penetration were identified as requiring further examination.",
+    "severity": "not-assigned",
+    "status": "monitoring_required",
+    "verification": "verified",
+    "source": {
+      "organization": "UNESCO World Heritage Centre",
+      "document": "Decision 24 BUR IV.B.65",
+      "url": "https://whc.unesco.org/en/decisions/5825"
+    }
+  },
+  {
+    "id": "damage-konark-2000-green-belt-cyclone",
+    "date": "2000",
+    "dateType": "year",
+    "component": "Site green belt",
+    "type": "cyclone_damage",
+    "description": "A cyclone extensively damaged the site's green belt, which acted as a buffer against possible salt infiltration from sea breeze.",
+    "severity": "not-assigned",
+    "verification": "verified",
+    "source": {
+      "organization": "UNESCO World Heritage Centre",
+      "document": "Decision 24 BUR IV.B.65",
+      "url": "https://whc.unesco.org/en/decisions/5825"
+    }
+  }
+]

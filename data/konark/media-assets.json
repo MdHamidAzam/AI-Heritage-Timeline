@@ -1,0 +1,73 @@
+[
+  {
+    "id": "media-konark-ministry-gallery",
+    "assetType": "image_gallery",
+    "title": "Sun Temple Konarak",
+    "organization": "Ministry of Culture, Government of India",
+    "url": "https://culture.gov.in/photo-gallery/sun-temple-konarak",
+    "license": "All Rights Reserved",
+    "usageStatus": "reference_only",
+    "publicRedistributionAllowed": false,
+    "verification": "verified"
+  },
+  {
+    "id": "media-konark-unesco-1984-001",
+    "assetType": "photograph",
+    "date": "1984-01-18",
+    "organization": "UNESCO World Heritage Centre",
+    "url": "https://whc.unesco.org/en/documents/136843",
+    "license": "All Rights Reserved",
+    "usageStatus": "permission_required",
+    "publicRedistributionAllowed": false,
+    "verification": "verified"
+  },
+  {
+    "id": "media-konark-unesco-1984-002",
+    "assetType": "photograph",
+    "date": "1984-01-18",
+    "organization": "UNESCO World Heritage Centre",
+    "url": "https://whc.unesco.org/en/documents/136850",
+    "license": "All Rights Reserved",
+    "usageStatus": "permission_required",
+    "publicRedistributionAllowed": false,
+    "verification": "verified"
+  },
+  {
+    "id": "media-konark-cc0-2024",
+    "assetType": "photograph",
+    "date": "2024-04-05",
+    "author": "Anand kmath",
+    "source": "Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Konark_Sun_temple_by_temple.jpg",
+    "license": "CC0 1.0",
+    "usageStatus": "open_license",
+    "publicRedistributionAllowed": true,
+    "attributionRequired": false,
+    "verification": "verified"
+  },
+  {
+    "id": "media-konark-cc-by-sa-2012",
+    "assetType": "photograph",
+    "date": "2012-04-07",
+    "author": "Priyanka Swain",
+    "source": "Wikimedia Commons",
+    "url": "https://commons.wikimedia.org/wiki/File:Konark_sun_temple.jpg",
+    "license": "CC BY-SA 3.0",
+    "usageStatus": "open_license",
+    "publicRedistributionAllowed": true,
+    "attributionRequired": true,
+    "shareAlikeRequired": true,
+    "verification": "verified"
+  },
+  {
+    "id": "media-konark-unesco-video",
+    "assetType": "video",
+    "date": "2013-05-24",
+    "organization": "UNESCO / NHK",
+    "url": "https://whc.unesco.org/en/documents/123100",
+    "license": "All Rights Reserved",
+    "usageStatus": "permission_required",
+    "publicRedistributionAllowed": false,
+    "verification": "verified"
+  }
+]

@@ -1,0 +1,80 @@
+{
+  "monumentId": "konark-sun-temple",
+  "snapshotDate": "2026-09-08",
+
+  "officialIdentity": {
+    "name": "Sun Temple, Konârak",
+    "unescoDossier": 246,
+    "unescoInscriptionYear": 1984,
+    "propertyAreaHa": 10.62,
+    "status": "UNESCO World Heritage Site",
+    "verification": "verified"
+  },
+
+  "currentOfficialReference": {
+    "organization": "Ministry of Culture, Government of India",
+    "pageTitle": "Sun Temple, Konârak",
+    "url": "https://culture.gov.in/sun-temple-konarak",
+    "lastUpdated": "2026-08-20",
+    "verification": "verified"
+  },
+
+  "conservationAuthority": {
+    "organization": "Archaeological Survey of India",
+    "responsibilities": [
+      "Conservation",
+      "Restoration",
+      "Maintenance",
+      "Development"
+    ],
+    "verification": "verified"
+  },
+
+  "latestGovernmentReportedCondition": {
+    "year": 2021,
+    "statement": "Good state of preservation due to regular care by ASI",
+    "verification": "verified",
+    "source": {
+      "organization": "Ministry of Culture, Government of India",
+      "title": "Conservation of the Sun Temple at Konark",
+      "url": "https://www.pib.gov.in/pressreleaseshare.aspx?lang=2&prid=1703558&reg=48"
+    }
+  },
+
+  "continuousConservation": {
+    "status": "ongoing",
+    "description": "Conservation work is treated as a continuous process, with annual conservation planning and interventions according to monument requirements.",
+    "verification": "verified",
+    "source": {
+      "organization": "Ministry of Culture, Government of India",
+      "url": "https://www.pib.gov.in/pressreleaseshare.aspx?lang=2&prid=1703558&reg=48"
+    }
+  },
+
+  "recentGovernmentProgrammes": [
+    {
+      "year": 2024,
+      "programme": "Public amenities project at Sun Temple, Konark",
+      "partner": "Armoured Vehicles Nigam Limited",
+      "reportedProjectAmountLakh": 50.0,
+      "verification": "verified"
+    },
+    {
+      "year": 2026,
+      "programmeStatus": "Ongoing",
+      "programme": "Public amenities project at Sun Temple, Konark",
+      "partner": "Armoured Vehicles Nigam Limited",
+      "reportedCostLakh": 39.86,
+      "verification": "verified"
+    }
+  ],
+
+  "2026InterpretationRules": {
+    "isHistoricalDamageEvent": false,
+    "isHistoricalConservationEvent": false,
+    "isCurrentReferenceSnapshot": true,
+    "doNotInferCurrentSeverity": true,
+    "doNotInferCurrentDamagePercentage": true,
+    "doNotInfer3DGeometry": true
+  }
+}

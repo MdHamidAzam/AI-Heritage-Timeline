@@ -1,0 +1,172 @@
+{
+  "schemaVersion": "1.0.0",
+  "monumentId": "konark-sun-temple",
+  "lastVerified": "2026-09-08",
+
+  "excerpts": [
+    {
+      "id": "excerpt-1997-foundation",
+      "claimId": "claim-008",
+      "source": {
+        "organization": "UNESCO World Heritage Centre",
+        "title": "State of Conservation 1997",
+        "url": "https://whc.unesco.org/en/soc/2143"
+      },
+      "excerpt": "Heavy monsoon rains of 1996 and 1997 caused serious subsidence of the sand-fill and surrounding foundation.",
+      "supports": [
+        "foundation subsidence",
+        "monsoon impact"
+      ],
+      "verification": "verified"
+    },
+
+    {
+      "id": "excerpt-1997-cracking",
+      "claimId": "claim-010",
+      "source": {
+        "organization": "UNESCO World Heritage Centre",
+        "title": "State of Conservation 1997",
+        "url": "https://whc.unesco.org/en/soc/2143"
+      },
+      "excerpt": "Cracks in various parts of the stone walls were associated with rusting of iron clamps caused by sea breeze.",
+      "supports": [
+        "wall cracking",
+        "iron clamp corrosion",
+        "sea breeze"
+      ],
+      "verification": "verified"
+    },
+
+    {
+      "id": "excerpt-1998-stonefall",
+      "claimId": "claim-012",
+      "source": {
+        "organization": "UNESCO World Heritage Centre",
+        "title": "Decision 23 BUR IV.B.62",
+        "url": "https://whc.unesco.org/en/decisions/5737"
+      },
+      "excerpt": "A stone weighing approximately 2 tons reportedly fell from the north-east side of the Jagamohan porch.",
+      "supports": [
+        "stone fall",
+        "approximately 2 tons",
+        "Jagamohan porch",
+        "north-east side"
+      ],
+      "verification": "verified"
+    },
+
+    {
+      "id": "excerpt-2000-no-immediate-threat",
+      "claimId": "claim-014",
+      "source": {
+        "organization": "UNESCO World Heritage Centre",
+        "title": "Decision 24 BUR IV.B.65",
+        "url": "https://whc.unesco.org/en/decisions/5825"
+      },
+      "excerpt": "The ICOMOS Mission found that there was no immediate threat to the monument due to structural instability.",
+      "supports": [
+        "2000 structural assessment",
+        "no immediate structural threat"
+      ],
+      "verification": "verified"
+    },
+
+    {
+      "id": "excerpt-2000-long-term",
+      "claimId": "claim-015",
+      "source": {
+        "organization": "UNESCO World Heritage Centre",
+        "title": "Decision 24 BUR IV.B.65",
+        "url": "https://whc.unesco.org/en/decisions/5825"
+      },
+      "excerpt": "Long term effects of the loosening of stone parts and water penetration need examination.",
+      "supports": [
+        "stone loosening",
+        "water penetration",
+        "long-term monitoring"
+      ],
+      "verification": "verified"
+    },
+
+    {
+      "id": "excerpt-2000-greenbelt",
+      "claimId": "claim-016",
+      "source": {
+        "organization": "UNESCO World Heritage Centre",
+        "title": "Decision 24 BUR IV.B.65",
+        "url": "https://whc.unesco.org/en/decisions/5825"
+      },
+      "excerpt": "The recent cyclone had extensively damaged the green belt of the site.",
+      "supports": [
+        "cyclone damage",
+        "green belt"
+      ],
+      "verification": "verified"
+    },
+
+    {
+      "id": "excerpt-2003-stabilisation",
+      "claimId": "claim-018",
+      "source": {
+        "organization": "UNESCO World Heritage Centre",
+        "title": "Periodic Reporting Cycle 1, Section II",
+        "url": "https://whc.unesco.org/document/162852"
+      },
+      "excerpt": "Major conservation and restoration works had been carried out on the platform of the Jagamohana.",
+      "supports": [
+        "Jagamohana conservation",
+        "restoration",
+        "stabilisation"
+      ],
+      "verification": "verified"
+    },
+
+    {
+      "id": "excerpt-2021-asi-condition",
+      "claimId": "claim-022",
+      "source": {
+        "organization": "Ministry of Culture, Government of India",
+        "title": "Conservation of the Sun Temple at Konark",
+        "url": "https://www.pib.gov.in/pressreleaseshare.aspx?lang=2&prid=1703558&reg=48"
+      },
+      "excerpt": "The monument is in good state of preservation due to regular care by ASI.",
+      "supports": [
+        "government-reported condition",
+        "regular ASI care"
+      ],
+      "verification": "verified"
+    },
+
+    {
+      "id": "excerpt-2023-monitoring",
+      "claimId": "claim-027",
+      "source": {
+        "organization": "UNESCO World Heritage Centre",
+        "title": "Periodic Reporting Cycle 3, Section II",
+        "url": "https://whc.unesco.org/document/216402"
+      },
+      "excerpt": "Periodic reporting records conservation, management and monitoring information for the property.",
+      "supports": [
+        "2023 periodic monitoring",
+        "management context"
+      ],
+      "verification": "verified"
+    }
+  ],
+
+  "excerptRules": {
+    "maximumExcerptLengthWords": 25,
+    "preserveMeaning": true,
+    "doNotAlterHistoricalMeaning": true,
+    "sourceMustBePrimary": true,
+    "fullDocumentMustRemainSourceOfTruth": true,
+    "excerptIsEvidencePointerNotReplacement": true
+  },
+
+  "claimLinking": {
+    "claimToExcerptRequired": true,
+    "claimToSourceRequired": true,
+    "multipleSourcesAllowed": true,
+    "unverifiedClaimCannotHaveVerifiedExcerpt": true
+  }
+}

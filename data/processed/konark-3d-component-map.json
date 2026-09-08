@@ -1,0 +1,217 @@
+{
+  "schemaVersion": "1.0.0",
+  "monumentId": "konark-sun-temple",
+
+  "mappingPolicy": {
+    "measuredGeometryPreferred": true,
+    "historicalClaimsRequireEvidence": true,
+    "damageLocationRequiresSpatialEvidence": true,
+    "unverifiedGeometryMustNotBePresentedAsAuthoritative": true,
+    "aiGeneratedGeometryMustBeClearlyMarked": true
+  },
+
+  "components": [
+    {
+      "componentId": "vimana",
+      "name": "Vimana",
+      "geometry": {
+        "modelObjectId": null,
+        "status": "not-mapped"
+      },
+      "historicalReferences": [
+        {
+          "period": "13th century",
+          "fact": "Principal sanctuary",
+          "verification": "verified"
+        },
+        {
+          "period": "19th century",
+          "fact": "High tower and shikhara were razed",
+          "verification": "verified"
+        }
+      ],
+      "timelineLinks": [
+        "konark-13th-century-construction",
+        "konark-19th-century-vimana-loss"
+      ],
+      "damageLinks": []
+    },
+
+    {
+      "componentId": "jagamohana",
+      "name": "Jagamohana",
+      "geometry": {
+        "modelObjectId": null,
+        "status": "not-mapped"
+      },
+      "historicalReferences": [
+        {
+          "period": "13th century",
+          "fact": "Audience hall with pyramidal mass",
+          "verification": "verified"
+        }
+      ],
+      "timelineLinks": [
+        "konark-13th-century-construction",
+        "konark-1998-stone-fall",
+        "konark-2000-icomos-monitoring",
+        "konark-2003-conservation"
+      ],
+      "damageLinks": [
+        "damage-konark-1998-stone-fall",
+        "damage-konark-2000-stone-loosening",
+        "damage-konark-2000-water-penetration"
+      ],
+      "conservationLinks": [
+        "project-jagamohana-conservation-2003"
+      ]
+    },
+
+    {
+      "componentId": "natmandir",
+      "name": "Natmandir",
+      "geometry": {
+        "modelObjectId": null,
+        "status": "not-mapped"
+      },
+      "historicalReferences": [
+        {
+          "period": "13th century",
+          "fact": "Dance hall on a high platform; today unroofed",
+          "verification": "verified"
+        }
+      ],
+      "timelineLinks": [
+        "konark-13th-century-construction"
+      ],
+      "damageLinks": []
+    },
+
+    {
+      "componentId": "carved-wheels",
+      "name": "Carved Wheels",
+      "geometry": {
+        "modelObjectId": null,
+        "status": "not-mapped"
+      },
+      "quantity": 24,
+      "diameterApproxMeters": 3,
+      "timelineLinks": [
+        "konark-13th-century-construction"
+      ],
+      "damageLinks": []
+    },
+
+    {
+      "componentId": "stone-horses",
+      "name": "Stone Horses",
+      "geometry": {
+        "modelObjectId": null,
+        "status": "not-mapped"
+      },
+      "survivingQuantity": 6,
+      "originalConceptQuantity": 7,
+      "timelineLinks": [
+        "konark-13th-century-construction"
+      ],
+      "damageLinks": []
+    },
+
+    {
+      "componentId": "plinth-reliefs",
+      "name": "Plinth Reliefs",
+      "geometry": {
+        "modelObjectId": null,
+        "status": "not-mapped"
+      },
+      "timelineLinks": [
+        "konark-13th-century-construction"
+      ],
+      "damageLinks": []
+    },
+
+    {
+      "componentId": "subsidiary-structures",
+      "name": "Subsidiary Structures",
+      "geometry": {
+        "modelObjectId": null,
+        "status": "not-mapped"
+      },
+      "timelineLinks": [
+        "konark-13th-century-construction"
+      ],
+      "damageLinks": []
+    },
+
+    {
+      "componentId": "gates-towers",
+      "name": "Gates and Towers",
+      "geometry": {
+        "modelObjectId": null,
+        "status": "not-mapped"
+      },
+      "timelineLinks": [
+        "konark-13th-century-construction"
+      ],
+      "damageLinks": []
+    }
+  ],
+
+  "damageMappings": [
+    {
+      "damageEventId": "damage-konark-1998-stone-fall",
+      "componentId": "jagamohana",
+      "modelObjectId": null,
+      "location": {
+        "description": "North-east side of Jagamohan porch",
+        "exact3DCoordinates": null,
+        "status": "documented-location-no-3d-coordinate"
+      },
+      "source": "https://whc.unesco.org/en/decisions/5737"
+    },
+    {
+      "damageEventId": "damage-konark-1997-wall-cracking",
+      "componentId": null,
+      "modelObjectId": null,
+      "location": {
+        "exact3DCoordinates": null,
+        "status": "not-established"
+      },
+      "source": "https://whc.unesco.org/en/soc/2143"
+    }
+  ],
+
+  "3dModelSources": [
+    {
+      "assetId": "konark-iitm-vr-model",
+      "status": "prototype-candidate",
+      "authoritative": false
+    },
+    {
+      "assetId": "konark-authoritative-3d",
+      "status": "not-yet-sourced",
+      "authoritative": false
+    }
+  ],
+
+  "technicalDocumentation": {
+    "cbri": {
+      "documentedMethods": [
+        "GPR investigation",
+        "3D model laser scanning",
+        "Damage mapping"
+      ],
+      "source": "https://cbri.res.in/wp-content/uploads/2021/09/CSIR-CBRI-75-yrs.pdf",
+      "verification": "verified"
+    }
+  },
+
+  "interactionTargets": {
+    "selectComponent": true,
+    "showComponentTimeline": true,
+    "showComponentDamage": true,
+    "showEvidence": true,
+    "showConservationHistory": true,
+    "showReconstructionHypothesis": true
+  }
+}

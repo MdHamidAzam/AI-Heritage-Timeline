@@ -1,0 +1,126 @@
+{
+  "schemaVersion": "1.0.0",
+  "monumentId": "konark-sun-temple",
+
+  "records": [
+    {
+      "id": "research-konark-cbri-2013",
+      "year": 2013,
+      "dateType": "year",
+      "organization": "CSIR-Central Building Research Institute",
+      "title": "Restoration of Konark Temple, Orissa",
+      "recordType": "Technical / Restoration Project",
+      "sponsor": "Archaeological Survey of India",
+      "status": "officially_listed",
+      "verification": "verified",
+      "source": {
+        "title": "CSIR-CBRI Scientific Profile",
+        "url": "https://cbri.res.in/scientific-profiles/group-iv/ajay-chourasia/"
+      },
+      "claimLimit": "The public project listing confirms the restoration project but does not expose detailed restoration measurements or results."
+    },
+
+    {
+      "id": "research-konark-cbri-2015",
+      "year": 2015,
+      "dateType": "month",
+      "date": "2015-03",
+      "organization": "CSIR-Central Building Research Institute",
+      "title": "Investigation at Sun Temple Konark",
+      "recordType": "Technical Investigation",
+      "status": "officially_listed",
+      "verification": "verified",
+      "source": {
+        "title": "Heritage & Special Structures",
+        "url": "https://cbri.res.in/%E0%A4%B5%E0%A4%BF%E0%A4%B0%E0%A4%BE%E0%A4%B8%E0%A4%A4-%E0%A4%94%E0%A4%B0-%E0%A4%B5%E0%A4%BF%E0%A4%B6%E0%A5%87%E0%A4%B7-%E0%A4%B8%E0%A4%82%E0%A4%B0%E0%A4%9A%E0%A4%A8%E0%A4%BE%E0%A4%8F%E0%A4%82-hss/"
+      },
+      "claimLimit": "Only the existence and date of the investigation are established by the public project listing."
+    },
+
+    {
+      "id": "research-konark-cbri-2018-phase2",
+      "year": 2018,
+      "dateType": "month",
+      "date": "2018-12",
+      "organization": "CSIR-Central Building Research Institute",
+      "title": "Investigation of Sun Temple Konark Phase-II",
+      "recordType": "Technical Investigation",
+      "phase": "Phase-II",
+      "status": "officially_listed",
+      "verification": "verified",
+      "source": {
+        "title": "Heritage & Special Structures",
+        "url": "https://cbri.res.in/%E0%A4%B5%E0%A4%BF%E0%A4%B0%E0%A4%BE%E0%A4%B8%E0%A4%A4-%E0%A4%94%E0%A4%B0-%E0%A4%B5%E0%A4%BF%E0%A4%B6%E0%A5%87%E0%A4%B7-%E0%A4%B8%E0%A4%82%E0%A4%B0%E0%A4%9A%E0%A4%A8%E0%A4%BE%E0%A4%8F%E0%A4%82-hss/"
+      },
+      "claimLimit": "The public project listing confirms Phase-II but does not expose its detailed findings."
+    },
+
+    {
+      "id": "research-konark-gpr",
+      "year": null,
+      "dateType": "not_published_in_record",
+      "organization": "CSIR-Central Building Research Institute",
+      "title": "GPR Investigation at Sun Temple Konark",
+      "recordType": "Non-Destructive / Subsurface Investigation",
+      "technique": "Ground Penetrating Radar",
+      "status": "documented",
+      "verification": "verified",
+      "source": {
+        "title": "CSIR-CBRI contributions in Heritage Structures",
+        "url": "https://cbri.res.in/wp-content/uploads/2021/09/CSIR-CBRI-75-yrs.pdf"
+      },
+      "claimLimit": "The public heritage record establishes that GPR investigation was carried out; it does not by itself provide the complete GPR dataset or interpreted measurements."
+    },
+
+    {
+      "id": "research-konark-laser-scan",
+      "year": null,
+      "dateType": "not_published_in_record",
+      "organization": "CSIR-Central Building Research Institute",
+      "title": "3D Model Laser Scanning at Sun Temple Konark",
+      "recordType": "3D Documentation",
+      "technique": "3D laser scanning",
+      "status": "documented",
+      "verification": "verified",
+      "source": {
+        "title": "CSIR-CBRI contributions in Heritage Structures",
+        "url": "https://cbri.res.in/wp-content/uploads/2021/09/CSIR-CBRI-75-yrs.pdf"
+      },
+      "claimLimit": "The source documents laser scanning but does not provide a downloadable point cloud or complete measured 3D model."
+    },
+
+    {
+      "id": "research-konark-damage-mapping",
+      "year": null,
+      "dateType": "not_published_in_record",
+      "organization": "CSIR-Central Building Research Institute",
+      "title": "Damage Mapping at the Top of Temple",
+      "recordType": "Damage Documentation",
+      "technique": "Damage mapping",
+      "status": "documented",
+      "verification": "verified",
+      "source": {
+        "title": "CSIR-CBRI contributions in Heritage Structures",
+        "url": "https://cbri.res.in/wp-content/uploads/2021/09/CSIR-CBRI-75-yrs.pdf"
+      },
+      "claimLimit": "The source establishes that damage mapping was performed, but does not provide the complete machine-readable map or exact coordinates."
+    }
+  ],
+
+  "researchPolicy": {
+    "projectListingIsNotResultData": true,
+    "techniqueRecordIsNotMeasurementData": true,
+    "damageMappingRecordIsNotCoordinateData": true,
+    "laserScanningRecordIsNotDownloadableModel": true,
+    "exactTechnicalClaimsRequireOriginalTechnicalReport": true,
+    "unpublishedMeasurementsMustNotBeInvented": true
+  },
+
+  "integration": {
+    "timeline": true,
+    "evidence": true,
+    "damageIntelligence": true,
+    "digitalTwin": true,
+    "annotation": true
+  }
+}

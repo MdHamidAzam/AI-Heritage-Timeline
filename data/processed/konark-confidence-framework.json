@@ -1,0 +1,182 @@
+{
+  "schemaVersion": "1.0.0",
+  "monumentId": "konark-sun-temple",
+
+  "purpose": "Evidence-backed confidence framework for historical facts, damage interpretation and AI reconstruction.",
+
+  "confidencePolicy": {
+    "inventedConfidence": false,
+    "manualPercentageAllowed": false,
+    "historicalFactMustHaveEvidence": true,
+    "aiInferenceMustBeSeparated": true,
+    "humanReviewRequiredForHighImpactClaims": true
+  },
+
+  "sourceReliability": {
+    "UNESCO_World_Heritage_Centre": {
+      "score": 1.0,
+      "level": "primary_authoritative"
+    },
+    "ICOMOS": {
+      "score": 1.0,
+      "level": "primary_expert"
+    },
+    "Government_of_India": {
+      "score": 1.0,
+      "level": "primary_official"
+    },
+    "ASI": {
+      "score": 1.0,
+      "level": "primary_conservation_authority"
+    },
+    "CSIR_CBRI": {
+      "score": 1.0,
+      "level": "primary_technical"
+    },
+    "Open_license_media": {
+      "score": 0.7,
+      "level": "media_reference",
+      "note": "Useful for visual evidence; does not automatically establish historical facts."
+    },
+    "Unverified_secondary_source": {
+      "score": 0.0,
+      "level": "not_accepted"
+    }
+  },
+
+  "evidenceLevels": {
+    "direct_primary_document": {
+      "score": 1.0,
+      "meaning": "Claim is explicitly documented in a primary authoritative source."
+    },
+    "primary_source_indirect": {
+      "score": 0.85,
+      "meaning": "Claim is strongly supported but requires contextual interpretation."
+    },
+    "secondary_cross_checked": {
+      "score": 0.7,
+      "meaning": "Claim appears in secondary material and is independently cross-checked."
+    },
+    "visual_inference": {
+      "score": 0.5,
+      "meaning": "Claim is inferred from imagery rather than explicitly documented."
+    },
+    "ai_inference": {
+      "score": 0.3,
+      "meaning": "Claim is generated or interpreted by an AI model."
+    },
+    "unsupported": {
+      "score": 0.0,
+      "meaning": "No acceptable evidence."
+    }
+  },
+
+  "verificationLevels": {
+    "verified": {
+      "score": 1.0
+    },
+    "archive_verified": {
+      "score": 0.7
+    },
+    "human_reviewed": {
+      "score": 1.0
+    },
+    "not_verified": {
+      "score": 0.0
+    }
+  },
+
+  "claimTypes": {
+    "historical_fact": {
+      "minimumEvidenceLevel": "direct_primary_document",
+      "aiGenerationAllowed": false
+    },
+    "documented_damage": {
+      "minimumEvidenceLevel": "direct_primary_document",
+      "spatialEvidencePreferred": true,
+      "aiGenerationAllowed": false
+    },
+    "current_condition": {
+      "minimumEvidenceLevel": "primary_source_indirect",
+      "latestAvailableSourcePreferred": true
+    },
+    "conservation_action": {
+      "minimumEvidenceLevel": "direct_primary_document"
+    },
+    "reconstruction_hypothesis": {
+      "minimumEvidenceLevel": "primary_source_indirect",
+      "humanReviewRequired": true,
+      "historicalFact": false
+    }
+  },
+
+  "confidenceCalculation": {
+    "enabled": true,
+    "formula": {
+      "sourceReliabilityWeight": 0.4,
+      "evidenceLevelWeight": 0.35,
+      "verificationWeight": 0.25
+    },
+    "formulaText": "confidence = (sourceReliability * 0.40) + (evidenceLevel * 0.35) + (verification * 0.25)",
+    "outputRange": "0.0-1.0"
+  },
+
+  "confidenceLabels": {
+    "0.90-1.00": "Very High",
+    "0.75-0.89": "High",
+    "0.50-0.74": "Moderate",
+    "0.25-0.49": "Low",
+    "0.00-0.24": "Very Low"
+  },
+
+  "specialRules": [
+    {
+      "rule": "historical_fact",
+      "action": "Do not display AI-generated material as historical fact."
+    },
+    {
+      "rule": "damage_severity",
+      "action": "Do not assign Low/Medium/High severity without a documented scoring basis."
+    },
+    {
+      "rule": "spatial_damage",
+      "action": "Do not create exact image or 3D coordinates from textual descriptions alone."
+    },
+    {
+      "rule": "3d_geometry",
+      "action": "Unverified 3D models must be labelled as prototype or interpretive geometry."
+    },
+    {
+      "rule": "current_state",
+      "action": "A current official webpage does not automatically establish a new physical damage event."
+    },
+    {
+      "rule": "reconstruction",
+      "action": "AI reconstruction must show evidence, inference and uncertainty separately."
+    }
+  ],
+
+  "exampleClaim": {
+    "claimId": "konark-1998-stone-fall",
+    "claimType": "documented_damage",
+    "sourceReliability": 1.0,
+    "evidenceLevel": 1.0,
+    "verification": 1.0,
+    "calculatedConfidence": 1.0,
+    "label": "Very High",
+    "historicalFact": true,
+    "aiInference": false
+  },
+
+  "exampleReconstruction": {
+    "claimId": "reconstruction-vimana-shikhara",
+    "claimType": "reconstruction_hypothesis",
+    "sourceReliability": 1.0,
+    "evidenceLevel": 0.85,
+    "verification": 1.0,
+    "calculatedConfidence": null,
+    "label": "Not Yet Computed",
+    "historicalFact": false,
+    "humanReviewRequired": true
+  }
+}

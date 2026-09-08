@@ -1,0 +1,106 @@
+{
+  "schemaVersion": "1.0.0",
+  "monumentId": "konark-sun-temple",
+
+  "referencePoint": {
+    "latitude": 19.8875,
+    "longitude": 86.09472,
+    "coordinateSource": "UNESCO World Heritage Centre",
+    "verification": "verified"
+  },
+
+  "heritageProperty": {
+    "propertyAreaHa": 10.62,
+    "dossierNumber": 246,
+    "inscriptionYear": 1984,
+    "boundaryStatus": "official_property_boundary",
+    "georeferencedPolygon": null,
+    "polygonStatus": "not_available_in_verified_source_set",
+    "verification": "verified"
+  },
+
+  "historicalSpatialReference": {
+    "assetId": "konark-site-plan-1984",
+    "title": "Detailed site plan of Sun Temple at Konarak, showing the demarcated area",
+    "date": "1984-12-12",
+    "sourceUrl": "https://whc.unesco.org/en/documents/103350",
+    "originalDimensionsPixels": {
+      "width": 787,
+      "height": 675
+    },
+    "sourceType": "official_site_plan",
+    "verification": "verified"
+  },
+
+  "protectionZones": {
+    "prohibited": {
+      "distanceMeters": 100,
+      "measurementBasis": "outside the property",
+      "geometry": null,
+      "geometryStatus": "not_established",
+      "verification": "verified"
+    },
+    "regulated": {
+      "distanceMeters": 200,
+      "measurementBasis": "further zone outside the property",
+      "geometry": null,
+      "geometryStatus": "not_established",
+      "verification": "verified"
+    }
+  },
+
+  "mapLayers": {
+    "sitePoint": {
+      "enabled": true,
+      "source": "UNESCO official coordinates"
+    },
+    "propertyBoundary": {
+      "enabled": false,
+      "reason": "Verified georeferenced polygon not available"
+    },
+    "historicalSitePlan": {
+      "enabled": true,
+      "asset": "konark-site-plan-1984"
+    },
+    "prohibitedZone": {
+      "enabled": false,
+      "reason": "Legal distance is documented, but exact spatial geometry is not established"
+    },
+    "regulatedZone": {
+      "enabled": false,
+      "reason": "Legal distance is documented, but exact spatial geometry is not established"
+    }
+  },
+
+  "spatialIntegrityRules": {
+    "doNotInventPolygon": true,
+    "doNotInferBoundaryFromSinglePoint": true,
+    "doNotTreatDistanceAsPolygonGeometry": true,
+    "coordinateTransformRequiresDocumentedCRS": true,
+    "imageGeoreferencingRequiresGroundControl": true,
+    "3dAlignmentRequiresKnownReferenceSystem": true
+  },
+
+  "futureSpatialTasks": [
+    "Obtain authoritative georeferenced property polygon",
+    "Georeference the 1984 site plan",
+    "Align photographs using documented camera/location metadata",
+    "Register authoritative 3D survey data when available",
+    "Map verified damage locations onto spatial geometry"
+  ],
+
+  "sources": [
+    {
+      "organization": "UNESCO World Heritage Centre",
+      "title": "Sun Temple, Konârak",
+      "url": "https://whc.unesco.org/en/list/246",
+      "verification": "verified"
+    },
+    {
+      "organization": "UNESCO World Heritage Centre",
+      "title": "Detailed site plan of Sun Temple at Konarak",
+      "url": "https://whc.unesco.org/en/documents/103350",
+      "verification": "verified"
+    }
+  ]
+}
